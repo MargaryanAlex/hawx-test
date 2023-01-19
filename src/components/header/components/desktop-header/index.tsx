@@ -22,28 +22,30 @@ const DesktopHeader = ({
         setOpacity(1)
         setLeft(element.offsetLeft + (element.offsetWidth / 2))
     }
-    useEffect(() => {
-        window.addEventListener("resize", () => {
-            let index = navList.findIndex(item => location.pathname === item.path)
+    const checkRoute = () => {
+        let index = navList.findIndex(item => location.pathname === item.path)
 
-            if (index >= 0 && setPosition) {
-                setTimeout(() => setPosition(elementsRef?.current[index].current as HTMLElement), 0)
-            }
-            let subIndex: number | undefined = undefined
-            navList.map((item, index) => {
-                if (item.subList) {
-                    item.subList.map(route => {
-                        if (route.path === location.pathname) {
-                            subIndex = index
-                        }
-                    })
-                }
-            })
-            if (subIndex && subIndex >= 0 && setPosition) {
-                setTimeout(() => setPosition(elementsRef?.current[subIndex as number].current as HTMLElement), 0)
-
+        if (index >= 0 && setPosition) {
+            setTimeout(() => setPosition(elementsRef?.current[index].current as HTMLElement), 0)
+        }
+        let subIndex: number | undefined = undefined
+        navList.map((item, index) => {
+            if (item.subList) {
+                item.subList.map(route => {
+                    if (route.path === location.pathname) {
+                        subIndex = index
+                    }
+                })
             }
         })
+        if (subIndex && subIndex >= 0 && setPosition) {
+            setTimeout(() => setPosition(elementsRef?.current[subIndex as number].current as HTMLElement), 0)
+
+        }
+    }
+    useEffect(() => {
+        checkRoute()
+        window.addEventListener("resize", checkRoute)
     }, [])
 
 
