@@ -1,0 +1,24 @@
+.P-sportsbook {
+  .P-sportsbook-header {
+    background: #964ecf;
+    min-height: 550px !important;
+    padding-bottom: 20px;
+    * {
+      color: #ffffff;
+    }
+
+    img {
+      width: 355px;
+      height: 355px;
+    }
+    h4 {
+      margin: 0 !important;
+    }
+    .P-sportsbook-border {
+      border: 2px solid #ae8b25;
+    }
+  }
+  .G-solution-tab {
+    padding: 34px !important;
+  }
+}

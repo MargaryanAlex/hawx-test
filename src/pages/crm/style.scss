@@ -1,0 +1,23 @@
+@import "src/assets/style";
+
+.P-crm {
+  .P-crm-header {
+    background: $blue;
+
+    * {
+      color: #ffffff;
+    }
+
+    .P-crm-border {
+      border: 2px solid #4e7fff;
+    }
+  }
+
+  .P-crm-border {
+    border: 2px solid #4e7fff;
+
+    * {
+      color: #ffffff;
+    }
+  }
+}

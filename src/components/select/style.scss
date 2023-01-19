@@ -1,0 +1,183 @@
+@import "src/assets/style/variables";
+@import "src/assets/style/mixin";
+
+
+.G-select {
+  position: relative;
+  padding-bottom: 20px;
+  min-width: 150px;
+
+
+  .P-input-label {
+    font-weight: 500;
+    font-size: $font-size-14;
+    color: $grey-base;
+    margin-bottom: 10px;
+  }
+
+  .G-error-label {
+    color: $red-dark;
+    font-size: $font-size-12;
+    text-align: right;
+    margin-top: 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
+
+.G-select-header {
+  width: 100%;
+  height: 44px;
+  padding: 0 10px;
+  border-radius: 4px;
+  font-size: $font-size-14;
+  background-color: #ffffff;
+  border: 2px solid #92A9E1;
+  transition: $transition;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+
+  .icon.drop-down {
+    background-color: #92A9E1;
+  }
+
+  &.G-select-error {
+    border-color: $red-dark;
+    background-color: $red-10 !important;
+  }
+
+  &.G-with-icon {
+    p {
+      width: calc(100% - 35px);
+    }
+  }
+
+  p {
+    margin: 0;
+    font-size: $font-size-14;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #92A9E1;
+    width: calc(100% - 20px);
+    @include screen-max-width-607 {
+      font-size: 12px;
+    }
+
+    &.G-opacity-placeholder {
+      color: $text-color;
+    }
+  }
+
+  .G-select-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: $transition;
+
+    &.icon-close {
+      font-size: 10px;
+    }
+
+    &.P-rotate-arrow {
+      transform: translateY(-60%) rotate(180deg);
+
+    }
+  }
+
+
+}
+
+.G-select-list {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  z-index: 5;
+  border-radius: 5px;
+  overflow: hidden;
+
+  &.top {
+    top: calc(100% - 20px) !important;
+  }
+
+  &.bottom {
+    bottom: calc(100%) !important;
+  }
+
+  overflow-y: auto;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 9px rgba(41, 46, 70, 0.08), 0 11px 28px rgba(41, 46, 70, 0.1);
+  @include screen-max-width-607 {
+    top: 40px;
+  }
+
+  ul {
+    background-color: $white;
+
+    li {
+      padding: 5px 15px;
+      cursor: pointer;
+      transition: $transition;
+
+      &.G-selected-item {
+        background-color: $grey-40 !important;
+      }
+
+      &:hover {
+        background-color: rgba(234, 235, 249, 0.5);
+      }
+
+      p {
+        font-size: 12px;
+      }
+    }
+
+    li + li {
+      border-top: 1px dashed rgba(0, 0, 0, 0.05);
+    }
+  }
+}
+
+.G-select-image {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  margin-right: 10px;
+  display: block;
+  border: 1px solid $grey-40;
+}
+
+.G-select-label {
+  position: absolute;
+  background-color: $white;
+  padding: 2px 3px 0 3px;
+  left: 12px;
+  top: -10px;
+  font-size: $font-size-12;
+  letter-spacing: 1px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: calc(100% - 20px);
+  white-space: nowrap;
+  @include screen-max-width-607 {
+    font-size: $font-size-10;
+  }
+}
+
+.G-select-status {
+  width: 11px;
+  height: 11px;
+  margin-right: 10px;
+  border-radius: 50%;
+}

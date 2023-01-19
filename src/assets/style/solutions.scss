@@ -1,0 +1,258 @@
+@import "./mixin";
+
+.G-solution {
+  padding-bottom: 160px;
+
+  .G-solution-header {
+    min-height: 703px;
+    width: 100%;
+    @include screen-max-width-991 {
+      padding-bottom: 92px;
+    }
+
+    .G-container {
+      display: flex;
+      height: 523px;
+      padding: 91px 15px 20px;
+      align-items: center;
+      justify-content: space-between;
+
+      img {
+        margin-right: 0;
+        margin-left: auto;
+        display: block;
+      }
+
+      @include screen-max-width-991 {
+        display: block;
+        min-height: 523px;
+        height: auto;
+
+        img {
+          display: block;
+          width: auto;
+          height: auto;
+          min-width: 290px;
+          margin: 76px auto;
+        }
+      }
+    }
+
+    .G-container > div {
+      width: 50%;
+      @include screen-max-width-991 {
+        width: 100%;
+      }
+
+      h3 {
+        width: 80%;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 54px;
+        margin-bottom: 12px;
+      }
+
+      p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 20px;
+      }
+    }
+
+    .G-solution-tabs {
+      margin: 0 auto;
+      width: fit-content;
+      text-align: center;
+      max-width: 100%;
+
+      .slick-dots.slick-thumb,
+      .G-solution-tabs-container {
+        display: flex !important;
+        gap: 16px;
+        max-width: 100%;
+        overflow-x: auto;
+
+        &::-webkit-scrollbar {
+          width: 0;
+          height: 0;
+        }
+
+        li,
+        div {
+          width: fit-content;
+        }
+
+        .G-solution-tab {
+          width: 140px;
+          height: 116px;
+          border-radius: 4px 4px 0px 0px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          box-sizing: border-box;
+          padding: 20px;
+          cursor: pointer;
+
+          * {
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 20px;
+          }
+        }
+
+        .G-solution-tab.active {
+          background: #ffffff;
+          border: none;
+
+          * {
+            color: #23232f !important;
+          }
+        }
+      }
+
+      h4 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 48px;
+      }
+    }
+  }
+
+  .G-solution-body {
+    padding-top: 72px;
+    display: flex;
+    justify-content: space-between;
+    @include screen-max-width-991 {
+      display: block;
+      width: 100%;
+    }
+
+    .G-img-container {
+      max-width: 196px;
+      width: 45%;
+      text-align: center;
+
+
+      @include screen-max-width-991 {
+        display: block;
+        width: 60%;
+        margin: 45px auto;
+      }
+    }
+
+    .G-solution-body-text {
+      width: 55%;
+      @include screen-max-width-991 {
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
+
+      h2 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: left;
+        margin-bottom: 65px;
+        color: #23232f;
+        @include screen-max-width-991 {
+          text-align: center;
+        }
+      }
+
+      h3,
+      p {
+        margin-bottom: 20px;
+        text-align: left;
+      }
+
+      ul {
+        list-style: disc;
+
+        li {
+          text-align: left;
+        }
+      }
+    }
+  }
+}
+
+.G-solution {
+  .slick-slider {
+
+    position: relative !important;
+    margin: -141px auto 0;
+    width: fit-content;
+    text-align: center;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+
+
+  }
+
+  .slick-track {
+    height: fit-content;
+  }
+
+  .slick-dots.slick-thumb {
+    //position: absolute;
+    //top: -116px;
+    position: relative;
+    display: flex !important;
+    gap: 16px;
+    overflow-x: auto;
+    max-width: 100%;
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+
+    &::-webkit-scrollbar {
+      width: 0;
+      height: 0;
+    }
+
+    li,
+    div {
+      width: fit-content;
+      height: fit-content;
+    }
+
+    li,
+    .G-solution-tab {
+      max-width: 140px;
+      min-width: 140px;
+      height: 116px;
+      border-radius: 4px 4px 0px 0px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+      padding: 20px;
+      cursor: pointer;
+
+      * {
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 20px;
+      }
+    }
+
+    .slick-active > div,
+    .G-solution-tab.active {
+      background: #ffffff;
+      border: none;
+
+      * {
+        color: #23232f !important;
+      }
+    }
+
+  }
+
+  .slick-slider .slick-list {
+    margin-top: 13px;
+  }
+}

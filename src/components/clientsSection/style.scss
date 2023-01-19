@@ -1,0 +1,48 @@
+@import "src/assets/style/index.scss";
+
+.P-clientsSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  padding-bottom: 100px;
+  @include screen-max-width-991 {
+    gap: 10px;
+    padding-bottom: 58px;
+  }
+  p {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .P-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    row-gap: 10px;
+    @include screen-max-width-991 {
+      gap: 0;
+      justify-content: center;
+      div {
+        width: 33.333%;
+        text-align: center;
+        padding: 14px;
+      }
+    }
+    img {
+      height: fit-content;
+      @include screen-max-width-991 {
+      }
+    }
+  }
+  button {
+    background: $blue;
+    border-radius: 4px;
+    width: 170px;
+    height: 40px;
+    a {
+      color: #ffffff;
+    }
+  }
+}

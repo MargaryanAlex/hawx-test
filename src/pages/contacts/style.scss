@@ -1,0 +1,69 @@
+@import "src/assets/style/index.scss";
+
+.P-contacts {
+  padding-bottom: 197px;
+  @include screen-max-width-991 {
+    * {
+      text-align: left !important;
+    }
+  }
+  h2 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #23232f;
+    margin-top: 86px;
+    margin-bottom: 59px;
+    @include screen-max-width-991 {
+      margin: 32px 0;
+    }
+  }
+  h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #434353;
+    margin-bottom: 8px;
+  }
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #434353;
+    margin-bottom: 39px;
+  }
+  span {
+    color: #1212fd;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .P-divider {
+    width: 90%;
+    max-width: 360px;
+    margin: 0 auto 39px;
+    border: 1px solid #23232f;
+    @include screen-max-width-991 {
+      width: 100%;
+      max-width: none;
+    }
+  }
+  h4 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #23232f;
+    margin-bottom: 14px;
+  }
+  .P-icons {
+    margin: 0 auto;
+    justify-content: center;
+    gap: 24px;
+    @include screen-max-width-991 {
+      justify-content: flex-start;
+    }
+  }
+}

@@ -1,0 +1,135 @@
+@import "./variables";
+@import "./mixin";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.G-pointer {
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background-color: rgba($color: #ffffff, $alpha: 0.2);
+  border-radius: 2px;
+  z-index: 9999999;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba($color: #ffffff, $alpha: 0.6);
+  border-radius: 20px;
+}
+
+.G-hidden {
+  overflow: hidden;
+}
+
+.G-container {
+  max-width: 1065px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.G-web {
+  @include screen-max-width-991 {
+    display: none;
+  }
+}
+.G-mobile {
+  @include screen-min-width-991 {
+    display: none;
+  }
+}
+.G-guest-pages {
+  min-height: calc(100vh - 80px);
+  padding-top: 50px;
+}
+
+.G-close-button {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  // right      : 20px;
+  // top        : 20px;
+  cursor: pointer;
+  transform: rotate(45deg);
+  transition: 0.3s;
+
+  &::before {
+    content: "";
+    width: 30px;
+    height: 1px;
+    background-color: $grey-60;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: $transition;
+  }
+  &::after {
+    content: "";
+    width: 30px;
+    height: 1px;
+    background-color: $grey-60;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transition: $transition;
+    transform: translate(-50%, -50%) rotate(90deg);
+  }
+}
+
+.G-padding-33 {
+  width: 33.33%;
+  padding: 10px 25px;
+}
+
+.G-padding-50 {
+  width: 50%;
+  padding: 10px 25px;
+}
+
+.G-form-block {
+  .G-form-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: $font-size-24;
+    color: $grey-base;
+    margin-bottom: 25px;
+  }
+
+  .G-form-list {
+    margin: 0 -25px;
+  }
+}
+
+.G-form-buttons {
+  margin-top: 45px;
+
+  .G-buttons-block + .G-buttons-block {
+    margin-left: 35px;
+  }
+
+  .G-buttons-block {
+    max-width: 180px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,301 @@
+@import "src/assets/style/index.scss";
+
+.P-homepage {
+  width: 100%;
+
+  .P-title {
+    min-height: 264px;
+  }
+
+  .P-solutions {
+    /* padding-bottom: 64px;
+     @include screen-max-width-991 {
+       padding-bottom: 24px;
+     }*/
+    h5 {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 30px;
+      color: #23232f;
+    }
+
+    .P-solutions-list {
+      background: #f5f5f7;
+      margin-top: 70px;
+      padding-top: 20px;
+      min-height: 295px;
+      padding-bottom: 30px;
+
+      .P-solutions-container {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: calc(100% + 24px);
+        margin: 0 -12px;
+        margin-top: -90px;
+        // justify-content: center;
+        // gap: 20px;
+        // gap: calc((100% - (7 * 129px)) / 6);
+        // @include screen-max-width-991 {
+        //   gap: calc((100% - (4 * 129px)) / 3);
+        // }
+        // @include screen-max-width-607 {
+        //   gap: calc((100% - (3 * 129px)) / 2);
+        // }
+        // @include screen-max-width-440 {
+        //   gap: calc((100% - (2 * 129px)) / 1);
+        // }
+      }
+
+
+      .P-solution {
+        display: flex;
+        width: 14.28%;
+        flex-direction: column;
+        align-items: center;
+        padding: 12px;
+        @include screen-max-width-991 {
+          width: 25%;
+        }
+        @include screen-max-width-607 {
+          width: 50%;
+        }
+
+        .P-solution-logo {
+          width: 130px;
+          height: 130px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 4px;
+          margin-bottom: 38px;
+          padding: 20px;
+          @include screen-max-width-991 {
+            margin-bottom: 15px;
+          }
+        }
+
+        p {
+          width: 90%;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 21px;
+          text-align: center;
+
+          color: #23232f;
+        }
+      }
+    }
+
+    .P-solution:nth-child(6) {
+      .P-solution-logo {
+        padding: 10px;
+      }
+    }
+
+    .P-solution:nth-child(1) {
+      .P-solution-logo {
+        padding: 10px;
+      }
+
+      p {
+        width: 50%;
+      }
+    }
+
+    .P-solution:nth-child(2) {
+      .P-solution-logo {
+        padding: 14px;
+      }
+
+      p {
+        width: 64%;
+      }
+    }
+
+    .P-solution:nth-child(4) {
+      p {
+        width: 100%;
+      }
+    }
+  }
+
+  .P-container {
+    .P-container {
+      width: 75%;
+      margin-top: 24px;
+      padding-bottom: 113px;
+      @include screen-max-width-767 {
+        width: 100%;
+        padding-bottom: 35px;
+      }
+    }
+
+    width: 80%;
+    margin: 0 auto;
+    @include screen-max-width-991 {
+      width: 100%;
+    }
+
+    span {
+      display: block;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      color: #434353;
+      @include screen-max-width-767 {
+        margin-top: 32px;
+        text-align: left;
+      }
+    }
+
+    h2 {
+      font-size: 36px;
+      margin-top: 24px;
+      text-align: center;
+      margin-top: 160px;
+      color: #23232f;
+      @include screen-max-width-767 {
+        margin-top: 32px;
+        text-align: left;
+      }
+    }
+
+    h5 {
+      color: #ffffff;
+      font-size: 36px;
+      margin-top: 24px;
+    }
+  }
+
+  .P-section {
+    padding-bottom: 80px;
+    @include screen-max-width-991 {
+      padding-bottom: 24px;
+    }
+
+    h4 {
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 36px;
+      color: #23232f;
+      margin-bottom: 24px;
+      text-align: center;
+
+      @include screen-max-width-991 {
+        width: 60%;
+        margin: 0 auto 12px;
+      }
+    }
+
+    .P-blue-area {
+      background: $blue;
+      padding: 40px;
+      width: 100%;
+      @include screen-max-width-767 {
+        padding: 40px 10px;
+      }
+
+      h4 {
+        color: #ffffff;
+      }
+
+      p {
+        color: #ffffff;
+        text-align: center;
+        @include screen-max-width-991 {
+          text-align: left;
+        }
+      }
+
+      .P-counts {
+        div {
+          min-width: 80px;
+          text-align: center;
+          @include screen-max-width-607 {
+            h5 {
+              font-weight: 600;
+              font-size: 24px;
+              line-height: 36px;
+              text-align: center;
+              color: #ffffff;
+            }
+            p {
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 21px;
+              text-align: center;
+              color: #ffffff;
+            }
+          }
+        }
+
+        p {
+          font-size: 20px;
+        }
+      }
+    }
+
+    .P-gray-area {
+      background: #f5f5f7;
+      padding: 40px;
+      width: 100%;
+
+      .P-flex-area {
+        width: calc(100% + 52px);
+        margin: 0 -26px;
+        color: #434353;
+
+        .P-card {
+          width: 33.33333333%;
+          padding: 26px;
+          @include screen-max-width-991 {
+            width: 50%;
+          }
+          @include screen-max-width-767 {
+            width: 100%;
+          }
+
+          h5 {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 30px;
+            color: #23232f;
+            margin-bottom: 27px;
+          }
+        }
+      }
+    }
+  }
+}
+
+:is(.P-solution:nth-child(2), .P-card:nth-child(2)) .slideInDown.animation {
+  animation-delay: 0.1s;
+}
+
+:is(.P-solution:nth-child(3), .P-card:nth-child(3)) .slideInDown.animation {
+  transition-duration: 1.2s;
+  animation-delay: 0.2s;
+}
+
+.P-solution:nth-child(4) .slideInDown.animation {
+  transition-duration: 1.4s;
+  animation-delay: 0.3s;
+}
+
+.P-solution:nth-child(5) .slideInDown.animation {
+  transition-duration: 1.6s;
+  animation-delay: 0.4s;
+}
+
+.P-solution:nth-child(6) .slideInDown.animation {
+  transition-duration: 1.8s;
+  animation-delay: 0.6s;
+}
+
+.P-solution:nth-child(7) .slideInDown.animation {
+  transition-duration: 2s;
+  animation-delay: 0.7s;
+}
+

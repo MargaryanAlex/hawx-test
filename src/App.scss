@@ -1,0 +1,12 @@
+@import "src/assets/style/index.scss";
+h1 {
+  display: none;
+}
+.App {
+  width: 100%;
+  min-height: 100vh;
+  //padding-bottom: 610px;
+  @include screen-max-width-991 {
+    padding-bottom: 0;
+  }
+}

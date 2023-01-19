@@ -1,0 +1,71 @@
+@import "src/assets/style";
+
+.P-newsCard {
+  //max-width: 250px;
+  width: 100%;
+  min-width: 212px;
+  margin: 0 auto;
+  min-height: 290px;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+  padding-bottom: 15px;
+  box-sizing: border-box;
+  //overflow: hidden;
+
+  &:hover {
+    img {
+      transform: scale(1.08);
+    }
+  }
+
+  h5 {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #434353;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    margin-bottom: 20px !important;
+    color: #23232f !important;
+    text-align: left !important;
+  }
+
+  img {
+    z-index: 0;
+    object-fit: contain;
+    height: auto;
+    width: 100%;
+    display: block;
+    transition: all 0.3s ease-out;
+
+
+  }
+
+  span {
+    cursor: pointer;
+    font-size: 11px;
+    line-height: 16px;
+    font-size: 14px;
+    text-decoration-line: underline;
+    color: $blue;
+  }
+
+  .P-content {
+    position: relative;
+    height: 170px;
+    width: 100%;
+    margin-top: -10px;
+    border-radius: 4px;
+    padding: 15px;
+    background: #ffffff;
+    z-index: 10;
+  }
+}
