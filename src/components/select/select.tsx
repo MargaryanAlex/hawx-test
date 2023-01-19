@@ -159,6 +159,7 @@ function Select<T>({
         const currentHeight = select.current?.offsetHeight as number
         const parentPosition = (select.current?.offsetParent as HTMLElement).offsetTop as number
         const currentPosition = select.current?.offsetTop as number
+        console.log(currentHeight, parentPosition, currentPosition,window.innerHeight)
         setDirection(currentPosition + parentPosition + currentHeight + maxHeight > window.innerHeight)
 
     }, [isOpenList])
@@ -186,6 +187,7 @@ function Select<T>({
                 {isOpenList &&
                     <div className={`G-select-list ${direction ? "bottom" : "top"}`} style={{
                         maxHeight: maxHeight + 'px',
+                        height: maxHeight + "px",
                     }}>
                         <ul>
                             {optionsList.map((item, index) => {

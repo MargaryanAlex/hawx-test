@@ -116,7 +116,7 @@
   border: 1px solid rgba(0, 0, 0, 0.05);
   box-shadow: 0 2px 9px rgba(41, 46, 70, 0.08), 0 11px 28px rgba(41, 46, 70, 0.1);
   @include screen-max-width-607 {
-    top: 40px;
+    //top: 40px;
   }
 
   ul {
