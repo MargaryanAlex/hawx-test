@@ -5,6 +5,7 @@ import {FC, MouseEventHandler, useRef, useState} from "react";
 import {useTranslation} from "react-i18next";
 import AnimationSide from "src/components/animation/animation-side";
 import Animation from "src/components/animation";
+import AnimationSideRTL from "../../../../components/animation/animation-side-rtl";
 
 const markets = [
     {
@@ -52,6 +53,9 @@ const BoosterFirstStep: FC<{ onChangeStep: MouseEventHandler<HTMLButtonElement> 
         <AnimationSide element={title}>
             <div className={`P-title`} ref={title}>{t("Calculate-text")}</div>
         </AnimationSide>
+        <AnimationSideRTL element={title}>
+            <div className={`P-title`} ref={title}>{t("profit-text")}</div>
+        </AnimationSideRTL>
         <Animation element={content}>
             <div className={`P-form`} ref={content}>
                 <div className={`P-inputs-container`}>

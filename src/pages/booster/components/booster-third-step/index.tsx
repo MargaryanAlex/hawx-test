@@ -1,4 +1,4 @@
-import {FC, MouseEventHandler, useRef} from "react";
+import {FC, MouseEventHandler, useEffect, useRef, useState} from "react";
 import AnimationSide from "src/components/animation/animation-side";
 import {useTranslation} from "react-i18next";
 import BoosterInput from "../booster-input";
@@ -11,12 +11,19 @@ const BoosterThirdStep: FC<{ onChangeStep: MouseEventHandler<HTMLButtonElement> 
     const title = useRef<HTMLDivElement | null>(null)
     const actions = useRef<HTMLDivElement | null>(null)
     const content = useRef<HTMLDivElement | null>(null)
+    const  [opacity,setOpacity]=useState<number>(0)
+
+    useEffect(()=>{setTimeout(() => setOpacity(1), 500)},[])
+
     return (<div className={`G-container P-sender`}>
         <AnimationSide element={title}>
-            <div className={`P-title`} ref={title}>{t("Expected-text")}</div>
+            <div className={`P-title`} ref={title}>{t("Boosted-text")}</div>
         </AnimationSide>
+        <AnimationSideRTL element={title}>
+            <div className={`P-title`} ref={title}>{t("increase-by-text")}</div>
+        </AnimationSideRTL>
         <AnimationSideRTL element={content}>
-            <div className={`P-content`} ref={content}>
+            <div className={`P-content`} ref={content} style={{opacity: opacity}}>
                 <p className={`P-h1`}>{t("1-year-text")}</p>
                 <p className={`P-h2`}>{t("You’re-the-lucky-one!-text")}</p>
                 <p className={`P-text`}>{t("HawX-is-ready-text")}</p>

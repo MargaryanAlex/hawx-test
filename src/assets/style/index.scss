@@ -87,21 +87,21 @@ html[lang="ru"] * {
 .slideInDown.animation {
   transition: 1s cubic-bezier(1, 0, 1, 1);
   opacity: 1;
-  animation: __slideInDown 1s forwards;
+  animation: __slideInDown 2s forwards;
   width: 100%;
 }
 
 .slideToRight.animation {
   transition: 1s cubic-bezier(1, 0, 1, 1);
   opacity: 1;
-  animation: __slideToRight 1s forwards;
+  animation: __slideToRight 2s forwards;
   width: 100%;
 }
 
 .slideToLeft.animation {
   transition: 1s cubic-bezier(1, 0, 1, 1);
   opacity: 1;
-  animation: __slideToLeft 1s forwards;
+  animation: __slideToLeft 2s forwards;
   width: 100%;
 }
 
@@ -109,6 +109,10 @@ html[lang="ru"] * {
   0% {
     opacity: 0;
     transform: translateY(-20px);
+  }
+  40% {
+    transform: translateY(10px);
+
   }
   90% {
     opacity: 1;
@@ -123,6 +127,10 @@ html[lang="ru"] * {
     opacity: 0;
     transform: translateX(-80px);
   }
+  40% {
+    transform: translateX(20px);
+
+  }
   60% {
     opacity: 1;
   }
@@ -136,6 +144,11 @@ html[lang="ru"] * {
     opacity: 0;
     transform: translateX(80px);
   }
+  40% {
+    transform: translateX(-20px);
+
+  }
+
   60% {
     opacity: 1;
   }
