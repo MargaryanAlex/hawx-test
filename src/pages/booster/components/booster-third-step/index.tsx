@@ -13,7 +13,7 @@ const BoosterThirdStep: FC<{ onChangeStep: MouseEventHandler<HTMLButtonElement> 
     const content = useRef<HTMLDivElement | null>(null)
     const  [opacity,setOpacity]=useState<number>(0)
 
-    useEffect(()=>{setTimeout(() => setOpacity(1), 500)},[])
+    useEffect(()=>{setTimeout(() => setOpacity(1), 200)},[])
 
     return (<div className={`G-container P-sender`}>
         <AnimationSide element={title}>
