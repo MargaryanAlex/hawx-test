@@ -17,10 +17,10 @@ const BoosterThirdStep: FC<{ onChangeStep: MouseEventHandler<HTMLButtonElement> 
 
     return (<div className={`G-container P-sender`}>
         <AnimationSide element={title}>
-            <div className={`P-title`} ref={title}>{t("Boosted-text")}</div>
+            <div className={`P-title loop`} ref={title}>{t("Boosted-text")}</div>
         </AnimationSide>
         <AnimationSideRTL element={title}>
-            <div className={`P-title`} ref={title}>{t("increase-by-text")}</div>
+            <div className={`P-title loop`} ref={title}>{t("increase-by-text")}</div>
         </AnimationSideRTL>
         <AnimationSideRTL element={content}>
             <div className={`P-content`} ref={content} style={{opacity: opacity}}>

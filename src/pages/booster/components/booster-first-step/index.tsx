@@ -51,10 +51,10 @@ const BoosterFirstStep: FC<{ onChangeStep: MouseEventHandler<HTMLButtonElement> 
     };
     return (<div className={`G-container`}>
         <AnimationSide element={title}>
-            <div className={`P-title`} ref={title}>{t("Calculate-text")}</div>
+            <div className={`P-title loop`} ref={title}>{t("Calculate-text")}</div>
         </AnimationSide>
         <AnimationSideRTL element={title}>
-            <div className={`P-title`} ref={title}>{t("profit-text")}</div>
+            <div className={`P-title loop`} ref={title}>{t("profit-text")}</div>
         </AnimationSideRTL>
         <Animation element={content}>
             <div className={`P-form`} ref={content}>

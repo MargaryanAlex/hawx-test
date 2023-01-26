@@ -98,6 +98,22 @@ html[lang="ru"] * {
   width: 100%;
 }
 
+.slideToRight .loop {
+  animation: __slideFromLeft 4s ease-in-out infinite;
+  animation-delay: 2s;
+
+}
+
+.loop {
+  width: fit-content !important;
+}
+
+.slideToLeft .loop {
+  animation: __slideFromRight 4s ease-in-out infinite;
+  animation-delay: 2s;
+
+}
+
 .slideToLeft.animation {
   transition: 1s cubic-bezier(1, 0, 1, 1);
   opacity: 1;
@@ -119,6 +135,46 @@ html[lang="ru"] * {
   }
   100% {
     transform: translateY(0);
+  }
+}
+
+@keyframes __slideFromLeft {
+  0% {
+
+    //transform: translateX(0px);
+  }
+  25% {
+    transform: translateX(-20px);
+
+  }
+  50% {
+    transform: translateX(0px);
+  }
+  75% {
+    transform: translateX(20px);
+  }
+  100% {
+    //transform: translateX(0);
+  }
+}
+
+@keyframes __slideFromRight {
+  0% {
+
+    //transform: translateX(0px);
+  }
+  25% {
+    transform: translateX(20px);
+
+  }
+  50% {
+    transform: translateX(0px);
+  }
+  75% {
+    transform: translateX(-20px);
+  }
+  100% {
+    //transform: translateX(0);
   }
 }
 
