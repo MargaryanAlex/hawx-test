@@ -31,7 +31,7 @@ const BoosterSecondStep = ({onChangeStep}: { onChangeStep: () => void }) => {
                 <p className={`P-simulator`}><span
                     className={`P-selector-line ${half ? "half" : ""} ${full ? "full" : ""}`}/>
                 </p>
-                <p className={`P-done-text ${done ? "done" : ""}`}>Done!</p>
+                <p className={`P-done-text ${done ? "done" : ""}`}>{t("Done!-text")}</p>
             </div>
         </div>
     )

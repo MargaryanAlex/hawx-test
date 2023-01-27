@@ -99,7 +99,7 @@ html[lang="ru"] * {
 }
 
 .slideToRight .loop {
-  animation: __slideFromLeft 4s ease-in-out infinite;
+  animation: __slideFromLeft 24s ease-in-out infinite;
   animation-delay: 2s;
 
 }
@@ -109,7 +109,7 @@ html[lang="ru"] * {
 }
 
 .slideToLeft .loop {
-  animation: __slideFromRight 4s ease-in-out infinite;
+  animation: __slideFromRight 24s ease-in-out infinite;
   animation-delay: 2s;
 
 }

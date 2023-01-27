@@ -3,6 +3,7 @@
 
 .P-booster {
   position: relative;
+  overflow-x: hidden;
   width: 100%;
   min-height: 100vh;
   margin-top: -120.6px;
@@ -50,23 +51,45 @@
 
   .P-title {
     font-weight: 900;
-    font-size: 64px;
-    line-height: 76px;
+    font-size: 62px;
+    line-height: 75px;
     text-align: center;
     width: 90%;
     margin: 0 auto;
     color: #FFFFFF;
+
+    img {
+      margin-bottom: -7px;
+      margin-left: 15px;
+      object-position: center;
+    }
+
+    /*display: flex;
+    align-items: center;
+    justify-content: center;*/
     @include screen-max-width-991 {
       font-size: 50px;
       line-height: 60px;
-
+      img {
+        margin-bottom: -7px;
+        margin-left: 10px;
+        object-position: center;
+        width: 56px;
+        height: 56px;
+      }
     }
     @include screen-max-width-607 {
       font-size: 36px;
       line-height: 40px;
       text-align: left;
       width: 100%;
-
+      img {
+        margin-bottom: -6px;
+        margin-left: 5px;
+        object-position: center;
+        width: 40px;
+        height: 40px;
+      }
     }
   }
 
@@ -90,6 +113,8 @@
     }
 
     .P-simulate-btn-container {
+      margin-top: 20px;
+
       .P-simulate-btn {
         display: block;
         position: relative;
@@ -120,7 +145,7 @@
       text-align: center;
       padding: 2px 0;
       animation: opacityLTR 2s ease-in-out forwards;
-      background: linear-gradient(to right, #eee 50%, #fff 65%, transparent 70%);
+      background: linear-gradient(to right, #eee 70%, #fff 75%, transparent 80%);
       -webkit-text-fill-color: transparent;
       -webkit-background-clip: text;
       @include screen-max-width-607 {
@@ -202,14 +227,19 @@
       text-align: center;
     }
 
+    .P-simulate-btn-container {
+      margin-top: 0px;
+    }
+
     .P-content {
       .P-h1 {
         margin-top: 8px;
         font-weight: 600;
-        font-size: 32px;
+        font-size: 30px;
         line-height: 38px;
         color: #FFFFFF;
         text-align: center;
+
         @include screen-max-width-607 {
           font-size: 16px;
         }
@@ -219,7 +249,7 @@
         text-align: center;
         margin-top: 10px;
         font-weight: 600;
-        font-size: 24px;
+        font-size: 20px;
         line-height: 36px;
         color: #FFFFFF;
       }
@@ -227,17 +257,17 @@
       .P-text {
         max-width: 600px;
         font-weight: 600;
-        font-size: 16px;
-        line-height: 22px;
+        font-size: 14px;
+        line-height: 20px;
         text-align: center;
         color: #FFFFFF;
         margin: 8px auto 0;
       }
 
       .P-subText {
-        max-width: 360px;
+        max-width: 380px;
         font-weight: 500;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 22px;
         text-align: center;
         color: #FFFFFF;
@@ -272,6 +302,12 @@
       font-size: 32px;
       line-height: 48px;
       color: #FFFFFF;
+
+      img {
+        margin-bottom: -3px;
+        margin-left: 10px;
+        object-position: center;
+      }
     }
 
     .P-text {

@@ -5,6 +5,7 @@ import BoosterInput from "../booster-input";
 import BoosterButton from "../booster-button";
 import Animation from "src/components/animation";
 import AnimationSideRTL from "src/components/animation/animation-side-rtl";
+import rocket from "src/assets/img/booster/rocket.svg";
 
 const BoosterThirdStep: FC<{ onChangeStep: MouseEventHandler<HTMLButtonElement> }> = ({onChangeStep}) => {
     const {t} = useTranslation()
@@ -20,7 +21,7 @@ const BoosterThirdStep: FC<{ onChangeStep: MouseEventHandler<HTMLButtonElement> 
             <div className={`P-title loop`} ref={title}>{t("Boosted-text")}</div>
         </AnimationSide>
         <AnimationSideRTL element={title}>
-            <div className={`P-title loop`} ref={title}>{t("increase-by-text")}</div>
+            <div className={`P-title loop`} ref={title}>{t("increase-by-text")}<img src={rocket} alt="flash" width={64} height={64}/></div>
         </AnimationSideRTL>
         <AnimationSideRTL element={content}>
             <div className={`P-content`} ref={content} style={{opacity: opacity}}>
@@ -42,8 +43,7 @@ const BoosterThirdStep: FC<{ onChangeStep: MouseEventHandler<HTMLButtonElement> 
                     }}/>
                 </div>
             </div>
-            <div className={`P-form P-actions`} ref={actions}>
-                <div className={`P-inputs-container`}/>
+            <div className={`P-form P-actions G-justify-center`} ref={actions}>
                 <BoosterButton label={t("Send-text")} onClick={onChangeStep}/>
             </div>
         </Animation>

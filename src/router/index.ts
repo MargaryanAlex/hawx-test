@@ -7,7 +7,7 @@ import froud from "src/assets/img/solutions/fraud.png";
 import product from "src/assets/img/solutions/product.png";
 import sportsbook from "src/assets/img/solutions/sportsbook.png";
 import web from "src/assets/img/solutions/website.png";
-import booster from "src/assets/img/booster.svg";
+import booster from "src/assets/img/booster/flash.svg";
 
 export interface IRoute {
     path: string;

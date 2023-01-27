@@ -6,6 +6,7 @@ import {useTranslation} from "react-i18next";
 import AnimationSide from "src/components/animation/animation-side";
 import Animation from "src/components/animation";
 import AnimationSideRTL from "../../../../components/animation/animation-side-rtl";
+import flash from "src/assets/img/booster/flash.svg"
 
 const markets = [
     {
@@ -50,44 +51,42 @@ const BoosterFirstStep: FC<{ onChangeStep: MouseEventHandler<HTMLButtonElement> 
         }
     };
     return (<div className={`G-container`}>
-        <AnimationSide element={title}>
-            <div className={`P-title loop`} ref={title}>{t("Calculate-text")}</div>
-        </AnimationSide>
-        <AnimationSideRTL element={title}>
-            <div className={`P-title loop`} ref={title}>{t("profit-text")}</div>
-        </AnimationSideRTL>
-        <Animation element={content}>
-            <div className={`P-form`} ref={content}>
-                <div className={`P-inputs-container`}>
-                    <BoosterInput label={t("Monthly-Active-Players-text")} onChange={(e) => {
-                    }}/>
-                </div>
-                <div className={`P-inputs-container`}>
-                    <BoosterInput label={t("Monthly-New-Players-text")} onChange={(e) => {
-                    }}/>
-                </div>
-                <div className={`P-inputs-container`}>
-                    <BoosterInput label={t("Average-GGR-per-User-(AGPU)-text")} onChange={(e) => {
-                    }}/>
-                </div>
-                <div className={`P-inputs-container`}>
-                    <BoosterInput label={t("Current-monthly-GGR-(EURO)-text")} onChange={(e) => {
-                    }}/>
-                </div>
-                <div className={`P-inputs-container`}>
-                    <BoosterSelect list={markets} label={t("Operating-Market-text")} selectedValue={selectedValue}
-                                   onSelect={handleSelect}/>
+            <AnimationSide element={title}>
+                <div className={`P-title loop`} ref={title}>{t("Calculate-text")}</div>
+            </AnimationSide>
+            <AnimationSideRTL element={title}>
+                <div className={`P-title loop`} ref={title}>{t("profit-text")}<img src={flash} alt="flash" width={64} height={64}/></div>
+            </AnimationSideRTL>
+            <Animation element={content}>
+                <div className={`P-form`} ref={content}>
+                    <div className={`P-inputs-container`}>
+                        <BoosterInput label={t("Monthly-Active-Players-text")} onChange={(e) => {
+                        }}/>
+                    </div>
+                    <div className={`P-inputs-container`}>
+                        <BoosterInput label={t("Monthly-New-Players-text")} onChange={(e) => {
+                        }}/>
+                    </div>
+                    <div className={`P-inputs-container`}>
+                        <BoosterInput label={t("Monthly-GGR-(USD)-text")} onChange={(e) => {
+                        }}/>
+                    </div>
+
+                    <div className={`P-inputs-container`}>
+                        <BoosterSelect list={markets} label={t("Operating-Market-text")} selectedValue={selectedValue}
+                                       onSelect={handleSelect}/>
+
+                    </div>
 
                 </div>
 
-            </div>
-
-            <div className={`P-form`}>
-                <BoosterButton label={t("Simulate-text")} onClick={onChangeStep}/>
-            </div>
-        </Animation>
+                <div className={`P-form G-justify-center`}>
+                    <BoosterButton label={t("Simulate-text")} onClick={onChangeStep}/>
+                </div>
+            </Animation>
 
 
-    </div>)
+        </div>
+    )
 }
 export default BoosterFirstStep

@@ -1,4 +1,3 @@
-import menu from "src/assets/img/header/menu.svg";
 import {NavLink} from "react-router-dom";
 import logo_white from "src/assets/img/header/logo_white.png";
 import close from "src/assets/img/header/close.svg";
@@ -14,12 +13,11 @@ const MobileHeader = () => {
     return (
         <div className="G-mobile">
             {/*<span className={`P-white-background`}/>*/}
-            <img
-                src={menu}
-                alt="menu"
+            <span
                 onClick={() => {
                     setOnHover(true);
                 }}
+                className={`P-menu-icon icon menu`}
             />
             <div
                 className={
@@ -58,7 +56,7 @@ const MobileHeader = () => {
                                             }}
                                         >
                                             <span className={`P-text`}>{t(item.title)}{""}{item.icon &&
-                                                <img src={item.icon} alt="icon"/>}
+                                                <img src={item.icon} alt="icon"  width={20} height={20}/>}
                                             </span>
                                         </NavLink>
                                     )}

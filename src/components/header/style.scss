@@ -33,9 +33,15 @@
   @include screen-max-width-991 {
     padding: 20px 0;
     position: sticky;
-    background-color: #ffffff;
     top: 0;
     left: 0;
+    background-color: #FFFFFF;
+
+    .P-menu-icon.icon.menu {
+      width: 40px;
+      height: 40px;
+
+    }
   }
   width: 100%;
   z-index: 9999;
@@ -47,6 +53,12 @@
   }
 
   &.white {
+    position: relative;
+
+    .P-menu-icon.icon.menu {
+      background-color: #FFFFFF;
+    }
+
     * {
       color: #ffffff;
     }
@@ -61,6 +73,8 @@
     }
 
     @include screen-max-width-991 {
+      background-color: transparent;
+
       .active.P-options,
       ul.active {
         background: transparent !important;
@@ -93,20 +107,20 @@
       }
 
       @include screen-max-width-991 {
-        img {
-          opacity: 1;
-        }
+
         a {
           width: fit-content;
-          mask-image: none;
-          -webkit-mask-image: none;
+          mask-image: url(../../assets/img/logo.svg);
+          -webkit-mask-image: url(../../assets/img/logo.svg);
           mask-size: contain;
           -webkit-mask-size: contain;
           mask-repeat: no-repeat;
           -webkit-mask-repeat: no-repeat;
-          //mask-position: center;
-          //-webkit-mask-position: center;
+          mask-position: center;
+          -webkit-mask-position: center;
           background-color: transparent;
+          background-color: #FFFFFF;
+
         }
       }
     }

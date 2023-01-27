@@ -69,7 +69,7 @@ const DesktopHeader = ({
                                 <NavLink to={item.path}
                                          onClick={(e) => setPosition(e.target as HTMLElement)}
                                 ><span className={`P-text`}>{t(item.title)}{""}{item.icon &&
-                                    <img src={item.icon} alt="icon"/>}
+                                    <img src={item.icon} width={20} height={20} alt="icon"/>}
                                 </span></NavLink>
                             )}
                             {item.subList && (
