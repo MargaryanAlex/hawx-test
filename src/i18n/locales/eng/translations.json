@@ -188,53 +188,7 @@
       "img": "https://i.postimg.cc/6Q8hpvgv/9.png"
     }
   },
-  "mentions": {
-    "mention0": {
-      "img": "https://i.postimg.cc/R0hJGF40/betforward.png",
-      "content": {
-        "text0": "We started working with HawX with CRM services, then we trusted them with Sportsbook Risk Management, Product Management and Website Management too.",
-        "text1": "As a result, after 1-year of experience with HawX, we started 2021 with great Confidence and had amazing results."
-      },
-      "name": "Mr Tom",
-      "role": "CEO"
-    },
-    "mention1": {
-      "img": "https://i.postimg.cc/L4JXW7cx/ciwinz.png",
-      "content": {
-        "text0": "HawX changed the ecosystem of our business. What i respect the most is the agility, flexibility and quality of their service; they make long-term plans, are super transparent and professional when discussing results.",
-        "text1": "These are the Key feautures that makes HawX our reliable and stable partner."
-      },
-      "name": "Mr Azad",
-      "role": "CMO"
-    },
-    "mention2": {
-      "img": "https://i.postimg.cc/gjcw9zfx/medina.png",
-      "content": {
-        "text0": "HawX took CRM in its hands in a very short period of time and the result is more than we expected.",
-        "text1": "Our NGR increased and most surprisingly the retenation rate jumped to 75%."
-      },
-      "name": "Mr Rabi",
-      "role": "CEO"
-    },
-    "mention3": {
-      "img": "https://i.postimg.cc/JhP2QG70/jack998.png",
-      "content": {
-        "text0": "HawX us reliable partner who brings success to the business.",
-        "text1": "Their work delivers our users comfort and a great user experience, which results in an increased number of loyal users who enjoy playing with us."
-      },
-      "name": "Mr Vincent",
-      "role": "CEO"
-    },
-    "mention4": {
-      "img": "https://i.postimg.cc/jdf6TX6f/betnomi.png",
-      "content": {
-        "text0": "This was great value for us to get the package of services HawX offered.",
-        "text1": "I believe that the power of HawX is the communication strategies they have for every user and the quality of delivering it in the most attractive and user-oriented way."
-      },
-      "name": "Mr Sorsis",
-      "role": "CEO"
-    }
-  },
+
   "solutions": {
     "crm": {
       "tab0": {

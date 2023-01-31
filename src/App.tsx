@@ -32,7 +32,6 @@ function App() {
                                 <Route
                                     path={item.path}
                                     element={
-
                                         <item.component/>
 
                                     }

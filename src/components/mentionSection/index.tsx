@@ -47,7 +47,7 @@ const MentionSection = () => {
   };
   return (
     <div className="P-mentions-section">
-      <div className="G-web">
+      {/*<div className="G-web">
         <Slider {...settings}>
           {Object.values(jsonFile.mentions).map((item, index) => {
             return (
@@ -102,7 +102,7 @@ const MentionSection = () => {
             );
           })}
         </div>
-      </div>
+      </div>*/}
     </div>
   );
 };

@@ -130,10 +130,13 @@
     }
 
     .G-img-container {
-      max-width: 196px;
+      //max-width: 196px;
       width: 45%;
       text-align: center;
 
+      img {
+        margin: 0 auto;
+      }
 
       @include screen-max-width-991 {
         display: block;

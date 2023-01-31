@@ -32,6 +32,7 @@ const Header = () => {
         } else {
             setLight(false)
         }
+
     }, [location.pathname])
     return (
         <header className={light ? "P-header white" : `P-header`}>

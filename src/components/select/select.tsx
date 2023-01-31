@@ -54,7 +54,7 @@ function Select<T>({
     useEffect(() => {
         if (value || value === 0) {
             optionsList?.map((item: T) => {
-                Object.entries(item).forEach(
+                Object.entries(item as {[s:string]:unknown}).forEach(
                     ([key, keyValue]) => {
                         if (keyValue === value && key === selectedValueKey) {
                             setValue(item)
@@ -78,10 +78,10 @@ function Select<T>({
             Object.entries(selectedValue).forEach(
                 ([key, value]) => {
                     if (key === selectedNameKey) {
-                        setSelectedValueName(value)
+                        setSelectedValueName(value as string)
                     }
                     if (key === selectedIconKey) {
-                        setSelectedIcon(value)
+                        setSelectedIcon(value as string)
                     }
                 }
             );
@@ -95,16 +95,16 @@ function Select<T>({
         let name = ''
         let isSelected = false;
         let icon = ''
-        Object.entries(item).forEach(
+        Object.entries(item as {[s:string]:unknown}).forEach(
             ([key, itemValue]) => {
                 if (key === selectedNameKey) {
-                    name = itemValue
+                    name = itemValue as string
                 }
                 if (key === selectedValueKey && value === itemValue) {
                     isSelected = true
                 }
                 if (key === selectedIconKey) {
-                    icon = itemValue
+                    icon = itemValue as string
                 }
             }
         );

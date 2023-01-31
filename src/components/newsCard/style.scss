@@ -3,6 +3,7 @@
 .P-newsCard {
   //max-width: 250px;
   width: 100%;
+  height: 100%;
   min-width: 212px;
   margin: 0 auto;
   min-height: 290px;
@@ -45,8 +46,7 @@
     width: 100%;
     display: block;
     transition: all 0.3s ease-out;
-
-
+    max-height: 135px;
   }
 
   span {
