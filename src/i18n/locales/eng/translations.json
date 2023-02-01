@@ -118,8 +118,8 @@
   "and_our_professional-text": "and our professional team will reach out to you in minutes.",
   "Calculate-text": "Calculate your potential ",
   "profit-text": "profit after HawX solutions!",
-  "Monthly-Active-Players-text": "Monthly Active Players",
-  "Monthly-New-Players-text": "Monthly New Players",
+  "Monthly-Depositors-text": "Monthly Depositors",
+  "Monthly-Registrations-text": "Monthly Registrations",
   "Average-GGR-per-User-(AGPU)-text": "Average GGR per User (AGPU)",
   "Current-monthly-GGR-(EURO)-text": "Current monthly GGR (EURO)",
   "Monthly-GGR-(USD)-text": "Monthly GGR (USD)",
@@ -128,7 +128,7 @@
   "Simulating-text": "Simulating...",
   "Done!-text": "Done!",
   "Boosted-text": "Boosted GGR",
-  "increase-by-text": "increase by 112%",
+  "increase-by-text": "increase by",
   "1-year-text": "1 year",
   "You’re-the-lucky-one!-text": "You’re the lucky one!",
   "HawX-is-ready-text": "HawX is ready to be in your service and provide the best of iGaming CRM solutions for free for 2 months!",
@@ -138,6 +138,23 @@
   "Send-text": "Send",
   "Thank-You-text": "Thank You!",
   "We-will-get-text": "We will get in touch soon",
+  "3-mounts-text": "3 months",
+  "6-mounts-text": "6 months",
+  "9-mounts-text": "9 months",
+  "12-mounts-text": "12 months",
+  "24-mounts-text": "24 months",
+  "Asia-text": "Asia",
+  "Africa-text": "Africa",
+  "Europe-text": "Europe",
+  "Eastern-Countries-text": "Eastern Countries",
+  "Latam-text": "Latam",
+  "North-America-text": "North America",
+  "Boosting-Period-text": "Boosting Period",
+  "Select-Market-text": "Select Market",
+  "Select-Period-text": "Select Period",
+  "Period-must-be-selected-text": "Period must be selected",
+  "Market-must-be-selected-text": "Market must be selected",
+  "in-text": "in",
   "news": {
     "news0": {
       "link": "https://forbes.ge/en/giorgi-tsutsqiridzis-startapi-27-qveqhanashi-operirebs/?fbclid=IwAR1tKfXhDblRRN-cTISAArTX2ovs79_dEVWXi1N6KnG349bxi5FolrwZ2XU",
@@ -188,7 +205,6 @@
       "img": "https://i.postimg.cc/6Q8hpvgv/9.png"
     }
   },
-
   "solutions": {
     "crm": {
       "tab0": {

@@ -1,5 +1,8 @@
+@import "src/assets/style";
+
 .P-booster-input {
   width: 100%;
+  position: relative;
 
   .P-label {
     width: 100%;
@@ -19,6 +22,9 @@
     color: #23232f;
     border: 2px solid #BDCDF5;
 
+    &.error {
+      border: 2px solid $red-dark;
+    }
 
     caret-color: #7896E1;
 
@@ -26,5 +32,18 @@
     &:focus {
       border: 2px solid #7896E1;
     }
+  }
+
+  .P-error-text {
+    position: absolute;
+    display: block;
+    right: 0;
+    font-size: 12px;
+    text-align: right;
+    color: $white;
+    border-bottom: 1px solid $red-dark;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
 }

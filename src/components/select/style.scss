@@ -16,14 +16,15 @@
   }
 
   .G-error-label {
-    color: $red-dark;
+    color: $white;
+    border-bottom: 1px solid $red-dark;
     font-size: $font-size-12;
     text-align: right;
     margin-top: 10px;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
-    width: 100%;
+    width: fit-content;
     position: absolute;
     bottom: 0;
     right: 0;
