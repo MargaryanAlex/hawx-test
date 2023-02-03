@@ -124,6 +124,14 @@
         background-color: #F63054;
         color: #ffffff;
 
+        &.disabled {
+          background-color: #a32044;
+
+          &::before {
+            opacity: 0.7;
+          }
+        }
+
         &::before {
           position: absolute;
           z-index: -1;

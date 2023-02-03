@@ -6,13 +6,17 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import LoaderContext from "./context/loader-context";
 
 const root = ReactDOM.createRoot(
     document.getElementById("root") as HTMLElement
 );
 root.render(
     <React.StrictMode>
-        <App/>
+        <LoaderContext>
+
+            <App/>
+        </LoaderContext>
     </React.StrictMode>
 );
 

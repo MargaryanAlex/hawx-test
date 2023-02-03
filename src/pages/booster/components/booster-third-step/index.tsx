@@ -6,6 +6,8 @@ import BoosterButton from "../booster-button";
 import Animation from "src/components/animation";
 import AnimationSideRTL from "src/components/animation/animation-side-rtl";
 import rocket from "src/assets/img/booster/rocket.svg";
+import useValidations from "../../../../hooks/useValidations";
+import EmailAPI from "../../../../utilits/api/email-api";
 
 interface IError {
     name: boolean,
@@ -26,7 +28,9 @@ const BoosterThirdStep: FC<{ onChangeStep: MouseEventHandler<HTMLButtonElement>,
     const title = useRef<HTMLDivElement | null>(null)
     const actions = useRef<HTMLDivElement | null>(null)
     const content = useRef<HTMLDivElement | null>(null)
+    const {isEmpty, isEmail} = useValidations()
     const [opacity, setOpacity] = useState<number>(0)
+    const [isLoading, setIsLoading] = useState<boolean>(false)
     const [error, setError] = useState<IError>({
         name: false,
         email: false
@@ -43,6 +47,21 @@ const BoosterThirdStep: FC<{ onChangeStep: MouseEventHandler<HTMLButtonElement>,
     const handelChange = (event: ChangeEvent<HTMLInputElement>) => {
         setValues({...values, [event.target.name]: event.target.value})
         setError({...error, [event.target.name]: false})
+    }
+    const validationCheck = () => {
+        let validation: boolean = true
+        const errors: IError = {...error}
+
+        if (isEmpty(values.name)) {
+            errors.name = true;
+            validation = false;
+        }
+        if (isEmail(values.email)) {
+            errors.email = true;
+            validation = false;
+        }
+        setError({...errors})
+        return validation
     }
 
     return (<div className={`G-container P-sender`}>
@@ -76,7 +95,17 @@ const BoosterThirdStep: FC<{ onChangeStep: MouseEventHandler<HTMLButtonElement>,
                 </div>
             </div>
             <div className={`P-form P-actions G-justify-center`} ref={actions}>
-                <BoosterButton label={t("Send-text")} onClick={onChangeStep}/>
+                <BoosterButton label={t("Send-text")} isLoading={isLoading} onClick={(e) => {
+                    if (validationCheck()) {
+                        (() => {
+                            setIsLoading(true)
+                            EmailAPI.sendEmail({name: values.name, email: values.email}).then(() => {
+                                onChangeStep(e)
+                            })
+                        })()
+                    }
+                }
+                }/>
             </div>
         </Animation>
 

@@ -54,7 +54,7 @@ function Select<T>({
     useEffect(() => {
         if (value || value === 0) {
             optionsList?.map((item: T) => {
-                Object.entries(item as {[s:string]:unknown}).forEach(
+                Object.entries(item as { [s: string]: unknown }).forEach(
                     ([key, keyValue]) => {
                         if (keyValue === value && key === selectedValueKey) {
                             setValue(item)
@@ -95,7 +95,7 @@ function Select<T>({
         let name = ''
         let isSelected = false;
         let icon = ''
-        Object.entries(item as {[s:string]:unknown}).forEach(
+        Object.entries(item as { [s: string]: unknown }).forEach(
             ([key, itemValue]) => {
                 if (key === selectedNameKey) {
                     name = itemValue as string
@@ -159,8 +159,10 @@ function Select<T>({
         const currentHeight = select.current?.offsetHeight as number
         const parentPosition = (select.current?.offsetParent as HTMLElement).offsetTop as number
         const currentPosition = select.current?.offsetTop as number
-        console.log(currentHeight, parentPosition, currentPosition,window.innerHeight)
-        setDirection(currentPosition + parentPosition + currentHeight + maxHeight > window.innerHeight)
+        const parentElement = (select.current?.parentElement?.parentElement?.offsetParent as HTMLElement).offsetTop as number
+
+        console.log(currentHeight, parentPosition, currentPosition, window.innerHeight, parentElement)
+        setDirection(currentPosition + parentPosition + parentElement + currentHeight + maxHeight > window.innerHeight)
 
     }, [isOpenList])
     const handleClose = (e: MouseEvent) => {

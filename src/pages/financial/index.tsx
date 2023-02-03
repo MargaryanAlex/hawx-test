@@ -44,7 +44,7 @@ const Financial = () => {
         window.scrollTo({top: 0, left: 0, behavior: "smooth"});
     }, []);
     return (
-        <SolutionsLayout loader={loader}>
+        <SolutionsLayout >
 
             <div className="G-solution P-financial">
                 <div className="G-solution-header P-financial-header " ref={title}>

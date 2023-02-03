@@ -45,7 +45,7 @@ const [loader,setLoader]=useState<boolean>(true)
         window.scrollTo({top: 0, left: 0, behavior: "smooth"});
     }, []);
     return (
-        <SolutionsLayout loader={loader}>
+        <SolutionsLayout>
             <div className="G-solution P-crm">
                 <div className="G-solution-header P-crm-header ">
                     <div className="G-container" ref={title}>

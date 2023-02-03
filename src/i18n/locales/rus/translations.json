@@ -120,8 +120,8 @@
   "and_our_professional-text": ", и наша команда свяжется с вами в течение нескольких минут.",
   "Calculate-text": "Рассчитайте свой потенциал",
   "profit-text": "прибыль после решений HawX!",
-  "Monthly-Depositors-text": "Monthly Depositors",
-  "Monthly-Registrations-text": "Monthly Registrations",
+  "Monthly-Depositors-text": "Ежемесячные депозиторы",
+  "Monthly-Registrations-text": "Ежемесячные регистрации",
   "Average-GGR-per-User-(AGPU)-text": "Средний GGR на пользователя (AGPU)",
   "Current-monthly-GGR-(EURO)-text": "Текущий месячный GGR (EURO)",
   "Monthly-GGR-(USD)-text": "Месячный GGR (USD)",
@@ -140,114 +140,24 @@
   "Send-text": "Отправьте",
   "Thank-You-text": "Спасибо!",
   "We-will-get-text": "Мы свяжемся с вами в ближайшее время",
-  "3-mounts-text": "3 mounts",
-  "6-mounts-text": "6 mounts",
-  "9-mounts-text": "9 mounts",
-  "12-mounts-text": "12 mounts",
-  "24-mounts-text": "24 mounts",
-  "Asia-text": "Asia",
-  "Africa-text": "Africa",
-  "Europe-text": "Europe",
-  "Eastern-Countries-text": "Eastern Countries",
-  "Latam-text": "Latam",
-  "North-America-text": "North America",
-  "news": {
-    "news0": {
-      "link": "https://forbes.ge/en/giorgi-tsutsqiridzis-startapi-27-qveqhanashi-operirebs/?fbclid=IwAR1tKfXhDblRRN-cTISAArTX2ovs79_dEVWXi1N6KnG349bxi5FolrwZ2XU",
-      "newsTitle": "July 28, 2022 | Tamta Jijavadze",
-      "newsContent": "Giorgi Tsutskiridze's Startup Operates in 27 Countries • Forbes ...",
-      "img": "https://i.postimg.cc/SK2nRdsh/f.png"
-    },
-    "news1": {
-      "link": "",
-      "newsTitle": "",
-      "newsContent": "HawX will be attending on SBC Summit Barcelona to take your iGaming CRM to the next level",
-      "img": "https://i.postimg.cc/K4XvKChG/Barcelona-summit.png"
-    },
-    "news2": {
-      "link": "https://gbc-time.com/everything-you-ever-wanted-to-know-about-hawx-igaming-tech-startup",
-      "newsTitle": "Sep 14, 2022  | Press Release",
-      "newsContent": "Everything You Ever Wanted to Know about HawX – iGaming Tech Startup ...",
-      "img": "https://i.postimg.cc/hj9Q6Ctg/GBC-INTERVIEW-GIORGI.png"
-    },
-    "news3": {
-      "link": "",
-      "newsTitle": "",
-      "newsContent": "HawX exhibited at SiGMA - World's iGaming festival. We had a beautiful stand there. We met our partners and clients and discussed ...",
-      "img": "https://i.postimg.cc/4dXmMgHN/sigma-hawx.png"
-    },
-    "news4": {
-      "link": "https://sigma.world/news/top-customer-care-a-must-to-get-ahead-in-georgia/?fbclid=IwAR3ISYdkn8T1WYmmfT_bXQtu_YwG-Pgp2IFR9Qsw7hNRijdpktcQV1KwsoY",
-      "newsTitle": "Oct 13, 2020  | Press Release",
-      "newsContent": "iGaming veteran and entrepreneur Giorgi Tsutskiridze speaks about the future",
-      "img": "https://i.postimg.cc/FFkPFZw5/GIORGI-SIGMA-EUROPE1.jpg"
-    },
-    "news5": {
-      "link": "https://sigma.world/news/hawx/",
-      "newsTitle": "Nov 08, 2020  | Press Release",
-      "newsContent": "Taking your iGaming business to the HawX level SiGMA News is the up ...",
-      "img": "https://i.postimg.cc/KYtKhy5M/igb-web1.png"
-    },
-    "news6": {
-      "link": "",
-      "newsTitle": "",
-      "newsContent": "HawX is attending at iGB Live (Amsterdam)",
-      "img": "https://i.postimg.cc/9Q73wrvv/0.png"
-    },
-    "news7": {
-      "link": "",
-      "newsTitle": "",
-      "newsContent": "HawX is attending at G2G Asia (Singapore)",
-      "img": "https://i.postimg.cc/6Q8hpvgv/9.png"
-    }
-  },
-  "mentions": {
-    "mention0": {
-      "img": "https://i.postimg.cc/R0hJGF40/betforward.png",
-      "content": {
-        "text0": "Мы начали работать с HawX с услуг CRM, затем доверили им управление Sport рисками, управление продуктами и управление веб-сайтами. ",
-        "text1": " В результате после 1 года работы с HawX мы с большой уверенностью начали 2021 год и добились потрясающих результатов."
-      },
-      "name": "Mr Tom",
-      "role": "CEO"
-    },
-    "mention1": {
-      "img": "https://i.postimg.cc/L4JXW7cx/ciwinz.png",
-      "content": {
-        "text0": "HawX изменил экосистему нашего бизнеса. Больше всего я уважаю оперативность, гибкость и качество их обслуживания; Они строят долгосрочные планы и предельно прозрачны и профессиональны при обсуждении результатов.",
-        "text1": "Это ключевые особенности, которые делают HawX нашим надежным и стабильным партнером."
-      },
-      "name": "Mr Azad",
-      "role": "CMO"
-    },
-    "mention2": {
-      "img": "https://i.postimg.cc/gjcw9zfx/medina.png",
-      "content": {
-        "text0": "HawX взял CRM в свои руки за очень короткий промежуток времени и результат превзошел все наши ожидания. ",
-        "text1": "Наш NGR увеличился, и, что самое удивительное, уровень удержания подскочил до 75%."
-      },
-      "name": "Mr Rabi",
-      "role": "CEO"
-    },
-    "mention3": {
-      "img": "https://i.postimg.cc/JhP2QG70/jack998.png",
-      "content": {
-        "text0": "HawX — надежный партнер, который приносит успех бизнесу. ",
-        "text1": "Их работа обеспечивает нашим пользователям комфорт и отличный пользовательский опыт, что приводит к увеличению числа лояльных пользователей."
-      },
-      "name": "Mr Vincent",
-      "role": "CEO"
-    },
-    "mention4": {
-      "img": "https://i.postimg.cc/jdf6TX6f/betnomi.png",
-      "content": {
-        "text0": "Я считаю, что сила HawX заключается в коммуникационных стратегиях, которые у них есть для каждого пользователя, и в качестве их предоставления наиболее привлекательным и ориентированным способом.",
-        "text1": ""
-      },
-      "name": "Mr Sorsis",
-      "role": "CEO"
-    }
-  },
+  "3-mounts-text": "3 месяца",
+  "6-mounts-text": "6 месяцев",
+  "9-mounts-text": "9 месяцев",
+  "12-mounts-text": "12 месяцев",
+  "24-mounts-text": "24 месяца",
+  "Asia-text": "Азия",
+  "Africa-text": "Африка",
+  "Europe-text": "Европа",
+  "Eastern-Countries-text": "Восточные страны",
+  "Latam-text": "Латинская Америка",
+  "North-America-text": "Северная Америка",
+  "Boosting-Period-text": "Период усиления",
+  "Select-Market-text": "Выберите рынок",
+  "Select-Period-text": "Выберите период",
+  "Period-must-be-selected-text": "Необходимо выбрать период",
+  "Market-must-be-selected-text": "Необходимо выбрать рынок",
+  "in-text": "в",
+
   "solutions": {
     "crm": {
       "tab0": {

@@ -6,11 +6,10 @@ import {RouteNames} from "src/router";
 import Slider from "react-slick";
 import next from "../../assets/img/mentions/next.png";
 import prev from "../../assets/img/mentions/prev.png";
-import {useContext, useEffect, useRef, useState} from "react";
+import {useContext, useRef} from "react";
 import Animation from "../animation";
-import axios from "axios"
-import {INewsModel} from "src/models/news.model";
 import {LanguageContext} from "../../context/language-context";
+import {NewsContext} from "../../context/news-context";
 
 
 function SampleNextArrow(props: any) {
@@ -26,7 +25,7 @@ function SamplePrevArrow({...props}: any) {
     const {className, onClick} = props;
     return (
         <div className={className} onClick={onClick}>
-            <img src={prev} alt="previus"/>
+            <img src={prev} alt="previous"/>
         </div>
     );
 }
@@ -34,7 +33,7 @@ function SamplePrevArrow({...props}: any) {
 const NewsSection = () => {
     const {t} = useTranslation();
     const news = useRef<HTMLDivElement | null>(null)
-    const [data, setData] = useState<INewsModel[]>([])
+    const {data, setData} = useContext(NewsContext)
     const language = useContext(LanguageContext)
 
     const settings = {
@@ -87,24 +86,6 @@ const NewsSection = () => {
     };
 
 
-    useEffect(() => {
-        axios.get("https://hawx-back.onrender.com/news", {
-            headers: {
-                'Access-Control-Allow-Origin': '*',
-                'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
-            }
-        }).then((res) => {
-            console.log(res.data)
-            setData([...res.data])
-            res.data.map((item: INewsModel) => {
-
-            })
-        }).catch((err) => {
-            console.log(err)
-        })
-    }, [])
-
-
     return (
         <div className="P-NewsSection" ref={news}>
             <Animation element={news}>
@@ -115,7 +96,7 @@ const NewsSection = () => {
 
                         <Slider {...settings}>
 
-                            {data.sort((a, b) => a.order - b.order).map((item, index) => {
+                            {data.map((item, index) => {
                                 if (index < 10) {
                                     return (
                                         <div className="P-card" key={index}>

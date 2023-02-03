@@ -16,7 +16,7 @@ import SolutionsLayout from "src/layout/solutionsLayout";
 
 const imgs = [img1, img2, img3, img4, img5, img6, img7];
 const Website = () => {
-    const [loader,setLoader]=useState<boolean>(true)
+    const [loader, setLoader] = useState<boolean>(true)
     const settings = {
         customPaging: function (i: number) {
             return (
@@ -47,7 +47,7 @@ const Website = () => {
         window.scrollTo({top: 0, left: 0, behavior: "smooth"});
     }, []);
     return (
-        <SolutionsLayout loader={loader}>
+        <SolutionsLayout>
 
             <div className="G-solution P-website">
                 <div className="G-solution-header P-website-header ">

@@ -3,7 +3,6 @@ import {ISelectedList} from "./components/booster-select";
 import {useTranslation} from "react-i18next";
 
 
-
 const useBooster = () => {
     const [transform, setTransform] = useState<string>("translate(0,0) scale(1)")
     const [step, setStep] = useState<number>(0)
@@ -57,8 +56,6 @@ const useBooster = () => {
             name: t("North-America-text"),
             value: 1,
         },
-
-
 
 
     ]

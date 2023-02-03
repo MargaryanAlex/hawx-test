@@ -13,9 +13,10 @@ import nadusa from "src/assets/img/aboutUs/nadusa.jpg";
 import rafael from "src/assets/img/aboutUs/rafael.jpg";
 import avo from "src/assets/img/aboutUs/avo.png";
 import vov from "src/assets/img/aboutUs/vov.png";
-import {useEffect, useRef} from "react";
+import {useContext, useEffect, useRef} from "react";
 import Animation from "../../components/animation";
 import Calculation from "../../components/animation/calculation";
+import {LoaderContext} from "../../context/loader-context";
 
 const leadership = [
     {
@@ -74,11 +75,13 @@ const AboutUs = () => {
     let container = useRef<HTMLDivElement | null>(null)
     let calc = useRef<HTMLDivElement | null>(null)
     const {t} = useTranslation();
+    const {setLoader} = useContext(LoaderContext)
     const goTo: (url: string) => void = (url) => {
         (window.open(url, "_blank") as Window).focus();
     };
     useEffect(() => {
         window.scrollTo({top: 0, left: 0, behavior: "smooth"});
+
     }, []);
     return (
         <div className="P-about-us">

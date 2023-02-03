@@ -1,9 +1,10 @@
 import {useTranslation} from "react-i18next";
 import NewsCard from "src/components/newsCard";
 import "./style.scss";
-import jsonFile from "src/i18n/locales/eng/translations.json";
-import {useEffect, useRef, useState} from "react";
+import {useContext, useEffect, useRef, useState} from "react";
 import Animation from "../../components/animation";
+import {NewsContext} from "../../context/news-context";
+import {LanguageContext} from "../../context/language-context";
 
 const News = () => {
     const {t} = useTranslation();
@@ -11,6 +12,8 @@ const News = () => {
     let newsContainer = useRef<HTMLDivElement | null>(null)
     const [width, setWidth] = useState<number>(window.innerWidth);
     const [count, setCount] = useState<number>(4);
+    const {data} = useContext(NewsContext)
+    const {language} = useContext(LanguageContext)
     useEffect(() => {
         window.scrollTo({top: 0, left: 0, behavior: "smooth"});
     }, []);
@@ -46,16 +49,16 @@ const News = () => {
                     <h3>{t("LASTEST-text")}</h3>
                     <div className="P-news-container" ref={newsContainer}>
 
-                        {Object.values(jsonFile.news).map((item, index) => {
+                        {data.map((item, index) => {
                             if (width > 582 || index < count) {
                                 return (
                                     <div className="P-card" key={index}>
                                         <Animation element={newsContainer}>
 
                                             <NewsCard
-                                                img={item.img}
-                                                title={t(`news.news${index}.newsTitle`)}
-                                                content={t(`news.news${index}.newsContent`)}
+                                                img={item.smallThumbnail}
+                                                title={item.newsTitle[language]}
+                                                content={item.newsContent[language]}
                                                 link={item.link}
                                             />
                                         </Animation>

@@ -8,14 +8,19 @@ class NewsAPI {
     };
 
     static getNews = () => {
+
         return RequestService.GET<null, INewsModel[]>('news')
     }
     static updateNews = (id: string, data: INewsModel) => {
         return RequestService.PATCH<INewsModel, ISuccessResponse>('news/' + id, data)
     }
+    static updateNewsOrder = (data: INewsModel[]) => {
+        return RequestService.PATCH<INewsModel[], { data: INewsModel[] }>('news/', data)
+
+    }
 
     static getNewsById = (id: string) => {
-        return RequestService.GET<null, INewsModel>('news/'+id)
+        return RequestService.GET<null, INewsModel>('news/' + id)
     }
 }
 

@@ -46,7 +46,7 @@ const Product = () => {
         window.scrollTo({top: 0, left: 0, behavior: "smooth"});
     }, []);
     return (
-        <SolutionsLayout loader={loader}>
+        <SolutionsLayout >
 
             <div className="G-solution P-product">
                 <div className="G-solution-header P-product-header " ref={title}>
