@@ -39,8 +39,8 @@
   font-size: $font-size-14;
   background-color: #ffffff;
   border: 2px solid #92A9E1;
-  -webkit-transition: $transition;
   transition:all $transition;
+  -webkit-transition: $transition;
   display: flex;
   align-items: center;
   position: relative;
@@ -83,8 +83,8 @@
     right: 10px;
     top: 50%;
     transform: translateY(-50%);
-    -webkit-transition: $transition;
     transition:all $transition;
+    -webkit-transition: $transition;
 
     &.icon-close {
       font-size: 10px;
@@ -128,8 +128,8 @@
     li {
       padding: 5px 15px;
       cursor: pointer;
-      -webkit-transition: $transition;
       transition:all $transition;
+      -webkit-transition: $transition;
 
       &.G-selected-item {
         background-color: $grey-40 !important;

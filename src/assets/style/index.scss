@@ -85,8 +85,8 @@ html[lang="ru"] * {
 }
 
 .slideInDown.animation {
-  -webkit-transition: 1s cubic-bezier(1, 0, 1, 1);
   transition:all 1s cubic-bezier(1, 0, 1, 1);
+  -webkit-transition: 1s cubic-bezier(1, 0, 1, 1);
   opacity: 1;
   animation: __slideInDown 2s forwards;
   -webkit-animation: __slideInDown 2s forwards;
@@ -94,8 +94,8 @@ html[lang="ru"] * {
 }
 
 .slideToRight.animation {
-  -webkit-transition: 1s cubic-bezier(1, 0, 1, 1);
   transition:all 1s cubic-bezier(1, 0, 1, 1);
+  -webkit-transition: 1s cubic-bezier(1, 0, 1, 1);
   opacity: 1;
   animation: __slideToRight 2s forwards;
   -webkit-animation: __slideToRight 2s forwards;
@@ -124,8 +124,8 @@ html[lang="ru"] * {
 }
 
 .slideToLeft.animation {
-  -webkit-transition: 1s cubic-bezier(1, 0, 1, 1);
   transition:all 1s cubic-bezier(1, 0, 1, 1);
+  -webkit-transition: 1s cubic-bezier(1, 0, 1, 1);
 
   animation: __slideToLeft 2s forwards;
   -webkit-animation: __slideToLeft 2s forwards;
