@@ -5,8 +5,8 @@
   padding: 40px 0 40px;
   background: transparent;
   z-index: 99;
+  -webkit-transition:  0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
-  -webkit-transition: -webkit-all 0.5s ease-in-out;
 
 
   .P-text {
@@ -27,8 +27,8 @@
     background-color: $blue;
     bottom: -10px;
     transform: translateX(-50%);
+    -webkit-transition:  0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
-    -webkit-transition: -webkit-all 0.5s ease-in-out;
   }
 
 
@@ -149,8 +149,8 @@
           max-height: 0;
           position: absolute;
           white-space: nowrap;
+          -webkit-transition:  0.4s ease-in-out;
           transition: all 0.4s ease-in-out;
-          -webkit-transition: -webkit-all 0.4s ease-in-out;
           box-sizing: border-box;
           border: 0px solid #dbdbdb;
           box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.05);
@@ -159,8 +159,8 @@
 
           ul {
             display: block;
+            -webkit-transition:  0.4s ease-in-out;
             transition: all 0.4s ease-in-out;
-            -webkit-transition: -webkit-all 0.4s ease-in-out;
             max-height: 0;
             overflow: hidden;
             width: fit-content;
@@ -221,8 +221,8 @@
 
   .P-mobile-menu {
     position: fixed;
+    -webkit-transition:  0.7s ease-in-out;
     transition: all 0.7s ease-in-out;
-    -webkit-transition: -webkit-all 0.7s ease-in-out;
     z-index: 99;
     top: 0;
     left: 100%;
@@ -240,8 +240,8 @@
       overflow: hidden;
 
       span {
+        -webkit-transition:  0.7s ease-in-out;
         transition: all 0.7s ease-in-out;
-        -webkit-transition: -webkit-all 0.7s ease-in-out;
         position: fixed;
         top: -50%;
         right: -50%;
@@ -325,15 +325,16 @@
           width: 100%;
           max-height: 0;
           white-space: nowrap;
+          -webkit-transition:  0.4s ease-in-out;
           transition: all 0.4s ease-in-out;
-          -webkit-transition: -webkit-all 0.4s ease-in-out;
           border-radius: 15px;
           right: -100%;
           //   box-shadow: 0px 0px 150px 13px rgba(0, 0, 0, 0.1);
           ul {
             display: block;
+            -webkit-transition:  0.4s ease-in-out;
             transition: all 0.4s ease-in-out;
-            -webkit-transition: -webkit-all 0.4s ease-in-out;
+
             max-height: 0;
             overflow: hidden;
             width: fit-content;
@@ -372,8 +373,9 @@
         background: #ffffff;
         border-radius: 4px;
         box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.05);
+        -webkit-transition:  0.4s ease-in-out;
         transition: all 0.4s ease-in-out;
-        -webkit-transition: -webkit-all 0.4s ease-in-out;
+
         max-height: 0;
         overflow: hidden;
         border: 0px solid #dbdbdb;

@@ -73,8 +73,8 @@ code {
   // top        : 20px;
   cursor: pointer;
   transform: rotate(45deg);
+  -webkit-transition: 0.3s;
   transition: 0.3s;
-  -webkit-transition:-webkit-all 0.3s;
 
   &::before {
     content: "";
@@ -86,8 +86,8 @@ code {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    -webkit-transition: $transition;
     transition: $transition;
-    -webkit-transition:-webkit-all $transition;
   }
 
   &::after {
@@ -99,8 +99,8 @@ code {
     position: absolute;
     left: 50%;
     top: 50%;
+    -webkit-transition: $transition;
     transition: $transition;
-    -webkit-transition:-webkit-all $transition;
     transform: translate(-50%, -50%) rotate(90deg);
   }
 }
