@@ -41,9 +41,9 @@
   border: 2px solid #92A9E1;
   -webkit-transition: $transition;
   transition: all $transition;
- -moz-transition: all $transition;
- -ms-transition:  all $transition;
- -o-transition:   all $transition;
+  -moz-transition: all $transition;
+  -ms-transition: all $transition;
+  -o-transition: all $transition;
   @include screen-max-width-991 {
     -webkit-transition: none !important;
     transition: none !important;
