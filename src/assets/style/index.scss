@@ -143,6 +143,7 @@ html[lang="ru"] * {
   -moz-transition: all 1s cubic-bezier(1, 0, 1, 1);
   -ms-transition: all 1s cubic-bezier(1, 0, 1, 1);
   -o-transition: all 1s cubic-bezier(1, 0, 1, 1);
+  opacity: 1;
 
   animation: __slideToLeft 2s forwards;
   -webkit-animation: __slideToLeft 2s forwards;
