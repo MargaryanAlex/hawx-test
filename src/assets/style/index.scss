@@ -82,11 +82,11 @@ html[lang="ru"] * {
 .animation {
   opacity: 0;
   @include screen-max-width-991 {
-    -webkit-transition: none;
-    transition: none;
-    -moz-transition: none;
-    -ms-transition: none;
-    -o-transition: none;
+    -webkit-transition: none !important;
+    transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
   }
 
 }

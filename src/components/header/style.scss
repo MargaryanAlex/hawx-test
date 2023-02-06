@@ -10,6 +10,13 @@
   -moz-transition: all 0.5s ease-in-out;
   -ms-transition:  all 0.5s ease-in-out;
   -o-transition:   all 0.5s ease-in-out;
+  @include screen-max-width-991 {
+    -webkit-transition: none !important;
+    transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+  }
 
 
   .P-text {
@@ -32,6 +39,13 @@
     transform: translateX(-50%);
     -webkit-transition:  0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
+    @include screen-max-width-991 {
+      -webkit-transition: none !important;
+      transition: none !important;
+      -moz-transition: none !important;
+      -ms-transition: none !important;
+      -o-transition: none !important;
+    }
   }
 
 
@@ -157,6 +171,13 @@
           -moz-transition: all 0.4s ease-in-out;
           -ms-transition:  all 0.4s ease-in-out;
           -o-transition:   all 0.4s ease-in-out;
+          @include screen-max-width-991 {
+            -webkit-transition: none !important;
+            transition: none !important;
+            -moz-transition: none !important;
+            -ms-transition: none !important;
+            -o-transition: none !important;
+          }
           box-sizing: border-box;
           border: 0px solid #dbdbdb;
           box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.05);
@@ -170,6 +191,13 @@
             -moz-transition: all 0.4s ease-in-out;
             -ms-transition:  all 0.4s ease-in-out;
             -o-transition:   all 0.4s ease-in-out;
+            @include screen-max-width-991 {
+              -webkit-transition: none !important;
+              transition: none !important;
+              -moz-transition: none !important;
+              -ms-transition: none !important;
+              -o-transition: none !important;
+            }
             max-height: 0;
             overflow: hidden;
             width: fit-content;
@@ -235,6 +263,13 @@
     -moz-transition: all 0.7s ease-in-out;
     -ms-transition:  all 0.7s ease-in-out;
     -o-transition:   all 0.7s ease-in-out;
+    @include screen-max-width-991 {
+      -webkit-transition: none !important;
+      transition: none !important;
+      -moz-transition: none !important;
+      -ms-transition: none !important;
+      -o-transition: none !important;
+    }
     z-index: 99;
     top: 0;
     left: 100%;
@@ -257,6 +292,13 @@
        -moz-transition: all 0.7s ease-in-out;
        -ms-transition:  all 0.7s ease-in-out;
        -o-transition:   all 0.7s ease-in-out;
+        @include screen-max-width-991 {
+          -webkit-transition: none !important;
+          transition: none !important;
+          -moz-transition: none !important;
+          -ms-transition: none !important;
+          -o-transition: none !important;
+        }
         position: fixed;
         top: -50%;
         right: -50%;
@@ -345,6 +387,13 @@
           -moz-transition: all 0.4s ease-in-out;
           -ms-transition:  all 0.4s ease-in-out;
           -o-transition:   all 0.4s ease-in-out;
+          @include screen-max-width-991 {
+            -webkit-transition: none !important;
+            transition: none !important;
+            -moz-transition: none !important;
+            -ms-transition: none !important;
+            -o-transition: none !important;
+          }
           border-radius: 15px;
           right: -100%;
           //   box-shadow: 0px 0px 150px 13px rgba(0, 0, 0, 0.1);
@@ -355,7 +404,13 @@
            -moz-transition:all 0.4s ease-in-out;
            -ms-transition: all 0.4s ease-in-out;
            -o-transition:  all 0.4s ease-in-out;
-
+            @include screen-max-width-991 {
+              -webkit-transition: none !important;
+              transition: none !important;
+              -moz-transition: none !important;
+              -ms-transition: none !important;
+              -o-transition: none !important;
+            }
             max-height: 0;
             overflow: hidden;
             width: fit-content;
@@ -399,7 +454,13 @@
         -moz-transition: all 0.4s ease-in-out;
         -ms-transition:  all 0.4s ease-in-out;
         -o-transition:   all 0.4s ease-in-out;
-
+        @include screen-max-width-991 {
+          -webkit-transition: none !important;
+          transition: none !important;
+          -moz-transition: none !important;
+          -ms-transition: none !important;
+          -o-transition: none !important;
+        }
         max-height: 0;
         overflow: hidden;
         border: 0px solid #dbdbdb;

@@ -44,6 +44,13 @@
  -moz-transition: all $transition;
  -ms-transition:  all $transition;
  -o-transition:   all $transition;
+  @include screen-max-width-991 {
+    -webkit-transition: none !important;
+    transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+  }
   display: flex;
   align-items: center;
   position: relative;
@@ -91,6 +98,13 @@
     -moz-transition: all $transition;
     -ms-transition: all $transition;
     -o-transition: all $transition;
+    @include screen-max-width-991 {
+      -webkit-transition: none !important;
+      transition: none !important;
+      -moz-transition: none !important;
+      -ms-transition: none !important;
+      -o-transition: none !important;
+    }
 
     &.icon-close {
       font-size: 10px;
@@ -139,6 +153,13 @@
       -moz-transition: all $transition;
       -ms-transition: all $transition;
       -o-transition: all $transition;
+      @include screen-max-width-991 {
+        -webkit-transition: none !important;
+        transition: none !important;
+        -moz-transition: none !important;
+        -ms-transition: none !important;
+        -o-transition: none !important;
+      }
 
       &.G-selected-item {
         background-color: $grey-40 !important;

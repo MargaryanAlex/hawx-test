@@ -78,6 +78,13 @@ code {
   -moz-transition: 0.3s;
   -ms-transition:  0.3s;
   -o-transition:   0.3s;
+  @include screen-max-width-991 {
+    -webkit-transition: none !important;
+    transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+  }
 
   &::before {
     content: "";
@@ -94,6 +101,13 @@ code {
     -moz-transition: $transition;
     -ms-transition:  $transition;
     -o-transition:   $transition;
+    @include screen-max-width-991 {
+      -webkit-transition: none !important;
+      transition: none !important;
+      -moz-transition: none !important;
+      -ms-transition: none !important;
+      -o-transition: none !important;
+    }
   }
 
   &::after {
@@ -111,6 +125,13 @@ code {
     -ms-transition:  $transition;
     -o-transition:   $transition;
     transform: translate(-50%, -50%) rotate(90deg);
+    @include screen-max-width-991 {
+      -webkit-transition: none !important;
+      transition: none !important;
+      -moz-transition: none !important;
+      -ms-transition: none !important;
+      -o-transition: none !important;
+    }
   }
 }
 

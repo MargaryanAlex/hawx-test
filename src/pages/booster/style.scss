@@ -33,7 +33,7 @@
     transition: all 5s ease-in-out;
     -moz-transition: all 5s ease-in-out;
     -ms-transition: all 5s ease-in-out;
-    -o-transition:  all 5s ease-in-out;
+    -o-transition: all 5s ease-in-out;
     z-index: -1px;
     position: absolute;
     background: #01E1FF;
@@ -44,6 +44,14 @@
     opacity: 0.7;
   }
 
+  @include screen-max-width-991 {
+    -webkit-transition: none !important;
+    transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+  }
+
   .animation:has(.P-content) {
     .P-content {
       -webkit-transition: 0.2s ease-in-out;
@@ -51,6 +59,14 @@
       -moz-transition: all 0.2s ease-in-out;
       -ms-transition: all 0.2s ease-in-out;
       -o-transition: all 0.2s ease-in-out;
+    }
+
+    @include screen-max-width-991 {
+      -webkit-transition: none !important;
+      transition: none !important;
+      -moz-transition: none !important;
+      -ms-transition: none !important;
+      -o-transition: none !important;
     }
 
     animation-delay: 0.2s;
@@ -226,6 +242,13 @@
           -moz-transition: all 1s ease-in-out;
           -ms-transition: all 1s ease-in-out;
           -o-transition: all 1s ease-in-out;
+          @include screen-max-width-991 {
+            -webkit-transition: none !important;
+            transition: none !important;
+            -moz-transition: none !important;
+            -ms-transition: none !important;
+            -o-transition: none !important;
+          }
 
           &.half {
             max-width: 30%;
