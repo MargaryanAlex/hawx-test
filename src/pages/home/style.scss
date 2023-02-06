@@ -272,8 +272,23 @@
   }
 }
 
+:is(.P-solution, .P-card) .slideInDown.animation {
+  @include screen-max-width-991 {
+    animation-delay: unset !important;
+    -webkit-transition: none !important;
+    transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+  }
+}
+
 :is(.P-solution:nth-child(2), .P-card:nth-child(2)) .slideInDown.animation {
   animation-delay: 0.1s;
+  @include screen-max-width-991 {
+    animation-delay: unset;
+
+  }
 }
 
 :is(.P-solution:nth-child(3), .P-card:nth-child(3)) .slideInDown.animation {

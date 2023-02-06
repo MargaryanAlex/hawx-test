@@ -81,6 +81,13 @@ html[lang="ru"] * {
 
 .animation {
   opacity: 0;
+  @include screen-max-width-991 {
+    -webkit-transition: none;
+    transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+  }
 
 }
 
@@ -88,20 +95,21 @@ html[lang="ru"] * {
   -webkit-transition: 1s cubic-bezier(1, 0, 1, 1);
   transition: all 1s cubic-bezier(1, 0, 1, 1);
   -moz-transition: all 1s cubic-bezier(1, 0, 1, 1);
-  -ms-transition:  all 1s cubic-bezier(1, 0, 1, 1);
-  -o-transition:   all 1s cubic-bezier(1, 0, 1, 1);
+  -ms-transition: all 1s cubic-bezier(1, 0, 1, 1);
+  -o-transition: all 1s cubic-bezier(1, 0, 1, 1);
   opacity: 1;
   animation: __slideInDown 2s forwards;
   -webkit-animation: __slideInDown 2s forwards;
   width: 100%;
+
 }
 
 .slideToRight.animation {
   -webkit-transition: 1s cubic-bezier(1, 0, 1, 1);
   transition: all 1s cubic-bezier(1, 0, 1, 1);
-  -moz-transition:all 1s cubic-bezier(1, 0, 1, 1);
+  -moz-transition: all 1s cubic-bezier(1, 0, 1, 1);
   -ms-transition: all 1s cubic-bezier(1, 0, 1, 1);
-  -o-transition:  all 1s cubic-bezier(1, 0, 1, 1);
+  -o-transition: all 1s cubic-bezier(1, 0, 1, 1);
   opacity: 1;
   animation: __slideToRight 2s forwards;
   -webkit-animation: __slideToRight 2s forwards;
