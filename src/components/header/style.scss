@@ -237,23 +237,20 @@
 
   .P-mobile-menu.active {
     left: 0;
-    animation: __Open 1s forwards ;
 
     .P-background {
       span {
-        animation: __backgroundOpen 1s forwards ;
-
+        max-height: 200vh;
+        max-width: 200vw;
       }
     }
   }
 
   .P-mobile-menu.close {
-    animation: __Close 1s forwards ;
-
     .P-background {
       span {
-        animation: __backgroundClose 1s forwards;
-
+        max-height: 50vh;
+        max-width: 50vw;
       }
     }
   }
@@ -322,7 +319,8 @@
         height: 200%;
         border-radius: 50vh;
         z-index: 0;
-
+        max-width: 50vw;
+        max-height: 50vh;
       }
     }
 
@@ -491,50 +489,4 @@
       }
     }
   }
-}
-
-
-@keyframes __backgroundOpen {
-  0% {
-    max-width: 50vw;
-    max-height: 50vh;
-  }
-  100% {
-    max-height: 200vh;
-    max-width: 200vw;
-  }
-
-}
-
-@keyframes __Open {
-  0% {
-    transform: translateX(100%);
-  }
-  70% {
-    transform: translateX(0);
-
-  }
-
-}
-@keyframes __Close {
-  0% {
-    transform: translateX(0);
-  }
-  70% {
-    transform: translateX(100%);
-
-  }
-
-}
-@keyframes __backgroundClose {
-
-  0% {
-    max-height: 200vh;
-    max-width: 200vw;
-  }
-  100% {
-    max-width: 50vw;
-    max-height: 50vh;
-  }
-
 }
