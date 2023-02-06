@@ -277,32 +277,47 @@
 }
 
 :is(.P-solution:nth-child(3), .P-card:nth-child(3)) .slideInDown.animation {
-  transition-duration: 1.2s;
   -webkit-transition-duration: 1.2s;
+  transition-duration: 1.2s;
+  -moz-transition-duration: 1.2s;
+  -ms-transition-duration: 1.2s;
+  -o-transition-duration: 1.2s;
   animation-delay: 0.2s;
 }
 
 .P-solution:nth-child(4) .slideInDown.animation {
-  transition-duration: 1.4s;
   -webkit-transition-duration: 1.4s;
+  transition-duration: 1.4s;
+  -moz-transition-duration: 1.4s;
+  -ms-transition-duration: 1.4s;
+  -o-transition-duration: 1.4s;
   animation-delay: 0.3s;
 }
 
 .P-solution:nth-child(5) .slideInDown.animation {
-  transition-duration: 1.6s;
   -webkit-transition-duration: 1.6s;
+  transition-duration: 1.6s;
+  -moz-transition-duration: 1.6s;
+  -ms-transition-duration: 1.6s;
+  -o-transition-duration: 1.6s;
   animation-delay: 0.4s;
 }
 
 .P-solution:nth-child(6) .slideInDown.animation {
-  transition-duration: 1.8s;
   -webkit-transition-duration: 1.8s;
+  transition-duration: 1.8s;
+  -moz-transition-duration: 1.8s;
+  -ms-transition-duration: 1.8s;
+  -o-transition-duration: 1.8s;
   animation-delay: 0.6s;
 }
 
 .P-solution:nth-child(7) .slideInDown.animation {
-  transition-duration: 2s;
   -webkit-transition-duration: 2s;
+  transition-duration: 2s;
+  -ms-transition-duration: 2s;
+  -moz-transition-duration: 2s;
+  -o-transition-duration: 2s;
   animation-delay: 0.7s;
 }
 

@@ -45,9 +45,12 @@
     height: auto;
     width: 100%;
     display: block;
-    transition: all 0.3s ease-out;
-    //max-height: 135px;
     -webkit-transition:  0.3s ease-out;
+    transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition:  all 0.3s ease-out;
+    -o-transition:   all 0.3s ease-out;
+    //max-height: 135px;
   }
 
   span {

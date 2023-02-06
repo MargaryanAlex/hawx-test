@@ -29,8 +29,11 @@
   }
 
   .P-blur {
+    -webkit-transition: 5s ease-in-out;
     transition: all 5s ease-in-out;
-    -webkit-transition:  5s ease-in-out;
+    -moz-transition: all 5s ease-in-out;
+    -ms-transition: all 5s ease-in-out;
+    -o-transition:  all 5s ease-in-out;
     z-index: -1px;
     position: absolute;
     background: #01E1FF;
@@ -43,8 +46,11 @@
 
   .animation:has(.P-content) {
     .P-content {
+      -webkit-transition: 0.2s ease-in-out;
       transition: all 0.2s ease-in-out;
-      -webkit-transition:  0.2s ease-in-out;
+      -moz-transition: all 0.2s ease-in-out;
+      -ms-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out;
     }
 
     animation-delay: 0.2s;
@@ -215,8 +221,11 @@
           max-width: 20px;
           height: 20px;
           background-color: #389DDA;
+          -webkit-transition: all 1s ease-in-out;
           transition: all 1s ease-in-out;
-          -webkit-transition:  1s ease-in-out;
+          -moz-transition: all 1s ease-in-out;
+          -ms-transition: all 1s ease-in-out;
+          -o-transition: all 1s ease-in-out;
 
           &.half {
             max-width: 30%;
