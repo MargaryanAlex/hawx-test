@@ -21,7 +21,7 @@ const MobileHeader = () => {
             />
             <div
                 className={
-                    onHover ? "active P-mobile-menu" : "P-mobile-menu"
+                    onHover ? "active P-mobile-menu" : "P-mobile-menu close"
                 }
             >
                 <p className={`P-background`}><span/></p>
