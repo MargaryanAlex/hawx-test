@@ -5,11 +5,11 @@
   padding: 40px 0 40px;
   background: transparent;
   z-index: 99;
-  -webkit-transition:  0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
-  -ms-transition:  all 0.5s ease-in-out;
-  -o-transition:   all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
   @include screen-max-width-991 {
     -webkit-transition: none !important;
     transition: none !important;
@@ -37,7 +37,7 @@
     background-color: $blue;
     bottom: -10px;
     transform: translateX(-50%);
-    -webkit-transition:  0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
     @include screen-max-width-991 {
       -webkit-transition: none !important;
@@ -166,11 +166,11 @@
           max-height: 0;
           position: absolute;
           white-space: nowrap;
-          -webkit-transition:  0.4s ease-in-out;
+          -webkit-transition: 0.4s ease-in-out;
           transition: all 0.4s ease-in-out;
           -moz-transition: all 0.4s ease-in-out;
-          -ms-transition:  all 0.4s ease-in-out;
-          -o-transition:   all 0.4s ease-in-out;
+          -ms-transition: all 0.4s ease-in-out;
+          -o-transition: all 0.4s ease-in-out;
           @include screen-max-width-991 {
             -webkit-transition: none !important;
             transition: none !important;
@@ -186,11 +186,11 @@
 
           ul {
             display: block;
-            -webkit-transition:  0.4s ease-in-out;
+            -webkit-transition: 0.4s ease-in-out;
             transition: all 0.4s ease-in-out;
             -moz-transition: all 0.4s ease-in-out;
-            -ms-transition:  all 0.4s ease-in-out;
-            -o-transition:   all 0.4s ease-in-out;
+            -ms-transition: all 0.4s ease-in-out;
+            -o-transition: all 0.4s ease-in-out;
             @include screen-max-width-991 {
               -webkit-transition: none !important;
               transition: none !important;
@@ -257,12 +257,12 @@
   }
 
   .P-mobile-menu {
-    position: fixed;
-    -webkit-transition:  0.7s ease-in-out;
+    position: absolute;
+    -webkit-transition: 0.7s ease-in-out;
     transition: all 0.7s ease-in-out;
     -moz-transition: all 0.7s ease-in-out;
-    -ms-transition:  all 0.7s ease-in-out;
-    -o-transition:   all 0.7s ease-in-out;
+    -ms-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
     @include screen-max-width-991 {
       -webkit-transition: none !important;
       transition: none !important;
@@ -287,11 +287,11 @@
       overflow: hidden;
 
       span {
-        -webkit-transition:  0.7s ease-in-out;
+        -webkit-transition: 0.7s ease-in-out;
         transition: all 0.7s ease-in-out;
-       -moz-transition: all 0.7s ease-in-out;
-       -ms-transition:  all 0.7s ease-in-out;
-       -o-transition:   all 0.7s ease-in-out;
+        -moz-transition: all 0.7s ease-in-out;
+        -ms-transition: all 0.7s ease-in-out;
+        -o-transition: all 0.7s ease-in-out;
         @include screen-max-width-991 {
           -webkit-transition: none !important;
           transition: none !important;
@@ -299,7 +299,7 @@
           -ms-transition: none !important;
           -o-transition: none !important;
         }
-        position: fixed;
+        position: absolute;
         top: -50%;
         right: -50%;
         background-color: $blue;
@@ -335,7 +335,7 @@
     }
 
     .P-top {
-      position: fixed;
+      position: absolute;
       width: 100%;
       z-index: 1;
       top: 0px;
@@ -382,11 +382,11 @@
           width: 100%;
           max-height: 0;
           white-space: nowrap;
-          -webkit-transition:  0.4s ease-in-out;
+          -webkit-transition: 0.4s ease-in-out;
           transition: all 0.4s ease-in-out;
           -moz-transition: all 0.4s ease-in-out;
-          -ms-transition:  all 0.4s ease-in-out;
-          -o-transition:   all 0.4s ease-in-out;
+          -ms-transition: all 0.4s ease-in-out;
+          -o-transition: all 0.4s ease-in-out;
           @include screen-max-width-991 {
             -webkit-transition: none !important;
             transition: none !important;
@@ -399,11 +399,11 @@
           //   box-shadow: 0px 0px 150px 13px rgba(0, 0, 0, 0.1);
           ul {
             display: block;
-            -webkit-transition:  0.4s ease-in-out;
+            -webkit-transition: 0.4s ease-in-out;
             transition: all 0.4s ease-in-out;
-           -moz-transition:all 0.4s ease-in-out;
-           -ms-transition: all 0.4s ease-in-out;
-           -o-transition:  all 0.4s ease-in-out;
+            -moz-transition: all 0.4s ease-in-out;
+            -ms-transition: all 0.4s ease-in-out;
+            -o-transition: all 0.4s ease-in-out;
             @include screen-max-width-991 {
               -webkit-transition: none !important;
               transition: none !important;
@@ -449,11 +449,11 @@
         background: #ffffff;
         border-radius: 4px;
         box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.05);
-        -webkit-transition:  0.4s ease-in-out;
+        -webkit-transition: 0.4s ease-in-out;
         transition: all 0.4s ease-in-out;
         -moz-transition: all 0.4s ease-in-out;
-        -ms-transition:  all 0.4s ease-in-out;
-        -o-transition:   all 0.4s ease-in-out;
+        -ms-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
         @include screen-max-width-991 {
           -webkit-transition: none !important;
           transition: none !important;
