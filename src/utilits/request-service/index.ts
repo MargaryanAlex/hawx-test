@@ -1,9 +1,9 @@
-import axios, { AxiosError, AxiosInstance, AxiosRequestConfig, AxiosResponse } from "axios";
+import axios, {AxiosError, AxiosInstance, AxiosRequestConfig, AxiosResponse} from "axios";
 
-const onRequest = (config:  AxiosRequestConfig): AxiosRequestConfig => {
+const onRequest = (config: AxiosRequestConfig): AxiosRequestConfig => {
 
     // @ts-ignore
-    const token= JSON.parse(localStorage.getItem('accounting_access_token'))
+    const token = JSON.parse(localStorage.getItem('token'))
     if (token && token.access_token) {
 
         config.headers = {
@@ -20,8 +20,8 @@ const onRequestError = (error: AxiosError): Promise<AxiosError> => {
 
 const onResponse = (response: AxiosResponse): AxiosResponse => {
     // console.info(`[response] [${JSON.stringify(response)}]`);
-    if (response.status === 401 || response.status===422) {
-        localStorage.removeItem('accounting_access_token')
+    if (response.status === 401 || response.status === 422) {
+        localStorage.removeItem('token')
         window.location.reload()
     }
     return response;
@@ -30,8 +30,8 @@ const onResponse = (response: AxiosResponse): AxiosResponse => {
 const onResponseError = (error: AxiosError): Promise<AxiosError> => {
     // console.error(`[response error] [${JSON.stringify(error)}]`);
     // @ts-ignore
-    if (error.response.status === 401 || error.response.status===422) {
-        localStorage.removeItem('accounting_access_token')
+    if (error.response.status === 401 || error.response.status === 422) {
+        localStorage.removeItem('token')
         window.location.reload()
     }
     return Promise.reject(error);
@@ -52,31 +52,35 @@ class RequestService {
         setupInterceptorsTo(axios)
     }
 
-    GET<T, R>(path: string, configs: AxiosRequestConfig = {},isApiString:boolean = false) {
-        return axios.get<T,AxiosResponse<R>>(this.generatePath(path, isApiString), configs).catch(err => err)
+    GET<T, R>(path: string, configs: AxiosRequestConfig = {}, isApiString: boolean = false) {
+        return axios.get<T, AxiosResponse<R>>(this.generatePath(path, isApiString), configs).catch(err => err)
     }
 
-    POST<T, R>(path: string, data: T, configs: AxiosRequestConfig = {},isApiString:boolean = false) {
-        return  axios.post<T,AxiosResponse<R>>(this.generatePath(path, isApiString), data, configs).catch(err => err)
+    POST<T, R>(path: string, data: T, configs: AxiosRequestConfig = {}, isApiString: boolean = false) {
+        return axios.post<T, AxiosResponse<R>>(this.generatePath(path, isApiString), data, configs).catch(err => err)
     }
 
-    PUT<T,R>(path: string, data: T, configs: AxiosRequestConfig = {},isApiString:boolean = false) {
-        return axios.put<T,AxiosResponse<R>>(this.generatePath(path, isApiString), data, configs).catch(err => err)
+    PUT<T, R>(path: string, data: T, configs: AxiosRequestConfig = {}, isApiString: boolean = false) {
+        return axios.put<T, AxiosResponse<R>>(this.generatePath(path, isApiString), data, configs).catch(err => err)
     }
-    PATCH<T,R>(path: string, data: T, configs: AxiosRequestConfig = {},isApiString:boolean = false) {
-        return axios.patch<T,AxiosResponse<R>>(this.generatePath(path, isApiString), data, configs).catch(err => err)
+
+    PATCH<T, R>(path: string, data: T, configs: AxiosRequestConfig = {}, isApiString: boolean = false) {
+        return axios.patch<T, AxiosResponse<R>>(this.generatePath(path, isApiString), data, configs).catch(err => err)
     }
-    DELETE<T,R>(path: string, data?: T, configs: AxiosRequestConfig = {},isApiString:boolean = false) {
-        return axios.delete<T,AxiosResponse<R>>(this.generatePath(path, isApiString), configs).catch(err => err)
+
+    DELETE<T, R>(path: string, data?: T, configs: AxiosRequestConfig = {}, isApiString: boolean = false) {
+        return axios.delete<T, AxiosResponse<R>>(this.generatePath(path, isApiString), configs).catch(err => err)
     }
-    generatePath(path: string, isApi:boolean = false) {
-        if(isApi){
-            return this.BASE_URL+ 'api/' + path;
+
+    generatePath(path: string, isApi: boolean = false) {
+        if (isApi) {
+            return this.BASE_URL + 'api/' + path;
         }
         return this.BASE_URL + path;
     }
 }
 
-export default new RequestService('https://hawx-back.onrender.com/')
+let request = new RequestService('https://hawx-back.onrender.com/')
+export default request
 
 

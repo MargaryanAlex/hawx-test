@@ -8,6 +8,7 @@ import AnimationSideRTL from "src/components/animation/animation-side-rtl";
 import rocket from "src/assets/img/booster/rocket.svg";
 import useValidations from "../../../../hooks/useValidations";
 import EmailAPI from "../../../../utilits/api/email-api";
+import {IData} from "../../index";
 
 interface IError {
     name: boolean,
@@ -19,11 +20,11 @@ interface IValues {
     email: string
 }
 
-const BoosterThirdStep: FC<{ onChangeStep: MouseEventHandler<HTMLButtonElement>, percent: number, time: string }> = ({
-                                                                                                                         onChangeStep,
-                                                                                                                         percent,
-                                                                                                                         time
-                                                                                                                     }) => {
+const BoosterThirdStep: FC<{ data: IData, onChangeStep: MouseEventHandler<HTMLButtonElement> }> = ({
+                                                                                                       data,
+                                                                                                       onChangeStep,
+
+                                                                                                   }) => {
     const {t} = useTranslation()
     const title = useRef<HTMLDivElement | null>(null)
     const actions = useRef<HTMLDivElement | null>(null)
@@ -69,14 +70,15 @@ const BoosterThirdStep: FC<{ onChangeStep: MouseEventHandler<HTMLButtonElement>,
             <div className={`P-title loop`} ref={title}>{t("Boosted-text")}</div>
         </AnimationSide>
         <AnimationSideRTL element={title}>
-            <div className={`P-title loop`} ref={title}>{t("increase-by-text")} {" "}{percent}%<img src={rocket}
-                                                                                                    alt="flash"
-                                                                                                    width={64}
-                                                                                                    height={64}/></div>
+            <div className={`P-title loop`} ref={title}>{t("increase-by-text")} {" "}{data.percent}%<img src={rocket}
+                                                                                                         alt="flash"
+                                                                                                         width={64}
+                                                                                                         height={64}/>
+            </div>
         </AnimationSideRTL>
         <AnimationSideRTL element={content}>
             <div className={`P-content`} ref={content} style={{opacity: opacity}}>
-                <p className={`P-h1`}>{t("in-text")}{" "}{time}!</p>
+                <p className={`P-h1`}>{t("in-text")}{" "}{data.period}!</p>
                 {/*<p className={`P-h2`}>{t("You’re-the-lucky-one!-text")}</p>*/}
                 {/*<p className={`P-text`}>{t("HawX-is-ready-text")}</p>*/}
                 <p className={`P-subText`}>{t("Please-leave-text")}</p>
@@ -99,7 +101,8 @@ const BoosterThirdStep: FC<{ onChangeStep: MouseEventHandler<HTMLButtonElement>,
                     if (validationCheck()) {
                         (() => {
                             setIsLoading(true)
-                            EmailAPI.sendEmail({name: values.name, email: values.email}).then(() => {
+                            console.log(data)
+                            EmailAPI.sendEmail({...data, name: values.name, email: values.email}).then(() => {
                                 onChangeStep(e)
                             })
                         })()

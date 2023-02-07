@@ -31,12 +31,15 @@ const LanguageBar = ({
             setTimeout(() => setPosition(elementsRef?.current[index].current as HTMLElement), 0)
         }
         let subIndex: number | undefined = undefined
+        // eslint-disable-next-line
         navList.map((item, index) => {
             if (item.subList) {
+                // eslint-disable-next-line
                 item.subList.map(route => {
                     if (route.path === location.pathname) {
-                        subIndex = index
+                        return subIndex = index
                     }
+
                 })
             }
         })
@@ -47,9 +50,9 @@ const LanguageBar = ({
     }
 
     useEffect(() => {
-        const currentLanguage: ISelected = localStorage.getItem("language")
+        const currentLanguage: ISelected = localStorage.getItem("current_language")
             ? options.filter(
-                (item) => item.id === localStorage.getItem("language")
+                (item) => item.id === localStorage.getItem("current_language")
             )[0]
             : {
                 title: "ENG",
@@ -58,6 +61,7 @@ const LanguageBar = ({
             }
 
         languageChanger(currentLanguage)
+        //eslint-disable-next-line
     }, [])
 
     useEffect(() => {
@@ -69,14 +73,16 @@ const LanguageBar = ({
             document.documentElement.setAttribute("lang", selected?.id as string);
 
         })()
+        //eslint-disable-next-line
     }, [selected?.id]);
     useEffect(() => {
         checkRoute()
+        //eslint-disable-next-line
     }, [location.pathname]);
 
     const languageChanger = (item: ISelected) => {
         setSelected(item);
-        localStorage.setItem("language", item.id);
+        localStorage.setItem("current_language", item.id);
         language.setLanguage(item.id)
         document.documentElement.setAttribute("lang", selected?.id as string);
 

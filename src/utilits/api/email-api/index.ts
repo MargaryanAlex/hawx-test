@@ -1,5 +1,6 @@
 import RequestService from "src/utilits/request-service";
 import {ISuccessResponse} from "../../../models/response.module";
+import {IData} from "../../../pages/booster";
 
 interface IEmail {
     name: string,
@@ -7,7 +8,7 @@ interface IEmail {
 }
 
 class EmailAPI {
-    static sendEmail = (data: IEmail) => {
+    static sendEmail = (data: IData & IEmail) => {
         return RequestService.POST<IEmail, ISuccessResponse>(`email`, data);
     };
 

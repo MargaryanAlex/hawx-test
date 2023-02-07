@@ -9,9 +9,10 @@ import AnimationSideRTL from "../../../../components/animation/animation-side-rt
 import flash from "src/assets/img/booster/flash.svg"
 import useBooster from "../../useBooster";
 import useValidations from "../../../../hooks/useValidations";
+import {IData} from "../../index";
 
 interface IError {
-    deposits: boolean
+    depositors: boolean
     registrations: boolean
     ggr: boolean
     market: boolean
@@ -19,17 +20,19 @@ interface IError {
 }
 
 interface IValues {
-    deposits: string
+    depositors: string
     registrations: string
     ggr: string
 
 }
 
-const BoosterFirstStep: FC<{ onChangeStep: () => void, setPercent: (e: number) => void, setTime: (e: string) => void }> = ({
-                                                                                                                               onChangeStep,
-                                                                                                                               setPercent,
-                                                                                                                               setTime
-                                                                                                                           }) => {
+const BoosterFirstStep: FC<{
+    onChangeStep: (data: IData) => void,
+}>
+    = ({
+           onChangeStep,
+
+       }) => {
     const {t} = useTranslation()
     const title = useRef<HTMLDivElement | null>(null)
     const content = useRef<HTMLDivElement | null>(null)
@@ -37,14 +40,14 @@ const BoosterFirstStep: FC<{ onChangeStep: () => void, setPercent: (e: number) =
     const [selectedMarket, setSelectedMarket] = useState<number | null>(null);
     const [selectedPeriod, setSelectedPeriod] = useState<number | null>(null);
     const [error, setError] = useState<IError>({
-        deposits: false,
+        depositors: false,
         registrations: false,
         ggr: false,
         market: false,
         period: false
     });
     const [values, setValues] = useState<IValues>({
-        deposits: "",
+        depositors: "",
         registrations: "",
         ggr: ""
     })
@@ -63,7 +66,6 @@ const BoosterFirstStep: FC<{ onChangeStep: () => void, setPercent: (e: number) =
     const handleSelectPeriod = (item: ISelectedList | null) => {
         if (item) {
             setSelectedPeriod(item.value);
-            setTime(item.name)
             setError({...error, period: false})
         } else {
             setSelectedPeriod(null);
@@ -105,9 +107,9 @@ const BoosterFirstStep: FC<{ onChangeStep: () => void, setPercent: (e: number) =
             <Animation element={content}>
                 <div className={`P-form G-justify-center`} ref={content}>
                     <div className={`P-inputs-container`}>
-                        <BoosterInput value={values.deposits} label={t("Monthly-Depositors-text")}
-                                      onChange={handelChange} type={InputTypeEnum.number} error={error.deposits}
-                                      name={"deposits"}
+                        <BoosterInput value={values.depositors} label={t("Monthly-Depositors-text")}
+                                      onChange={handelChange} type={InputTypeEnum.number} error={error.depositors}
+                                      name={"depositors"}
                                       errorText={t("Field must be filled")}/>
                     </div>
                     <div className={`P-inputs-container`}>
@@ -140,13 +142,17 @@ const BoosterFirstStep: FC<{ onChangeStep: () => void, setPercent: (e: number) =
                 <div className={`P-form G-justify-center`}>
                     <BoosterButton label={t("Simulate-text")} onClick={() => {
                         if (validation()) {
-                            let result: number = Math.round((+values.ggr + (+values.deposits * 0.65 + (+values.registrations * 0.3 * (selectedPeriod as number))) * (+values.ggr / +values.deposits)
+                            let result: number = Math.round((+values.ggr + (+values.depositors * 0.65 + (+values.registrations * 0.3 * (selectedPeriod as number))) * (+values.ggr / +values.depositors)
                                 ) *
                                 (selectedMarket as number))
-                            let percent = Math.round((result - +values.ggr) / +values.ggr * 100)
+                            let percent = `${Math.round((result - +values.ggr) / +values.ggr * 100)}`
 
-                            setPercent(percent)
-                            onChangeStep()
+                            onChangeStep({
+                                ...values,
+                                market: markets.find(item => selectedMarket === item.value)?.name as string,
+                                period: periods.find(item => selectedPeriod === item.value)?.name as string,
+                                percent:percent
+                            })
                         }
                     }}/>
                 </div>
