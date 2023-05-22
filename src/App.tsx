@@ -9,17 +9,19 @@ import ComingSoon from "./pages/coming-soon";
 function App() {
     const {loader} = useContext(LoaderContext)
 
+
     return (
         <BrowserRouter>
             <LanguageContext>
                 <NewsContext>
-                    <>
+                    <div>
+
                         <Routes>
+                            <Route path="/" element={<ComingSoon/>}/>
                             <Route path="*" element={<Navigate to="/" replace/>}/>{" "}
                         </Routes>
-                        <ComingSoon/>
 
-                    </>
+                    </div>
                     {/*  {loader ? <Loader/> :
                         <div className="App">
                             <Header/>

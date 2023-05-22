@@ -12,7 +12,7 @@ const ComingSoon = () => {
           alignItems:"center",
           justifyContent:"center",
           flexDirection:"column",
-          height:"100vh"
+          minHeight:"100vh"
       }}><p style={{color:"#0148FF"}}>Something amazing is coming soon!</p>
          <p style={{display:"flex", gap:"10px"}}> Stay tuned <img src={smile} alt="smile" style={{height:"48px"}}/></p></div>
   )
