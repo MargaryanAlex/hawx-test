@@ -5,6 +5,7 @@ const ComingSoon = () => {
       <div style={{
           fontSize:"32px",
           // maxWidth:"500px",
+          padding:"0 20px",
           textAlign:"center",
           margin:"0 auto",
           display:"flex",
