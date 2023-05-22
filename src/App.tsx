@@ -14,10 +14,11 @@ function App() {
             <LanguageContext>
                 <NewsContext>
                     <>
-                        <ComingSoon/>
                         <Routes>
                             <Route path="*" element={<Navigate to="/" replace/>}/>{" "}
                         </Routes>
+                        <ComingSoon/>
+
                     </>
                     {/*  {loader ? <Loader/> :
                         <div className="App">
