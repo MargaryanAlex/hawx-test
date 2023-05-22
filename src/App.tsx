@@ -1,13 +1,9 @@
 import {BrowserRouter, Navigate, Route, Routes} from "react-router-dom";
 import "./App.scss";
-import PagesLayout from "./layout/pagesLayout";
-import {boosterRouteList, IRoute, pagesRouteList, solutionsRouteList} from "./router";
-import Header from "./components/header";
 import React, {useContext} from "react";
 import LanguageContext from "./context/language-context";
 import NewsContext from "./context/news-context";
 import {LoaderContext} from "./context/loader-context";
-import Loader from "./components/loader";
 import ComingSoon from "./pages/coming-soon";
 
 function App() {
@@ -17,8 +13,13 @@ function App() {
         <BrowserRouter>
             <LanguageContext>
                 <NewsContext>
-<ComingSoon/>
-                  {/*  {loader ? <Loader/> :
+                    <>
+                        <ComingSoon/>
+                        <Routes>
+                            <Route path="*" element={<Navigate to="/" replace/>}/>{" "}
+                        </Routes>
+                    </>
+                    {/*  {loader ? <Loader/> :
                         <div className="App">
                             <Header/>
                             <Routes>
