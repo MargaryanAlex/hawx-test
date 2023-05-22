@@ -8,6 +8,7 @@ import LanguageContext from "./context/language-context";
 import NewsContext from "./context/news-context";
 import {LoaderContext} from "./context/loader-context";
 import Loader from "./components/loader";
+import ComingSoon from "./pages/coming-soon";
 
 function App() {
     const {loader} = useContext(LoaderContext)
@@ -16,8 +17,8 @@ function App() {
         <BrowserRouter>
             <LanguageContext>
                 <NewsContext>
-
-                    {loader ? <Loader/> :
+<ComingSoon/>
+                  {/*  {loader ? <Loader/> :
                         <div className="App">
                             <Header/>
                             <Routes>
@@ -60,13 +61,13 @@ function App() {
                                     );
                                 })}
 
-                                {/*<Route*/}
-                                {/*    path={"/loader"}*/}
-                                {/*    element={<Loader/>}*/}
-                                {/*/>*/}
+                                <Route
+                                    path={"/loader"}
+                                    element={<Loader/>}
+                                />
                                 <Route path="*" element={<Navigate to="/" replace/>}/>{" "}
                             </Routes>
-                        </div>}
+                        </div>}*/}
                 </NewsContext>
             </LanguageContext>
         </BrowserRouter>

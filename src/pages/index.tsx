@@ -14,7 +14,13 @@ import Privacy from "./privacy";
 import Terms from "./terms";
 import Cookies from "./cookies";
 import Booster from "./booster";
+import ComingSoon from "./coming-soon";
+
 export const Components = {
+  ComingSoon,
+
+
+
   Home,
   Clients,
   Contacts,
