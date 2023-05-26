@@ -15,7 +15,7 @@ const ComingSoon = () => {
             flexDirection: "column",
             minHeight: "100vh"
         }}><img src={logo} alt="" style={{
-            maxWidth: "500px",
+            maxWidth: "120px", marginBottom: "68px"
         }}/>
             <p style={{color: "#0148FF"}}>Something amazing is coming soon!</p>
             <p style={{display: "flex", gap: "10px"}}> Stay tuned <img src={smile} alt="smile"
