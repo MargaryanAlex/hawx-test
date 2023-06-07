@@ -18,15 +18,15 @@ function App() {
         <BrowserRouter>
             <LanguageContext>
                 <NewsContext>
-                    {/*<div>
+                    <div>
 
                         <Routes>
                             <Route path="/" element={<ComingSoon/>}/>
                             <Route path="*" element={<Navigate to="/" replace/>}/>{" "}
                         </Routes>
 
-                    </div>*/}
-                      {loader ? <Loader/> :
+                    </div>
+                    {/*  {loader ? <Loader/> :
                         <div className="App">
                             <Header/>
                             <Routes>
@@ -75,7 +75,7 @@ function App() {
                                 />
                                 <Route path="*" element={<Navigate to="/" replace/>}/>{" "}
                             </Routes>
-                        </div>}
+                        </div>}*/}
                 </NewsContext>
             </LanguageContext>
         </BrowserRouter>
