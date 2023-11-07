@@ -1,0 +1,360 @@
+[{
+  "_id": {
+    "$oid": "63dcc76063d6242e740357a8"
+  },
+  "link": "https://forbes.ge/en/giorgi-tsutsqiridzis-startapi-27-qveqhanashi-operirebs/?fbclid=IwAR1tKfXhDblRRN-cTISAArTX2ovs79_dEVWXi1N6KnG349bxi5FolrwZ2XU",
+  "newsTitle": {
+    "eng": "July 28, 2022 | Tamta Jijavadze",
+    "rus": "July 28, 2022 | Tamta Jijavadze"
+  },
+  "newsContent": {
+    "eng": "Giorgi Tsutskiridze's Startup Operates in 27 Countries • Forbes ...",
+    "rus": "Giorgi Tsutskiridze's Startup Operates in 27 Countries • Forbes ..."
+  },
+  "smallThumbnail": "https://storage.googleapis.com/hawx/f.webp",
+  "fullScreenThumbnail": "https://storage.googleapis.com/hawx/f.webp",
+  "order": 3,
+  "createdAt": {
+    "$date": "2023-02-03T08:35:44.359Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-03T11:27:51.598Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63dcc78163d6242e740357aa"
+  },
+  "link": "",
+  "newsTitle": {
+    "eng": "",
+    "rus": ""
+  },
+  "newsContent": {
+    "eng": "HawX will be attending on SBC Summit Barcelona to take your iGaming CRM to the next level",
+    "rus": "HawX will be attending on SBC Summit Barcelona to take your iGaming CRM to the next level"
+  },
+  "smallThumbnail": "https://storage.googleapis.com/hawx/Barcelona-summit.webp",
+  "fullScreenThumbnail": "https://storage.googleapis.com/hawx/Barcelona-summit.webp",
+  "order": 4,
+  "createdAt": {
+    "$date": "2023-02-03T08:36:17.157Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-03T11:27:51.599Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63dcc79163d6242e740357ac"
+  },
+  "link": "https://gbc-time.com/everything-you-ever-wanted-to-know-about-hawx-igaming-tech-startup",
+  "newsTitle": {
+    "eng": "Sep 14, 2022  | Press Release",
+    "rus": "Sep 14, 2022  | Press Release"
+  },
+  "newsContent": {
+    "eng": "Everything You Ever Wanted to Know about HawX – iGaming Tech Startup ...",
+    "rus": "Everything You Ever Wanted to Know about HawX – iGaming Tech Startup ..."
+  },
+  "smallThumbnail": "https://storage.googleapis.com/hawx/GBC-INTERVIEW-GIORGI.webp",
+  "fullScreenThumbnail": "https://storage.googleapis.com/hawx/GBC-INTERVIEW-GIORGI.webp",
+  "order": 5,
+  "createdAt": {
+    "$date": "2023-02-03T08:36:33.235Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-03T11:27:51.599Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63dcc7a263d6242e740357ae"
+  },
+  "link": "",
+  "newsTitle": {
+    "eng": "",
+    "rus": ""
+  },
+  "newsContent": {
+    "eng": "HawX exhibited at SiGMA - World's iGaming festival. We had a beautiful stand there. We met our partners and clients and discussed ...",
+    "rus": "HawX exhibited at SiGMA - World's iGaming festival. We had a beautiful stand there. We met our partners and clients and discussed ..."
+  },
+  "smallThumbnail": "https://storage.googleapis.com/hawx/sigma-hawx.webp",
+  "fullScreenThumbnail": "https://storage.googleapis.com/hawx/sigma-hawx.webp",
+  "order": 6,
+  "createdAt": {
+    "$date": "2023-02-03T08:36:50.997Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-03T11:27:51.599Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63dcc7b663d6242e740357b0"
+  },
+  "link": "https://sigma.world/news/top-customer-care-a-must-to-get-ahead-in-georgia/?fbclid=IwAR3ISYdkn8T1WYmmfT_bXQtu_YwG-Pgp2IFR9Qsw7hNRijdpktcQV1KwsoY",
+  "newsTitle": {
+    "eng": "Oct 13, 2020  | Press Release",
+    "rus": "Oct 13, 2020  | Press Release"
+  },
+  "newsContent": {
+    "eng": "iGaming veteran and entrepreneur Giorgi Tsutskiridze speaks about the future",
+    "rus": "iGaming veteran and entrepreneur Giorgi Tsutskiridze speaks about the future"
+  },
+  "smallThumbnail": "https://storage.googleapis.com/hawx/GIORGI-SIGMA-EUROPE1.webp",
+  "fullScreenThumbnail": "https://storage.googleapis.com/hawx/GIORGI-SIGMA-EUROPE1.webp",
+  "order": 7,
+  "createdAt": {
+    "$date": "2023-02-03T08:37:10.526Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-03T11:27:51.599Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63dcc7d963d6242e740357b4"
+  },
+  "link": "https://sigma.world/news/hawx/",
+  "newsTitle": {
+    "eng": "Nov 08, 2020  | Press Release",
+    "rus": "Nov 08, 2020  | Press Release"
+  },
+  "newsContent": {
+    "eng": "Taking your iGaming business to the HawX level SiGMA News is the up ...",
+    "rus": "Taking your iGaming business to the HawX level SiGMA News is the up ..."
+  },
+  "smallThumbnail": "https://storage.googleapis.com/hawx/igb-web1.webp",
+  "fullScreenThumbnail": "https://storage.googleapis.com/hawx/igb-web1.webp",
+  "order": 8,
+  "createdAt": {
+    "$date": "2023-02-03T08:37:45.990Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-03T11:27:51.599Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63dcc7eb63d6242e740357b6"
+  },
+  "link": "",
+  "newsTitle": {
+    "eng": "",
+    "rus": ""
+  },
+  "newsContent": {
+    "eng": "HawX is attending at iGB Live (Amsterdam)",
+    "rus": "HawX is attending at iGB Live (Amsterdam)"
+  },
+  "smallThumbnail": "https://storage.googleapis.com/hawx/0.webp",
+  "fullScreenThumbnail": "https://storage.googleapis.com/hawx/0.webp",
+  "order": 9,
+  "createdAt": {
+    "$date": "2023-02-03T08:38:03.477Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-03T11:27:51.600Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63dcc7fa63d6242e740357b8"
+  },
+  "link": "",
+  "newsTitle": {
+    "eng": "",
+    "rus": ""
+  },
+  "newsContent": {
+    "eng": "HawX is attending at G2G Asia (Singapore)",
+    "rus": "HawX is attending at G2G Asia (Singapore)"
+  },
+  "smallThumbnail": "https://storage.googleapis.com/hawx/9.webp",
+  "fullScreenThumbnail": "https://storage.googleapis.com/hawx/9.webp",
+  "order": 10,
+  "createdAt": {
+    "$date": "2023-02-03T08:38:18.587Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-03T11:27:51.600Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63dcef5bed1742e7710dfe46"
+  },
+  "link": "",
+  "newsTitle": {
+    "eng": "",
+    "rus": ""
+  },
+  "newsContent": {
+    "eng": "HawX will be attending at ICE London to meet existing and potential clients to boost their performance",
+    "rus": "HawX will be attending at ICE London to meet existing and potential clients to boost their performance"
+  },
+  "smallThumbnail": "https://storage.googleapis.com/hawx/new-hawx-london.webp",
+  "fullScreenThumbnail": "https://storage.googleapis.com/hawx/new-hawx-london.webp",
+  "order": 2,
+  "createdAt": {
+    "$date": "2023-02-03T11:26:19.751Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-03T11:27:51.600Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "641431564e289f706f09a03b"
+  },
+  "link": "",
+  "newsTitle": {
+    "eng": "",
+    "rus": ""
+  },
+  "newsContent": {
+    "eng": "HawX is participating at SiGMA in Dubai to meet existing and potential clients to take their business another level",
+    "rus": "HawX is participating at SiGMA in Dubai to meet existing and potential clients to take their business another level"
+  },
+  "smallThumbnail": "https://storage.googleapis.com/hawx/sigma-dubai--hawx.webp",
+  "fullScreenThumbnail": "https://storage.googleapis.com/hawx/sigma-dubai--hawx.webp",
+  "order": 1,
+  "createdAt": {
+    "$date": "2023-03-17T09:22:30.238Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-17T09:22:30.238Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64745b3e4e9a7a58e7b805a3"
+  },
+  "link": "",
+  "newsTitle": {
+    "eng": "",
+    "rus": ""
+  },
+  "newsContent": {
+    "eng": "HawX is attending G2E Asia in Singapore, one of the biggest iGaming events on the market",
+    "rus": "HawX is attending G2E Asia in Singapore, one of the biggest iGaming events on the market"
+  },
+  "smallThumbnail": "https://storage.googleapis.com/hawx/photo_2023-05-29_11-40-16.webp",
+  "fullScreenThumbnail": "https://storage.googleapis.com/hawx/photo_2023-05-29_11-40-16.webp",
+  "order": 0,
+  "createdAt": {
+    "$date": "2023-05-29T07:58:54.843Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-29T07:58:54.843Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6502e91ef640be2a5b30f888"
+  },
+  "link": "",
+  "newsTitle": {
+    "eng": "",
+    "rus": ""
+  },
+  "newsContent": {
+    "eng": "We are excited to let you know that HawX will be attending the SBC Summit Barcelona conference and exhibition. Seize this unique chance to enhance your iGaming platform to a greater extent.",
+    "rus": "We are excited to let you know that HawX will be attending the SBC Summit Barcelona conference and exhibition. Seize this unique chance to enhance your iGaming platform to a greater extent."
+  },
+  "smallThumbnail": "https://storage.googleapis.com/hawx/photo_2023-09-14_14-47-47.jpg",
+  "fullScreenThumbnail": "https://storage.googleapis.com/hawx/photo_2023-09-14_14-47-47.jpg",
+  "order": -1,
+  "createdAt": {
+    "$date": "2023-09-14T11:06:06.604Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-14T11:06:06.604Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6502ed50f640be2a5b30f894"
+  },
+  "link": "",
+  "newsTitle": {
+    "eng": "",
+    "rus": ""
+  },
+  "newsContent": {
+    "eng": "HawX will attend the SiGMA World conference in Manila, Philippines. Don't pass up the opportunity to learn more about our products and services.",
+    "rus": "HawX will attend the SiGMA World conference in Manila, Philippines. Don't pass up the opportunity to learn more about our products and services."
+  },
+  "smallThumbnail": "https://storage.googleapis.com/hawx/photo_2023-09-14_14-48-27.jpg",
+  "fullScreenThumbnail": "https://storage.googleapis.com/hawx/photo_2023-09-14_14-48-27.jpg",
+  "order": -3,
+  "createdAt": {
+    "$date": "2023-09-14T11:24:00.381Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-14T11:24:00.381Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6502edbef640be2a5b30f896"
+  },
+  "link": "",
+  "newsTitle": {
+    "eng": "",
+    "rus": ""
+  },
+  "newsContent": {
+    "eng": "We are thrilled to announce that HawX will be participating the iGamingBusiness exhibition in Amsterdam. Get ready to encounter our team and discuss the opportunity to collaborate.",
+    "rus": "We are thrilled to announce that HawX will be participating the iGamingBusiness exhibition in Amsterdam. Get ready to encounter our team and discuss the opportunity to collaborate."
+  },
+  "smallThumbnail": "https://storage.googleapis.com/hawx/photo_2023-09-14_14-48-12.jpg",
+  "fullScreenThumbnail": "https://storage.googleapis.com/hawx/photo_2023-09-14_14-48-12.jpg",
+  "order": -4,
+  "createdAt": {
+    "$date": "2023-09-14T11:25:50.438Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-14T11:25:50.438Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6502ee30f640be2a5b30f89a"
+  },
+  "link": "",
+  "newsTitle": {
+    "eng": "",
+    "rus": ""
+  },
+  "newsContent": {
+    "eng": "HawX will be in Limassol, Cyprus, to attend SiGMA BALKANS/CIS conference. This is wonderful chance and present our most recent business solutions with future partners.",
+    "rus": "HawX will be in Limassol, Cyprus, to attend SiGMA BALKANS/CIS conference. This is wonderful chance and present our most recent business solutions with future partners."
+  },
+  "smallThumbnail": "https://storage.googleapis.com/hawx/photo_2023-09-14_14-48-13.jpg",
+  "fullScreenThumbnail": "https://storage.googleapis.com/hawx/photo_2023-09-14_14-48-13.jpg",
+  "order": -2,
+  "createdAt": {
+    "$date": "2023-09-14T11:27:44.048Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-14T11:27:44.048Z"
+  },
+  "__v": 0
+}]
