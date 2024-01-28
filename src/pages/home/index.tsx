@@ -80,7 +80,8 @@ const Home = () => {
                                                 style={{
                                                     background: item.color,
                                                     width: "100%",
-                                                    height: cardWidth,
+                                                    height: "auto",
+                                                    aspectRatio: 1
                                                 }}
                                             >
                                                 <img src={item.icon} alt="logo"/>
@@ -163,7 +164,7 @@ const Home = () => {
                 </div>
             </div>
             <div>
-                    <NewsSection />
+                <NewsSection/>
             </div>
         </div>
     );
