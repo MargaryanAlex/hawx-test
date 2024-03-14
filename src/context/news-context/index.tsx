@@ -16,7 +16,7 @@ export const NewsContext = createContext<INewsContext>({
 
 const NewsProvider = ({children}: { children: ReactElement }) => {
     const [data, setData] = useState<INewsModel[]>(
-        json as unknown as INewsModel[]
+        json.sort((a, b) => a.order - b.order) as unknown as INewsModel[]
     );
     const {setLoader} = useContext(LoaderContext);
 

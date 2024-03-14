@@ -28,6 +28,10 @@
     text-transform: uppercase;
     color: #434353;
     margin-bottom: 20px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
   }
 
   p {
@@ -37,6 +41,10 @@
     margin-bottom: 20px !important;
     color: #23232f !important;
     text-align: left !important;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
   }
 
   img {
@@ -45,11 +53,11 @@
     height: auto;
     width: 100%;
     display: block;
-    -webkit-transition:  0.3s ease-out;
+    -webkit-transition: 0.3s ease-out;
     transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
-    -ms-transition:  all 0.3s ease-out;
-    -o-transition:   all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
     @include screen-max-width-991 {
       -webkit-transition: none !important;
       transition: none !important;
