@@ -57,8 +57,8 @@ const News = () => {
 
                                             <NewsCard
                                                 img={item.smallThumbnail}
-                                                title={item.newsTitle[language]}
-                                                content={item.newsContent[language]}
+                                                title={item.newsTitle[language] ?? item.newsTitle.eng}
+                                                content={item.newsContent[language] ?? item.newsContent.eng}
                                                 link={item.link}
                                             />
                                         </Animation>

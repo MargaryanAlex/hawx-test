@@ -256,7 +256,6 @@
   }
 
 
-
   .P-white-background {
     background-color: #ffffff;
     position: fixed;
@@ -449,6 +448,8 @@
 
     img {
       margin-left: 5px;
+      max-width: 24px;
+      max-height: 14px;
     }
 
     .P-selector {
@@ -465,6 +466,18 @@
         -moz-transition: all 0.4s ease-in-out;
         -ms-transition: all 0.4s ease-in-out;
         -o-transition: all 0.4s ease-in-out;
+
+        li {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+
+          img {
+            border-radius: 2px;
+          }
+        }
+
         @include screen-max-width-991 {
           -webkit-transition: none !important;
           transition: none !important;

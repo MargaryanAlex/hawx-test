@@ -3,6 +3,7 @@ import {initReactI18next} from "react-i18next";
 
 import eng_translation from "./locales/eng/translations.json";
 import rus_translation from "./locales/rus/translations.json";
+import br_translation from "./locales/br/translations.json";
 
 const DEFAULT_LOCALE: string = "eng";
 
@@ -11,6 +12,7 @@ i18n.use(initReactI18next).init({
     debug: false,
     resources: {
         eng: {translation: eng_translation},
+        br: {translation: br_translation},
         rus: {translation: rus_translation},
     },
     lng: DEFAULT_LOCALE,

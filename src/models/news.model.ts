@@ -19,10 +19,12 @@ export interface INewsModel {
     newsTitle: {
         "eng": string;
         "rus": string;
+        "br": string
     };
     newsContent: {
         "eng": string;
         "rus": string;
+        "br": string;
     };
     smallThumbnail: string;
     fullScreenThumbnail: string;

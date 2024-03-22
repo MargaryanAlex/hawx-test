@@ -1,6 +1,7 @@
 import {ArrowDropDown, ArrowDropUp} from "@mui/icons-material";
 import {useTranslation} from "react-i18next";
 import flagUK from "../../../../assets/img/header/Flag_UK.svg";
+import flagBR from "../../../../assets/img/header/FlagBrazil.png";
 import flagRu from "../../../../assets/img/header/Flag_Ru.svg";
 import {MutableRefObject, RefObject, useContext, useEffect, useState} from "react";
 import {LanguageContext} from "../../../../context/language-context";
@@ -16,6 +17,7 @@ const LanguageBar = ({
     const location = useLocation()
     const {i18n} = useTranslation();
     const options: ISelected[] = [
+        {title: "BR", icon: flagBR, id: "br"},
         {title: "ENG", icon: flagUK, id: "eng"},
         {title: "РУС", icon: flagRu, id: "rus"},
     ];
