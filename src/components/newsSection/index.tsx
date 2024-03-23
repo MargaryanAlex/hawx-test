@@ -102,8 +102,8 @@ const NewsSection = () => {
                                         <div className="P-card" key={index}>
                                             <NewsCard
                                                 img={item.smallThumbnail}
-                                                title={item.newsTitle[language.language]}
-                                                content={item.newsContent[language.language]}
+                                                title={item.newsTitle[language.language] ?? item.newsTitle.eng}
+                                                content={item.newsContent[language.language] ?? item.newsContent.eng}
                                                 link={item.link ? item.link : null}
                                             />
                                         </div>

@@ -27,12 +27,14 @@
   * {
     color: #ffffff;
   }
-  .P-contacts-area-container{
+
+  .P-contacts-area-container {
     background: $blue;
     height: 250px;
     width: 100%;
 
   }
+
   .P-contacts-area {
     width: 100%;
     text-align: center;
@@ -171,6 +173,7 @@
 
       .P-sections {
         line-height: 30px;
+        max-width: 50%;
 
         a {
           display: block;

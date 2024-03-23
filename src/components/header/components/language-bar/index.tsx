@@ -17,7 +17,7 @@ const LanguageBar = ({
     const location = useLocation()
     const {i18n} = useTranslation();
     const options: ISelected[] = [
-        {title: "BR", icon: flagBR, id: "br"},
+        {title: "BRZ", icon: flagBR, id: "br"},
         {title: "ENG", icon: flagUK, id: "eng"},
         {title: "РУС", icon: flagRu, id: "rus"},
     ];
