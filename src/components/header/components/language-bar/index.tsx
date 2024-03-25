@@ -19,7 +19,7 @@ const LanguageBar = ({
     const options: ISelected[] = [
         {title: "PR", icon: flagPrt, id: "br"},
         {title: "EN", icon: flagUK, id: "eng"},
-        {title: "РУ", icon: flagRu, id: "rus"},
+        {title: "RU", icon: flagRu, id: "rus"},
     ];
     const [onHover, setOnHover] = useState<boolean>(false)
     const [selected, setSelected] = useState<ISelected | undefined>();
@@ -100,7 +100,7 @@ const LanguageBar = ({
             }}
         >
             <p className="G-justify-between G-align-center">
-                {t(selected?.title as string)} <img src={selected?.icon} alt="flag"/>{" "}
+                {selected?.title} <img src={selected?.icon} alt="flag"/>{" "}
                 {onHover ? <ArrowDropUp/> : <ArrowDropDown/>}
             </p>
             <ul className={onHover ? "active" : ""}>
@@ -112,7 +112,7 @@ const LanguageBar = ({
                                 onClick={() => languageChanger(item)}
                             >
                                 {" "}
-                                {t(item.title)} <img src={item.icon} alt="flag"/>
+                                {item.title} <img src={item.icon} alt="flag"/>
                             </li>
                         );
                     } else {
