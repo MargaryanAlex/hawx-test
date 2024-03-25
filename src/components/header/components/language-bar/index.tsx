@@ -17,9 +17,9 @@ const LanguageBar = ({
     const location = useLocation()
     const {i18n} = useTranslation();
     const options: ISelected[] = [
-        {title: "PRT", icon: flagPrt, id: "br"},
-        {title: "ENG", icon: flagUK, id: "eng"},
-        {title: "РУС", icon: flagRu, id: "rus"},
+        {title: "PR", icon: flagPrt, id: "br"},
+        {title: "EN", icon: flagUK, id: "eng"},
+        {title: "РУ", icon: flagRu, id: "rus"},
     ];
     const [onHover, setOnHover] = useState<boolean>(false)
     const [selected, setSelected] = useState<ISelected | undefined>();
