@@ -137,192 +137,192 @@
   "solutions": {
     "crm": {
       "tab0": {
-        "title": "Segmentation & Onboarding Optimization",
+        "title": "विभाजन और ऑनबोर्डिंग अनुकूलन",
         "icon": "https://i.postimg.cc/htJr22r5/Group-4.png",
         "text": {
           "text0": {
             "title": "",
-            "content": "We segment players into different life stages, value tiers and behaviours in order to achieve maximal personalization. "
+            "content": "अधिकतम वैयक्तिकरण प्राप्त करने के लिए हम खिलाड़ियों को विभिन्न जीवन चरणों, मूल्य स्तरों और व्यवहारों में विभाजित करते हैं। "
           },
           "text1": {
             "title": "",
-            "content": "Through different cycles of your marketing, (conversion, incubation, OTD (one-time depositor), nursery) you will need to have various approaches toward your customers. We provide a complete granular analysis and user journeys targeting conversion rate and other early life stages optimization."
+            "content": "आपके मार्केटिंग के विभिन्न चक्रों (रूपांतरण,  इन्क्युबेशन, OTD (एकमुश्त जमाकर्ता), नर्सरी) के माध्यम से आपको अपने ग्राहकों के प्रति विभिन्न दृष्टिकोण रखने की आवश्यकता होगी। हम रूपांतरण दर और अन्य प्रारंभिक जीवन चरणों के अनुकूलन को लक्षित करने वाला संपूर्ण विस्तृत विश्लेषण और उपयोगकर्ता यात्राएं प्रदान करते हैं।"
           }
         }
       },
       "tab1": {
-        "title": "Daily Public and Private Promotions",
+        "title": "दैनिक सार्वजनिक एवं निजी प्रचार",
         "icon": "https://i.postimg.cc/MKg2MY8x/Frame.png",
         "text": {
           "text0": {
-            "title": "Retention",
-            "content": "With strong micro-segmentation and high brand loyalty marks, keeping the customers returning to your website will never be hard to maintain. We check every data and plan day-to-day and seasonal campaigns to help them stay with you for a long time. With our help, your customers will be receiving the right offer privately based on their product preferences, value tiers and granular behavioural analysis. "
+            "title": " रिटेंशन दर",
+            "content": "मजबूत सूक्ष्म-विभाजन और उच्च ब्रांड निष्‍ठा चिह्नों के साथ, ग्राहकों को आपकी वेबसाइट पर वापस लाना कभी भी कठिन नहीं होगा। हम हर डेटा की जांच करते हैं और दिन-प्रतिदिन और समयानुकूल अभियानों की योजना बनाते हैं ताकि उन्हें लंबे समय तक आपके साथ रहने में मदद मिल सके। हमारी मदद से, आपके ग्राहकों को उनकी उत्पाद प्राथमिकताओं, मूल्य स्तरों और विस्तृत व्यवहार विश्लेषण के आधार पर निजी तौर पर सटीक ऑफ़र प्राप्त होगा। "
           },
           "text1": {
             "title": "",
-            "content": "The average reactivation rate differs from ~67% to ~80% based on the market. "
+            "content": "औसत पुनर्सक्रियण दर बाज़ार के आधार पर ~67% से ~80% तक भिन्न होती है। "
           },
           "text2": {
-            "title": "Reactivation",
-            "content": "We reactivate users under churn and dormant life stages and uncover extraordinary reactivation strategies for your business to start regaining the trust of your long lost customers and making them active again. "
+            "title": "पुनर्सक्रियण",
+            "content": "हम उपयोगकर्ताओं को मंथन और सुप्त जीवन चरणों के तहत पुनः सक्रिय करते हैं और आपके व्यवसाय के लिए असाधारण पुनर्सक्रियन रणनीतियों को उजागर करते हैं ताकि आपके लंबे समय से खोए हुए ग्राहकों का विश्वास फिर से हासिल किया जा सके और उन्हें फिर से सक्रिय बनाया जा सके। "
           },
           "text3": {
             "title": "",
-            "content": "The average reactivation rate differs from 10% to 20% based on the market. "
+            "content": "औसत पुनर्सक्रियन दर बाज़ार के आधार पर 10% से 20% तक भिन्न होती है। "
           },
           "text4": {
-            "title": "Pre-Churn Control",
-            "content": "By identifying pre-churn customers, you will avoid costly and time-intensive customer-gaining processes by convincing potentially lost customers to keep playing with you. "
+            "title": "प्री-चर्न नियंत्रण",
+            "content": "प्री-चर्न ग्राहकों की पहचान करके, आप संभावित रूप से खोए हुए ग्राहकों को अपने साथ खेलते रहने के लिए मनाकर महंगी और अधिक समय लेने वाली ग्राहक-प्राप्ति प्रक्रियाओं से बचेंगे।"
           },
           "text5": {
             "title": "",
-            "content": "The average churn rate decreased from ~15% to ~25% based on the market"
+            "content": "बाज़ार के आधार पर औसत चर्न दर ~15% से घटकर ~25% हो गई"
           },
           "text6": {
-            "title": "VIP Treatment Optimization",
-            "content": "You can easily show your highest value tier customers that better offerings may more suitably fulfil their needs. VIP customers will be suggested premium stuff, special benefits or any other offers that will help them stay loyal to your brand. "
+            "title": "VIP उपचार अनुकूलन",
+            "content": "आप अपने उच्चतम मूल्य स्तर के ग्राहकों को आसानी से दिखा सकते हैं कि बेहतर पेशकश उनकी आवश्यकताओं को अधिक उपयुक्त रूप से पूरा कर सकती है। VIP ग्राहकों को प्रीमियम सामान, विशेष लाभ या कोई अन्य ऑफर सुझाया जाएगा जो उन्हें आपके ब्रांड के प्रति वफादार रहने में मदद करेगा। "
           },
           "text7": {
             "title": "",
-            "content": "The average VIP Retention Rate differs from ~90% to ~97% based on the market."
+            "content": "औसत VIP प्रतिधारण दर बाज़ार के आधार पर ~90% से ~97% तक भिन्न होती है।"
           }
         }
       },
       "tab2": {
-        "title": "SMS & Email Provider Integrations",
+        "title": "SMS और ईमेल प्रदाता एकीकरण",
         "icon": "https://i.postimg.cc/TYN7p2gD/Group-5.png",
         "text": {
           "text0": {
             "title": "",
-            "content": "We organize sending of Campaign SMS messages and for that, we provide the best SMS Provider integration in order to avoid i/o in bandwidth. Apart from that, arranging Email marketing and making it automatized can not be done without Email integration."
+            "content": "हम कैम्पैन SMS संदेशों को भेजने का आयोजन करते हैं और इसके लिए, हम बैंडविड्थ में i/o  से बचने के लिए सर्वोत्तम SMS प्रदाता एकीकरण प्रदान करते हैं। इसके अलावा, ईमेल मार्केटिंग की व्यवस्था करना और उसे स्वचालित बनाना ईमेल एकीकरण के बिना नहीं किया जा सकता है।"
           }
         }
       },
       "tab3": {
-        "title": "Incident SLA Management",
+        "title": "घटना SLA प्रबंधन",
         "icon": "https://i.postimg.cc/BnXSRCx1/Group-6.png",
         "text": {
           "text0": {
             "title": "",
-            "content": "No one is perfect. In the online   business, incidents coming from users are inevitable. The main focus should be on fixing them in predefined intervals and controlling them. We will automate the Incident Management Process via SLA (Service Level Agreement) Met vs Breach approach and deliver reports on a monthly basis."
+            "content": "कोई भी एकदम सही नहीं होता। ऑनलाइन व्यवसाय में, उपयोगकर्ताओं की ओर से आने वाली घटनाएं निश्चित हैं। मुख्य फोकस उन्हें पूर्वनिर्धारित अंतराल में ठीक करने और उन्हें नियंत्रित करने पर होना चाहिए। हम SLA(सर्विस लेवल एग्रीमेंट) मेट बनाम ब्रीच दृष्टिकोण के माध्यम से घटना प्रबंधन प्रक्रिया को स्वचालित करेंगे और मासिक आधार पर रिपोर्ट देंगे।"
           }
         }
       },
       "tab4": {
-        "title": "X-Sell",
+        "title": "X-सेल",
         "icon": "https://i.postimg.cc/Y9cQv0pb/Group-7.png",
         "text": {
           "text0": {
             "title": "",
-            "content": "When it comes to increasing customers' LTV (LifeTime Value), X-Sell is a key. "
+            "content": "जब ग्राहकों की LTV (लाइफटाइम वैल्यू) बढ़ाने की बात आती है, तो X-सेल एक कुंजी है। "
           },
           "text1": {
             "title": "",
-            "content": "Our professional CRM team works 24/7 on cross-selling customers from one product to another while providing the best user experience on the market, by following perfect strategy:"
+            "content": "हमारी पेशेवर CRM टीम सटीक रणनीति का पालन करते हुए बाजार में सर्वोत्तम उपयोगकर्ता अनुभव प्रदान करते हुए ग्राहकों को एक उत्पाद से दूसरे उत्पाद में क्रॉस-सेलिंग पर 24/7 काम करती है:"
           },
           "text2": {
-            "title": "Test & Learn:",
-            "content": "Leverage dedicated CRM resource takes a proactive approach toward understanding customer to cross-sell behaviour, expectations and user journeys across product verticals, markets and devices."
+            "title": "परीक्षण करें और जानें:",
+            "content": "समर्पित CRM संसाधन का लाभ उठाने से ग्राहक को उत्पाद कार्यक्षेत्रों, बाजारों और उपकरणों में क्रॉस-सेल व्यवहार, अपेक्षाओं और उपयोगकर्ता यात्रा को समझने की दिशा में एक सक्रिय दृष्टिकोण अपनाया जाता है।"
           },
           "text3": {
-            "title": "Customer-centricity:",
-            "content": "Lead the development of a creative, intuitive and mutually rewarding set of CRM actions. Create experiences that customers love and trust. Take a single customer view and support omnichannel efforts "
+            "title": "ग्राहक केन्द्रीयता:",
+            "content": "CRM क्रियाओं के रचनात्मक, सहज और पारस्परिक रूप से पुरस्कृत सेट के विकास का नेतृत्व करें। ऐसे अनुभवों कि रचना करें जिन्हें ग्राहक पसंद करें और जिन पर भरोसा करें। एकल ग्राहक दृष्टिकोण अपनाएं और सर्वव्यापी प्रयासों का समर्थन करें "
           },
           "text4": {
-            "title": "Agile:",
-            "content": "Deliver fast and often to accelerate learning. Use MVP initiatives that achieve the desired outcomes with minimal dev output and establish a solid feedback loop "
+            "title": "फुर्तीला:",
+            "content": "सीखने में तेजी लाने के लिए शीघ्र और बार-बार वितरण करें। MVP पहलों का उपयोग करें जो न्यूनतम विकास आउटपुट के साथ अपेक्षित परिणाम प्राप्त करते हैं और एक ठोस फीडबैक लूप स्थापित करते हैं "
           },
           "text5": {
-            "title": "Data-driven:",
-            "content": "Use existing analysis to make decisions based on data. Make sure campaigns are measurable and reported on using the agreed measurement framework with DS. Deliver on the Customer Plan targets"
+            "title": "डेटा-संचालित:",
+            "content": "डेटा के आधार पर निर्णय लेने के लिए मौजूदा विश्लेषण का उपयोग करें। सुनिश्चित करें कि अभियान मापने योग्य हैं और DS सहमत माप ढांचे का उपयोग करके रिपोर्ट किए गए हैं। ग्राहक योजना लक्ष्यों को पूरा करें"
           },
           "text6": {
             "title": "",
-            "content": "The average X-Sell rate differs from ~15% to ~50% based on the market."
+            "content": "औसत X-सेल दर बाज़ार के आधार पर ~15% से ~50% तक भिन्न होती है।"
           }
         }
       }
     },
     "design": {
       "tab0": {
-        "title": "Website Design",
+        "title": "वेबसाइट डिज़ाइन",
         "icon": "https://i.postimg.cc/L4L9D4zK/Group-8.png",
         "text": {
           "text0": {
-            "title": "Product UI/UX Design",
-            "content": "We help you establish transparent human interactions with your digital world and improve your user’s experience by giving them the layouts they find easy and informative, that make navigation way easier and increases engagement. "
+            "title": "उत्पाद UI/UX डिज़ाइन",
+            "content": "हम डिजिटल दुनिया के साथ पारदर्शी मानवीय संपर्क स्थापित करने में आपकी मदद करते हैं और आपके उपयोगकर्ताओं को आसान और जानकारीपूर्ण लेआउट देकर उनके अनुभव को बेहतर बनाते हैं, जो नेविगेशन को आसान बनाते हैं और जुड़ाव बढ़ाते हैं।"
           },
           "text1": {
-            "title": "Mobile",
-            "content": "Nowadays, mobile is a key. You will have a large number of customers accessing you through their mobile devices. We make sure you have what is needed to be responsive all the time, have proper navigation and have decent performance. "
+            "title": "मोबाइल",
+            "content": "आजकल मोबाइल एक कुंजी है. आपके पास बड़ी संख्या में ग्राहक अपने मोबाइल उपकरणों के माध्यम से आप तक पहुंचेंगे। हम यह सुनिश्चित करते हैं कि आपके पास हर समय प्रतिक्रियाशील रहने, उचित नेविगेशन और अच्छा प्रदर्शन करने के लिए आवश्यक चीज़ें मौजूद हैं। "
           },
           "text2": {
-            "title": "Web",
-            "content": "We help you establish transparent human interactions with your digital world and improve your user’s experience by giving them the layouts they find easy and informative, that make navigation way easier and increases engagement. "
+            "title": "वेब",
+            "content": "हम आपकी डिजिटल दुनिया के साथ पारदर्शी मानवीय संपर्क स्थापित करने में आपकी मदद करते हैं और आपके उपयोगकर्ताओं को आसान और जानकारीपूर्ण लेआउट देकर उनके अनुभव को बेहतर बनाते हैं, जो नेविगेशन को आसान बनाते हैं और जुड़ाव बढ़ाते हैं। "
           }
         }
       },
       "tab1": {
-        "title": "Graphic Design ",
+        "title": "ग्राफ़िक डिज़ाइन ",
         "icon": "https://i.postimg.cc/yNZtKx67/x31-0-1.png",
         "text": {
           "text0": {
-            "title": "Promotional Landing Pages",
-            "content": "We suggest custom landing pages and other promotional type designs just for you to target your filtered audience. They will make an easy presentation of your offerings, which will definitely increase engagement rate and, therefore, your performance. "
+            "title": "प्रचारात्मक लैंडिंग पेज",
+            "content": "हम आपके फ़िल्टर किए गए दर्शकों को लक्षित करने के लिए कस्टम लैंडिंग पेज और अन्य प्रकार के प्रचार डिज़ाइन का सुझाव देते हैं। वे आपकी पेशकशों की एक आसान प्रस्तुति देंगे, जिससे निश्चित रूप से जुड़ाव दर में वृद्धि होगी और इसलिए, आपका प्रदर्शन भी बढ़ेगा। "
           },
           "text1": {
-            "title": "Promotional Banners and Sliders",
-            "content": "User-focused slider designs help you put your clear message on the show. We will be considering what can psychologically impress your audience at the first glance. "
+            "title": "प्रचार बैनर और स्लाइडर",
+            "content": "उपयोगकर्ता-केंद्रित स्लाइडर डिज़ाइन आपको अपना स्पष्ट संदेश शो में रखने में मदद करते हैं। हम इस बात पर विचार करेंगे कि कौन सी चीज़ पहली नज़र में आपके दर्शकों को मनोवैज्ञानिक रूप से प्रभावित कर सकती है। "
           },
           "text2": {
-            "title": "Email Branding",
-            "content": "Email branding becomes easy with the help of creative banners and newsletters. You will be delivering designs that make all the difference you need to drive users to the system. "
+            "title": "ईमेल ब्रांडिंग",
+            "content": "रचनात्मक बैनर और न्यूज़लेटर्स की मदद से ईमेल ब्रांडिंग आसान हो जाती है। आप ऐसे डिज़ाइन प्रदान करेंगे जो उपयोगकर्ताओं को सिस्टम तक लाने के लिए आवश्यक सभी बदलाव लाएंगे। "
           },
           "text3": {
-            "title": "Thumbnails",
-            "content": "We care about the smallest detailed icons and images on your website so you can better symbolize the intention and actions your audience must take."
+            "title": "थंबनेल",
+            "content": "हम आपकी वेबसाइट पर सबसे छोटे विस्तृत आइकन और छवियों की परवाह करते हैं ताकि आप अपने दर्शकों के इरादे और कार्यों को बेहतर ढंग से दर्शा सकें।"
           }
         }
       },
       "tab2": {
-        "title": "Brand Book",
+        "title": "ब्रांड बुक",
         "icon": "https://i.postimg.cc/T1FnTd3X/Group-9.png",
         "text": {
           "text0": {
             "title": "",
-            "content": "You can visually embody your company’s core promises with our imaginative approach to graphics, colours, typographies, and images. A well-designed brand elevates your appeal in different ways."
+            "content": "आप ग्राफिक्स, रंग, टाइपोग्राफी और छवियों के प्रति हमारे कल्पनाशील दृष्टिकोण के साथ अपनी कंपनी के मुख्य वादों को स्पष्ट रूप से मूर्त रूप दे सकते हैं। एक अच्छी तरह से डिज़ाइन किया गया ब्रांड विभिन्न तरीकों से आपकी अपील को बढ़ाता है।"
           }
         }
       }
     },
     "website": {
       "tab0": {
-        "title": "Daily Operations",
+        "title": "दैनिक परिचालन",
         "icon": "https://i.postimg.cc/SRCK3CjC/Frame-1.png",
         "text": {
           "text0": {
             "title": "",
-            "content": "A big part of website management is daily-basis updates. We will do ongoing and regular operational updates on the client's website so users will be no more confusion with old data."
+            "content": "वेबसाइट प्रबंधन का एक बड़ा हिस्सा दैनिक आधार पर अपडेट करना है। हम ग्राहक की वेबसाइट पर निरंतर और नियमित परिचालन अपडेट करेंगे ताकि उपयोगकर्ता पुराने डेटा से भ्रमित न हों।"
           }
         }
       },
       "tab1": {
-        "title": "Banners Management",
+        "title": "बैनर प्रबंधन",
         "icon": "https://i.postimg.cc/R024mhkR/Frame-2.png",
         "text": {
           "text0": {
             "title": "",
-            "content": "The first visible parts of your website are banners. You might want your users to be able to see them without scrolling. We make sure your banners are in the spotlight and look perfect."
+            "content": "आपकी वेबसाइट के सबसे पहले दिखाई देने वाले हिस्से बैनर हैं। आप शायद चाहते होंगे कि आपके उपयोगकर्ता उन्हें स्क्रॉल किए बिना देख सकें। हम सुनिश्चित करते हैं कि आपके बैनर सुर्खियों में रहें और सही दिखें।"
           }
         }
       },
       "tab2": {
-        "title": "Mobile Interface",
+        "title": "मोबाइल इंटरफ़ेस",
         "icon": "https://i.postimg.cc/fyD4W9Bx/Frame-3.png",
         "text": {
           "text0": {
             "title": "",
-            "content": "As being mobile-friendly is a must for every website, we’ll be keeping an eye on the usability of your website features for all mobile users."
+            "content": "चूँकि प्रत्येक वेबसाइट के लिए मोबाइल-अनुकूल होना आवश्यक है, हम सभी मोबाइल उपयोगकर्ताओं के लिए आपकी वेबसाइट की सुविधाओं की उपयोगिता पर नज़र रखेंगे।"
           }
         }
       },
@@ -332,141 +332,141 @@
         "text": {
           "text0": {
             "title": "",
-            "content": "With the help of our professionals, we make sure you are accessible to your users all the time. We also observe every part of your website technically and seemingly."
+            "content": "अपने पेशेवरों की मदद से, हम यह सुनिश्चित करते हैं कि आप हर समय अपने उपयोगकर्ताओं के लिए सुलभ हों। हम आपकी वेबसाइट के हर हिस्से का तकनीकी और स्पष्ट रूप से निरीक्षण भी करते हैं।"
           }
         }
       },
       "tab4": {
-        "title": "Providers Allocation",
+        "title": "प्रदाता आवंटन",
         "icon": "https://i.postimg.cc/YCj5Skfy/Frame-5.png",
         "text": {
           "text0": {
             "title": "",
-            "content": "The more user-friendly options you offer your customers, the more they’ll be willing to choose your website over others. Based on that, we provide different filtering options on products for your users."
+            "content": "आप अपने ग्राहकों को जितने अधिक उपयोगकर्ता-अनुकूल विकल्प प्रदान करेंगे, उतना ही अधिक वे दूसरों की तुलना में आपकी वेबसाइट चुनने के इच्छुक होंगे। उसके आधार पर, हम आपके उपयोगकर्ताओं के लिए उत्पादों पर विभिन्न फ़िल्टरिंग विकल्प प्रदान करते हैं।"
           }
         }
       },
       "tab5": {
-        "title": "Thumbnails Management",
+        "title": "थंबनेल प्रबंधन",
         "icon": "https://i.postimg.cc/SNRT6d2n/Frame-6.png",
         "text": {
           "text0": {
             "title": "",
-            "content": "We keep updating the smaller sized images on your website so that nothing is missed unnoticed on your latest news and announcements."
+            "content": "हम आपकी वेबसाइट पर छोटे आकार की छवियाँ अपडेट करते रहते हैं ताकि आपकी नवीनतम समाचारों और घोषणाओं पर किसी का ध्यान जाने से न चुके।"
           }
         }
       },
       "tab6": {
-        "title": "User Study",
+        "title": "उपयोगकर्ता अध्ययन",
         "icon": "https://i.postimg.cc/ZnBNRWn5/Frame-7.png",
         "text": {
           "text0": {
             "title": "",
-            "content": "There are many ways we try to know and understand what your users do on your website and use this information to optimize your presence."
+            "content": "ऐसे कई तरीके हैं जिनसे हम यह जानने और समझने की कोशिश करते हैं कि आपके उपयोगकर्ता आपकी वेबसाइट पर क्या करते हैं और इस जानकारी का उपयोग आपकी उपस्थिति को अनुकूलित करने के लिए करते हैं।"
           }
         }
       }
     },
     "product": {
       "tab0": {
-        "title": "Product Planning & Roadmap",
+        "title": "उत्पाद योजना एवं रोडमैप",
         "icon": "https://i.postimg.cc/tgg4crFZ/Group-10.png",
         "text": {
           "text0": {
             "title": "",
-            "content": "We’ll be creating an action plan to indicate the “big picture” and show why and how a certain product can change your business existence through focused tasks."
+            "content": "हम 'बड़ी तस्वीर' दिखाने के लिए एक कार्य योजना बनाएंगे और दिखाएंगे कि क्यों और कैसे एक निश्चित उत्पाद केंद्रित कार्यों के माध्यम से आपके व्यवसाय के अस्तित्व को बदल सकता है।"
           }
         }
       },
       "tab1": {
-        "title": "Obtain and Increase Market Share",
+        "title": "बाज़ार हिस्सेदारी प्राप्त करें और बढ़ाएँ",
         "icon": "https://i.postimg.cc/vT8y1TX1/Frame-8.png",
         "text": {
           "text0": {
             "title": "",
-            "content": "Having more customers attracted to your business, we will begin taking steps to the next phase of success by using referrals and bigger offers."
+            "content": "अधिक ग्राहकों को आपके व्यवसाय की ओर आकर्षित करने के बाद, हम रेफरल और बड़े ऑफ़र का उपयोग करके सफलता के अगले चरण की ओर कदम उठाना शुरू कर देंगे।"
           }
         }
       },
       "tab2": {
-        "title": "Bug Issue Tracking",
+        "title": "बग समस्या ट्रैकिंग",
         "icon": "https://i.postimg.cc/XqqhSCQg/Frame-9.png",
         "text": {
           "text0": {
             "title": "",
-            "content": "As there are products, there will be bugs as well. We keep them visible to your eyes and provide strong strategies for managing them. Obviously, all features of a product will always be tested as well."
+            "content": "जैसे उत्पाद हैं, वैसे ही बग भी होंगे। हम उन्हें आपकी आँखों के सामने रखते हैं और उन्हें प्रबंधित करने के लिए मजबूत रणनीतियाँ प्रदान करते हैं। जाहिर है, किसी उत्पाद की सभी विशेषताओं का हमेशा परीक्षण किया जाएगा।"
           }
         }
       },
       "tab3": {
-        "title": "Product KPI and Budget Management",
+        "title": "उत्पाद KPI और बजट प्रबंधन",
         "icon": "https://i.postimg.cc/R0GXS03p/Frame-10.png",
         "text": {
           "text0": {
             "title": "",
-            "content": "You need to determine how products are working for your profit. Our methods help you see if what you are expecting is going to lead you through prosperity or if you should start investing in better areas."
+            "content": "आपको यह निर्धारित करने की आवश्यकता है कि उत्पाद आपके लाभ के लिए कैसे काम कर रहे हैं। हमारे तरीके आपको यह देखने में मदद करते हैं कि आप जो उम्मीद कर रहे हैं वह आपको समृद्धि की ओर ले जाएगा या आपको बेहतर क्षेत्रों में निवेश शुरू करना चाहिए।"
           }
         }
       },
       "tab4": {
-        "title": "Product Competitor Analysis",
+        "title": "उत्पाद प्रतिस्पर्धी विश्लेषण",
         "icon": "https://i.postimg.cc/x1f6WH8N/Group-11.png",
         "text": {
           "text0": {
             "title": "",
-            "content": "We assess the functionality, reliability and usability of your products while addressing the areas where you can take advantage of the opportunities your competitors are missing."
+            "content": "हम उन क्षेत्रों को संबोधित करते हुए आपके उत्पादों की कार्यक्षमता, विश्वसनीयता और उपयोगिता का आकलन करते हैं जहाँ आप उन अवसरों का लाभ उठा सकते हैं जो आपके प्रतिस्पर्धी चूक रहे हैं।"
           }
         }
       }
     },
     "financial": {
       "tab0": {
-        "title": "Financial Reporting",
+        "title": "वित्तीय रिपोर्टिंग",
         "icon": "https://i.postimg.cc/MGRx0xqD/Frame-11.png",
         "text": {
           "text0": {
-            "title": "Cash Flow Management",
-            "content": "Monitor your business performance at a detailed and professional level by receiving automated reports from HawX. The vital information we provide will indicate the statement of your business's health. "
+            "title": "नकदी प्रवाह प्रबंधन",
+            "content": "हॉक्स से स्वचालित रिपोर्ट प्राप्त करके विस्तृत और पेशेवर स्तर पर अपने व्यावसायिक प्रदर्शन की निगरानी करें। हमारे द्वारा प्रदान की गई महत्वपूर्ण जानकारी आपके व्यवसाय के स्वास्थ्य का विवरण बताएगी। "
           },
           "text1": {
-            "title": "Income Statement",
-            "content": "Benefit from the profit and loss (P&L) statement we provide to know about the summarized revenues, costs, and expenses incurred usually during a quarter. "
+            "title": "आय विवरण",
+            "content": "लाभ और हानि (P&L) विवरण से लाभ उठाएं जो हम आमतौर पर एक तिमाही के दौरान किए गए सारांशित राजस्व, लागत और खर्चों के बारे में जानने के लिए प्रदान करते हैं।"
           },
           "text2": {
-            "title": "Reports by Product Verticals",
-            "content": "Relied on our obtained data, income statements and balance sheets of different companies can be compared to see the relative proportions of different products."
+            "title": "उत्पाद कार्यक्षेत्र द्वारा रिपोर्ट",
+            "content": "हमारे प्राप्त आंकड़ों के आधार पर विभिन्न कंपनियों के आय विवरण और बैलेंस शीट की तुलना विभिन्न उत्पादों के सापेक्ष अनुपात को देखने के लिए की जा सकती है।"
           }
         }
       },
       "tab1": {
-        "title": "Forecasting and Budgeting",
+        "title": "पूर्वानुमान और बजट",
         "icon": "https://i.postimg.cc/kXrH88Dk/Frame-12.png",
         "text": {
           "text0": {
-            "title": "Forecasting",
-            "content": "Based on Marketing Strategies and Seasonality, we tell you what to expect next. We will gather records, use historical or reach-based methods and create customised statements."
+            "title": "पूर्वानुमान",
+            "content": "मार्केटिंग रणनीतियों और सीज़नैलिटी के आधार पर, हम आपको बताते हैं कि आगे क्या उम्मीद की जाए। हम रिकॉर्ड इकट्ठा करेंगे, ऐतिहासिक या पहुँच -आधारित तरीकों का उपयोग करेंगे और अनुकूलित विवरण तैयार करेंगे।"
           },
           "text1": {
-            "title": "Budgeting",
-            "content": "Considering your monthly earnings, fixed and variable expenses and one-time spending, we create a plan for future spending. The plan will help you with balancing the expenses with the income."
+            "title": "बजट बनाना",
+            "content": "आपकी मासिक कमाई, निश्चित एवं परिवर्तनीय खर्च तथा  एकमुश्त खर्च को ध्यान में रखते हुए, हम भविष्य के खर्च के लिए एक योजना बनाते हैं। यह योजना आपको खर्चों को आय के साथ संतुलित करने में मदद करेगी।"
           }
         }
       },
       "tab2": {
-        "title": "Accounting",
+        "title": "लेखांकन",
         "icon": "https://i.postimg.cc/ZKcLRyNP/Frame-13.png",
         "text": {
           "text0": {
-            "title": "Records of Expenses",
-            "content": "Your financial records help you keep track of expenses, gross margin, and possible debt while comparing your current data with the previous accounting records. Needless to say, you will be able to allocate your budget appropriately. "
+            "title": "खर्चों का रिकॉर्ड",
+            "content": "आपके वित्तीय रिकॉर्ड आपके वर्तमान डेटा की पिछले लेखांकन रिकॉर्ड के साथ तुलना करते समय खर्चों, सकल मार्जिन और संभावित ऋण पर नज़र रखने में आपकी सहायता करते हैं। कहने की जरूरत नहीं है, आप अपना बजट उचित रूप से आवंटित करने में सक्षम होंगे। "
           },
           "text1": {
-            "title": "CAPEX Management",
-            "content": "With our help, a highly precise plan will be created for all the funds which are being invested in your business. This helps you to acquire, maintain, and upgrade the products and other assets. "
+            "title": "पूंजीगत व्यय प्रबंधन",
+            "content": "हमारी मदद से, आपके व्यवसाय में निवेश किए जा रहे सभी फंडों के लिए एक अत्यधिक सटीक योजना बनाई जाएगी। इससे आपको उत्पादों और अन्य संपत्तियों को हासिल करने, बनाए रखने और अपग्रेड करने में मदद मिलती है।"
           },
           "text2": {
-            "title": "Payroll and Bonus Management",
-            "content": "We will give you the right numbers when money makes a difference to your human resources and of course, your future revenue."
+            "title": "पेरोल और बोनस प्रबंधन",
+            "content": "जब पैसा आपके मानव संसाधनों और निश्चित रूप से, आपके भविष्य के राजस्व पर फर्क डालेगा तो हम आपको सही संख्या बताएंगे।"
           }
         }
       }
@@ -478,55 +478,55 @@
         "text": {
           "text0": {
             "title": "",
-            "content": "Along with sustained business growth, the bookmaker’s ability to effectively manage risk is the most important factor in determining an operator’s profitability and long-term success. "
+            "content": "निरंतर व्यावसायिक वृद्धि के साथ, सट्टेबाज की जोखिम को प्रभावी ढंग से प्रबंधित करने की क्षमता एक ऑपरेटर की लाभप्रदता और दीर्घकालिक सफलता का निर्धारण करने में सबसे महत्वपूर्ण कारक है।"
           },
           "text1": {
             "title": "",
-            "content": "Efficient risk management is dependent upon the points and responsibilities that HawX provides for you: "
+            "content": "कुशल जोखिम प्रबंधन उन बिंदुओं और जिम्मेदारियों पर निर्भर है जो हॉक्स आपके लिए प्रदान करता है: "
           },
           "text2": {
             "title": "",
-            "content": "Developing processes for odds compilation, risk management, in-play trading and settlement."
+            "content": "ऑड्स संकलन, जोखिम प्रबंधन, इन-प्ले ट्रेडिंग और निपटान के लिए प्रक्रियाएं विकसित करना।"
           },
           "text3": {
             "title": "",
-            "content": "Controlling and monitoring all game styles, including Arbitrage, SFM, Strong Opinion, Late Betting, etc."
+            "content": "आर्बिट्रेज,SFM, स्ट्रॉन्ग ओपिनियन, लेट बेटिंग आदि सहित सभी खेल शैलियों को नियंत्रित करना और निगरानी करना।"
           },
           "text4": {
             "title": "",
-            "content": "Analyze, define and present the opportunities for state-of-the-art risk management solutions."
+            "content": "अत्याधुनिक जोखिम प्रबंधन समाधानों के लिए अवसरों का विश्लेषण, परिभाषित और प्रस्तुत करें।"
           },
           "text5": {
             "title": "",
-            "content": "Provide management road-map project planning."
+            "content": "प्रबंधन रोड-मैप परियोजना नियोजन प्रदान करें।"
           },
           "text6": {
             "title": "",
-            "content": "Guide the implementation of risk-related key projects."
+            "content": "जोखिम-संबंधी प्रमुख परियोजनाओं के कार्यान्वयन का मार्गदर्शन करें।"
           },
           "text7": {
             "title": "",
-            "content": "Ensure all event and player limits are analyzed and maintained, therefore ensuring a good user experience for the customer without exposing the Partner to unnecessary risk. "
+            "content": "सुनिश्चित करें कि सभी ईवेंट और खिलाड़ी कि सीमाओं का विश्लेषण और रखरखाव किया जाता है, इसलिए भागीदार को अनावश्यक जोखिम में डाले बिना ग्राहक के लिए एक अच्छा उपयोगकर्ता अनुभव सुनिश्चित करना।"
           },
           "text8": {
             "title": "",
-            "content": "Enhance risk management processes."
+            "content": "जोखिम प्रबंधन प्रक्रियाओं को बढ़ाएँ।"
           },
           "text9": {
             "title": "",
-            "content": "Pro-actively profiling customers based on wagering behaviours. "
+            "content": "सट्टेबाजी के व्यवहार के आधार पर सक्रिय रूप से ग्राहकों की प्रोफाइलिंग करना। "
           },
           "text10": {
             "title": "",
-            "content": "Achieve all risk related KPIs."
+            "content": "जोखिम से संबंधित सभी KPI प्राप्त करें।"
           },
           "text11": {
             "title": "",
-            "content": "Deliver periodic reports with a clear action plan for improvement, such as betting patterns, limits, etc."
+            "content": "सुधार के लिए स्पष्ट कार्य योजना के साथ समय-समय पर रिपोर्ट प्रदान करें, जैसे सट्टेबाजी पैटर्न, सीमाएँ, आदि।"
           },
           "text12": {
             "title": "",
-            "content": "Multi-Device and Account sharing tracking and linking"
+            "content": "मल्टी-डिवाइस और खाता साझाकरण ट्रैकिंग और लिंकिंग"
           }
         }
       }
@@ -538,27 +538,27 @@
         "text": {
           "text0": {
             "title": "",
-            "content": "Minimizing bonus cost by more than 20% via detecting bonus hunters. "
+            "content": "बोनस शिकारियों का पता लगाकर बोनस लागत को 20% से अधिक कम करना।"
           },
           "text1": {
             "title": "",
-            "content": "Investigate and classify fraudulent users to avoid high-risk scenarios. "
+            "content": "उच्च जोखिम वाले मौकों से बचने के लिए धोखाधड़ी करने वाले उपयोगकर्ताओं की जांच करें और उन्हें वर्गीकृत करें।"
           },
           "text2": {
             "title": "",
-            "content": "IP management per promotion and bonus awarding."
+            "content": "प्रति पदोन्नति और बोनस देने पर IP प्रबंधन।"
           },
           "text3": {
             "title": "",
-            "content": "Avoiding double awarding in promotions."
+            "content": "प्रमोशन में दोहरा पुरस्कार देने से बचें।"
           },
           "text4": {
             "title": "",
-            "content": "Maintain a good and efficient relationship with platform providers and report them in case of any big win."
+            "content": "प्लेटफ़ॉर्म प्रदाताओं के साथ अच्छे और कुशल संबंध बनाए रखें और किसी भी बड़ी जीत के मामले में उन्हें रिपोर्ट करें।"
           },
           "text5": {
             "title": "",
-            "content": "Developing and maintaining the Group Risk Assessment, analysing risks as well as identifying, describing and estimating the risks affecting the business. "
+            "content": "समूह जोखिम मूल्यांकन को विकसित करना और बनाए रखना, जोखिमों का विश्लेषण करने के साथ-साथ व्यवसाय को प्रभावित करने वाले जोखिमों की पहचान करना, उनका वर्णन करना और उनका अनुमान लगाना।"
           }
         }
       }
