@@ -1,0 +1,571 @@
+{
+  "Booster-text": "Güçlendirme",
+  "Solutions-text": "Çözümler",
+  "And_More-text": "Ve Daha Fazlası",
+  "Clients-text": "Müşteriler",
+  "Company-text": "Şirket",
+  "News-text": "Haberler",
+  "Contact-text": "İletişim",
+  "CRM-text": "CRM Çözümleri",
+  "DESIGN-text": "Tasarım Çözümleri",
+  "WEBSITE-text": "Web Sitesi Yönetimi",
+  "SPORTSBOOK-text": "Bahis Risk Yönetimi",
+  "FRAUD-text": "Dolandırıcılık Yönetimi",
+  "PRODUCT-text": "Ürün Yönetimi",
+  "FINANCIAL-text": "Finansal Yönetim",
+  "GET_START-text": "Başlayalım!",
+  "DONT_HESITATE-text": "Bize mesaj bırakmaktan çekinmeyin, hemen size döneceğiz",
+  "PHONE-text": "Telefon",
+  "EMAIL-text": "E-posta",
+  "copyright": "Turn Up. Tüm Hakları Saklıdır",
+  "FOLLOW-text": "Bizi Takip Edin",
+  "ABOUT-text": "Hakkımızda",
+  "PRIVACY-text": "Gizlilik Politikası",
+  "COOKIES-text": "Çerez Politikası",
+  "TERMS-text": "Koşullar ve Şartlar",
+  "LEGAL-text": "Yasal",
+  "January-text": "Ocak",
+  "February-text": "Şubat",
+  "March-text": "Mart",
+  "April-text": "Nisan",
+  "May-text": "Mayıs",
+  "June-text": "Haziran",
+  "July-text": "Temmuz",
+  "August-text": "Ağustos",
+  "September-text": "Eylül",
+  "October-text": "Ekim",
+  "November-text": "Kasım",
+  "December-text": "Aralık",
+  "VIEW_MORE-text": "Daha Fazla Müşteri Görüntüle",
+  "READ_MORE-text": "Daha Fazla Oku",
+  "LASTEST-text": "Son Haberler ve Etkinlikler",
+  "SEE_ALL-text": "Tüm Son Haberleri ve Etkinlikleri Görüntüle",
+  "Markets-text": "Piyasalar",
+  "Employees-text": "Çalışanlar",
+  "Offices-text": "Ofisler",
+  "HawX_Standout-text": "HawX'i Öne Çıkaran Nedir",
+  "Brand_Way-text": "Sizin Marka Yolunuzu Etkinleştirmek",
+  "Perfect_Strategy-text": "Mükemmel Strateji",
+  "Based_on_research-text": "Araştırma ve analize dayalı olarak, devrim niteliğinde çözümler sunuyoruz. Çevrimiçi bir işletmeyi yönetmek zorlu bir süreçtir, bu yüzden birçok işletme sahibi işlerini HawX gibi şirketlere bırakır.",
+  "Innovative_Ideas-text": "Yenilikçi Fikirler",
+  "The_digital_world-text": "Dijital dünya sıradışı ve yaratıcı kararlar gerektirir. Müşteriler için en iyi deneyimi sunmayı amaçlayan yenilikçi fikirler geliştiriyoruz.",
+  "Effective_Solutions-text": "Etkili Çözümler",
+  "Targeted_Results-text": "Hedeflenen Sonuçlar",
+  "We_make_your_success-text": "Başarınızı en önemli önceliğimiz olarak kabul ediyoruz ve şirketinize büyük ve uzun süreli bir ortaklık, güven ve başarı sağlamak için odaklanıyoruz.",
+  "Ultimate-text": "Sizin Son Kişisel Yönetilen Çözümleriniz",
+  "Delivering-text": "Her bir müşteriye kişisel bir yaklaşım sunarak, ihtiyaçlarınızı en yaratıcı ve orijinal şekilde karşılamaya çalışıyoruz. Çevrimiçi işletme yöneticileriniz olarak, düşüncelerinizi ve hayallerinizi gerçek eylemlere dönüştürüyoruz.",
+  "Our_Solutions-text": "Çözümlerimiz",
+  "Get_Supreme_CRM-text": "HawX'ten Üstün CRM Çözümleri Alın",
+  "We_provide-text": "İş ilişkilerinizi geliştirmenize, müşterilerinizle olan bağlantınızı sürdürmenize ve performanslarınızı büyük ölçüde artırmanıza yardımcı oluyoruz.",
+  "We_Create_Great-text": "Sizi Etkileyen Harika Tasarımlar Yaratıyoruz",
+  "We_offer-text": "Marka ve pazarlama fikirlerinizi görsel olarak çarpıcı eserlere dönüştüren çeşitli dijital grafik tasarım çözümleri sunuyoruz. Orijinal fikirleri yeşertiyor ve markanızın en iyisini ortaya çıkarmak için eyleme dönüştürüyoruz. İGaming web sitenizi dikkat çekici ve markaya sadık olma isteğini artıracak şekilde tasarlıyoruz.",
+  "MANAGING-text": "Çevrimiçi bir işletmeyi yönetmek zor olabilir. Ana zorluk, tüm gün çevrimiçi bir vitrin olarak hizmet veren web sitesinin ve işlevselliğinin bakımını yapmaktır. Birçok işletme sahibi işleri HawX gibi şirketlere bırakır. Web sitesi tasarımı, günlük bakım ve CRM açısından, her şeyi her gün ve hafta tamamen güncel tutuyoruz.",
+  "Trusted-text": "Endüstrinin En İyi Şirketleri Tarafından Güvenilir",
+  "We_work-text": "İGaming endüstrisinin en büyük",
+  "We_offer-text": "Markanızı ve pazarlama fikirlerinizi görsel olarak çarpıcı eserlere dönüştüren çeşitli dijital grafik tasarım çözümleri sunuyoruz. Orijinal fikirleri yeşertiyor ve markanızın en iyisini ortaya çıkarmak için harekete geçiriyoruz. İGaming web sitemizi dikkat çekici bir şekilde tasarlıyor ve markaya sadık olma isteğini artırıyoruz.",
+  "MANAGING-text": "Online bir işletmeyi yönetmek zor olabilir. Başlıca zorluk, tüm gün çevrimiçi bir sergi olarak hizmet veren web sitesinin ve işlevselliğinin bakımını yapmaktır. Birçok işletme sahibi bu işi HawX gibi şirketlere bırakır. Web sitesi tasarımı, günlük bakım ve CRM açısından her şeyi her gün ve hafta %100 güncel tutuyoruz.",
+  "Trusted-text": "Endüstrinin En İyileri Tarafından Güvenilen",
+  "We_work-text": "İGaming endüstrisinin en büyük isimleriyle çalışıyoruz.",
+  "Website_Manager-text": "Nihai Web Sitesi Yöneticinizi Tanıyın",
+  "All_websites-text": "Tüm web siteleri kendi türlerine özel ilgiye ihtiyaç duyar. Müşterilerinizin istedikleri şeyleri kolayca bulmalarını sağlayacak şekilde sorunsuz bir şekilde işletilmeli ve düzenli tutulmalıdır.",
+  "HawX_builds-text": "HawX, isteğinize uygun olarak web sitesini sıfırdan oluşturur. Web sitesi bakımınızı 7/24 keskin ve istikrarlı bir şekilde izlemek bizim işimizdir.",
+  "Proven_Product-text": "Kanıtlanmış Ürün Yönetimi Çözümleri",
+  "You_can-text": "HawX'ın olağanüstü ürün yönetimi ekibinin yardımıyla çevrimiçi işinize akıllıca bir başlangıç yapabilirsiniz.",
+  "To_put_it_simply-text": "Basitçe söylemek gerekirse, ürün yönetimi ekibimiz piyasanın ne istediğine dair yönlendirme ve içgörüler sağlar ve tekliflerinizin ve ürünlerinizin uygun olup olmadığını size bildirir.",
+  "Control_Financials-text": "Finansal Durumunuzun Tam Kontrolünü Alın",
+  "HawX_is_ready-text": "HawX, finansal hedeflerinize tam olarak hizmet etmeye hazır finansal çözümler sunmaya hazırdır. Görevimiz, hassas finansal verilerinizi kullanmak ve bunları kâr getiren en iyi şekilde yorumlamaktır.",
+  "Be_always_on_top-text": "Spor Bahislerinde Her Zaman Üstte Olun",
+  "We_provide_Risk_Management-text": "Markanın günlük operasyonlarını takip eden riskleri belirlemede, değerlendirmede ve önceliklendirmede yardımcı olan Risk Yönetimi çözümleri sunuyoruz.",
+  "We_have_set-text": "Kuruluşunuza fayda sağlamak için son derece yetenekli risk yönetimi ekipleri ve risk yönetimi çözümleri sağlama konusunda kendimize yüksek standartlar belirledik.",
+  "Helping_You-text": "Riskleri Önceden Tahmin Etmekte ve Önlemekte Size Yardımcı Olma",
+  "Casinos_offer-text": "Kumarhaneler, misafirlerin masa ve slot makinelerinde büyük kazançlar elde etme şansını sunar. Şansı denklemden çıkarmak için, kumarhane oyunlarında benzersiz ve özel risklere dikkat çeken risk yönetimi ihtiyacınız vardır.",
+  "Companies_That-text": "HawX çözümlerini Kullanan Şirketler",
+  "While_being_on_the_market-text": "Pazarda bulunurken, dünyanın dört bir yanından ortaklarımızın tamamı HawX profesyonellerine tamamen güveniyor ve işlerini bizim ellerimize bırakıyor. Diğer yandan, GGR ve NGR'lerini birkaç yüzde artırdık.",
+  "Countries_Around-text": "HawX İGaming Çözümleriyle Dünya Çapındaki Ülkeler",
+  "While_being-text": "Pazarda bulunurken, dünyanın dört bir yanından ortaklarımızın tamamen güveniyor ve işlerini bizim ellerimize bırakıyor. Diğer yandan, GGR ve NGR'lerini birkaç yüzde artırdık.",
+  "Who_We_Are-text": "Biz Kimiz",
+  "Our_vision-text": "Endüstri lideri çevrimiçi hizmet sağlayıcısı olmak ve iş ortaklarımıza olağanüstü çözümler sunmaktır.",
+  "Our_mission-text": "İşinizi daha sağlam göstermek ve yenilikçi çözümlerle en iyi kalitede hizmet sunarak karlılığınızı artırmak misyonumuzdur.",
+  "Managing_an_online-text": "Çevrimiçi bir işletmeyi yönetmek zor olabilir. Ana zorluk, tüm gün çevrimiçi bir sergi olarak hizmet veren web sitesinin ve işlevselliğinin bakımını yapmaktır. Birçok işletme sahibi bu işi HawX gibi şirketlere bırakır. Web sitesi tasarımı, günlük bakım ve CRM açısından her şeyi her gün ve hafta %100 güncel tutuyoruz.",
+  "The_Team-text": "Başarı için Bir Araya Getirilmiş Ekip",
+  "HawX_i_a_team-text": "HawX, çeşitli sektörlerden genç profesyonellerin bir araya geldiği bir ekiptir ve çevrimiçi işinizde sizi desteklemek için buradadır. Seçtiğiniz çözüme bağlı olarak, ihtiyaçlarınıza ve bakış açınıza özel olarak size yardımcı olmaya tamamen hazırız.",
+  "Delivering_a_personal-text": "Her bir müşteriye kişisel bir yaklaşım sunarak, beklentilerinizi en yaratıcı ve yenilikçi şekilde karşılamak için çaba gösteriyoruz. İşinizi daha kolay hale getirmenin fırsatını keşfedin.",
+  "Explore_Blogs-text": "HawX Hakkında Blogları Keşfedin",
+  "Find_out-text": "HawX ile ilgili tüm son haberleri öğrenin, dikkatinizi çekecek haberleri bulun.",
+  "Keep_updated-text": "",
+  "We_Are_Here-text": "Biz Buradayız",
+  "Ready_to_help-text": "Sizi müşteri etkileşiminin geleceğine taşımak için hazırız!",
+  "Lets_Get_Started-text": "Hadi Başlayalım",
+  "Don't_hesitate-text": "Bize bir mesaj bırakmaktan çekinmeyin, hemen size geri döneceğiz",
+  "Or_send-text": "Ya da bize bir e-posta gönderin ",
+  "and_our_professional-text": "ve profesyonel ekibimiz sizi dakikalar içinde ulaşacak.",
+  "Calculate-text": "Potansiyelinizi Hesaplayın ",
+  "profit-text": "HawX çözümlerinden sonra karınızı!",
+  "Monthly-Depositors-text": "Aylık Yatırımcılar",
+  "Monthly-Registrations-text": "Aylık Kayıtlar",
+  "Average-GGR-per-User-(AGPU)-text": "Kullanıcı Başına Ortalama GGR (AGPU)",
+  "Current-monthly-GGR-(EURO)-text": "Mevcut Aylık GGR (EURO)",
+  "Monthly-GGR-(USD)-text": "Aylık GGR (USD)",
+  "Operating-Market-text": "İşletme Piyasası",
+  "Simulate-text": "Simüle Et",
+  "Simulating-text": "Simülasyon Yapılıyor...",
+  "Done!-text": "Tamamlandı!",
+  "Boosted-text": "Artırılmış GGR",
+  "increase-by-text": "artış",
+  "1-year-text": "1 yıl",
+  "You’re-the-lucky-one!-text": "Şanslısınız!",
+  "HawX-is-ready-text": "HawX, sizin için iGaming CRM çözümlerinin en iyisini ücretsiz olarak 2 ay boyunca sunmaya hazır!",
+  "Please-leave-text": "Lütfen iletişim bilgilerinizi bırakın ve en kısa sürede size geri döneceğiz",
+  "Name-text": "Ad",
+  "E-mail-text": "E-posta",
+  "Send-text": "Gönder",
+  "Thank-You-text": "Teşekkür Ederiz!",
+  "We-will-get-text": "En kısa sürede iletişime geçeceğiz",
+  "3-mounts-text": "3 ay",
+  "6-mounts-text": "6 ay",
+  "9-mounts-text": "9 ay",
+  "12-mounts-text": "12 ay",
+  "24-mounts-text": "24 ay",
+  "Asia-text": "Asya",
+  "Africa-text": "Afrika",
+  "Europe-text": "Avrupa",
+  "Eastern-Countries-text": "Doğu Ülkeleri",
+  "Latam-text": "Latam",
+  "North-America-text": "Kuzey Amerika",
+  "Boosting-Period-text": "Artırma Dönemi",
+  "Select-Market-text": "Piyasa Seçin",
+  "Select-Period-text": "Dönem Seçin",
+  "Period-must-be-selected-text": "Dönem seçilmelidir",
+  "Market-must-be-selected-text": "Piyasa seçilmelidir",
+  "in-text": "in",
+  "solutions": {
+    "crm": {
+      "tab0": {
+        "title": "Segmentasyon ve Onboarding Optimizasyonu",
+        "icon": "https://i.postimg.cc/htJr22r5/Group-4.png",
+        "text": {
+          "text0": {
+            "title": "",
+            "content": "Maksimum kişiselleştirme sağlamak için oyuncuları farklı yaşam aşamalarına, değer kademelerine ve davranışlara göre segmentlere ayırıyoruz."
+          },
+          "text1": {
+            "title": "",
+            "content": "Pazarlamanızın farklı aşamalarında (dönüşüm, kuluçka, OTD (bir kez yatırımcı), kreş) müşterilerinize karşı çeşitli yaklaşımlarınız olacaktır. Dönüşüm oranı ve diğer erken yaşam aşamaları optimizasyonu için tamamen granüler analiz ve kullanıcı yolculukları sağlıyoruz."
+          }
+        }
+      },
+      "tab1": {
+        "title": "Günlük Halka Açık ve Özel Promosyonlar",
+        "icon": "https://i.postimg.cc/MKg2MY8x/Frame.png",
+        "text": {
+          "text0": {
+            "title": "Sadakat",
+            "content": "Güçlü mikro-segmentasyon ve yüksek marka sadakati işaretleri ile, müşterilerinizi web sitenize geri döndürmek asla zor olmayacaktır. Her veriyi kontrol ediyor ve onları uzun süre sizinle kalması için size yardımcı olacak günlük ve mevsimsel kampanyaları planlıyoruz. Yardımımızla, müşterileriniz ürün tercihlerine, değer kademelerine ve granüler davranış analizine dayalı olarak doğru teklifi özel olarak alacaklar."
+          },
+          "text1": {
+            "title": "",
+            "content": "Ortalama yeniden etkinleştirme oranı, pazardan pazarda değişmektedir ~67% ila ~80%."
+          },
+          "text2": {
+            "title": "Yeniden Etkinleştirme",
+            "content": "Biz, churn ve dormant yaşam aşamaları altındaki kullanıcıları yeniden etkinleştirir ve işletmeniz için olağanüstü yeniden etkinleştirme stratejileri ortaya çıkarırız."
+          },
+          "text3": {
+            "title": "",
+            "content": "Ortalama yeniden etkinleştirme oranı, pazardan pazarda değişmektedir %10 ila %20."
+          },
+          "text4": {
+            "title": "Ön-Churn Kontrolü",
+            "content": "Ön-churn müşterileri tanımlayarak, potansiyel olarak kaybedilmiş müşterileri ikna ederek maliyetli ve zaman alıcı müşteri kazanma süreçlerinden kaçınacaksınız."
+          },
+          "text5": {
+            "title": "",
+            "content": "Ortalama churn oranı, pazardan bağımsız olarak ~15% ila ~25% arasında azalmıştır."
+          },
+          "text6": {
+            "title": "VIP Tedavi Optimizasyonu",
+            "content": "En yüksek değerli müşterilerinize daha iyi tekliflerin, ihtiyaçlarını daha uygun şekilde karşılayabileceğini kolayca gösterebilirsiniz. VIP müşterilere, markanıza sadık kalmalarına yardımcı olacak premium ürünler, özel faydalar veya diğer teklifler önerilecektir."
+          },
+          "text7": {
+            "title": "",
+            "content": "Ortalama VIP Koruma Oranı, pazardan bağımsız olarak ~90% ila ~97% arasında değişmektedir."
+          }
+        }
+      },
+      "tab2": {
+        "title": "SMS ve E-posta Sağlayıcı Entegrasyonları",
+        "icon": "https://i.postimg.cc/TYN7p2gD/Group-5.png",
+        "text": {
+          "text0": {
+            "title": "",
+            "content": "Kampanya SMS'lerinin gönderilmesini organize ediyoruz ve bunun için en iyi SMS Sağlayıcı entegrasyonunu sağlıyoruz. Bunun dışında, E-posta pazarlamasını düzenlemek ve otomatikleştirmek, E-posta entegrasyonu olmadan yapılamaz."
+          }
+        }
+      },
+      "tab3": {
+        "title": "Olay SLA Yönetimi",
+        "icon": "https://i.postimg.cc/BnXSRCx1/Group-6.png",
+        "text": {
+          "text0": {
+            "title": "",
+            "content": "Kimse mükemmel değildir. Çevrimiçi işletmelerde, kullanıcılardan gelen olaylar kaçınılmazdır. Ana odak noktası, bunları belirlenen aralıklarda düzeltmek ve kontrol etmektir. Olay Yönetim Sürecini SLA (Servis Seviyesi Anlaşması) Karşılanma vs. İhlal yaklaşımıyla otomatikleştireceğiz ve aylık raporlar sunacağız."
+          }
+        }
+      },
+      "tab4": {
+        "title": "Çapraz Satış",
+        "icon": "https://i.postimg.cc/Y9cQv0pb/Group-7.png",
+        "text": {
+          "text0": {
+            "title": "",
+            "content": "Müşterilerin LTV'sini (Yaşam Boyu Değer) artırmak söz konusu olduğunda, Çapraz Satış anahtardır."
+          },
+          "text1": {
+            "title": "",
+            "content": "Profesyonel CRM ekibimiz, piyasadaki en iyi kullanıcı deneyimini sağlayarak, 24/7 müşterileri bir üründen diğerine çapraz satmada çalışmaktadır, mükemmel stratejiyi takip ederek:"
+          },
+          "text2": {
+            "title": "Test ve Öğren:",
+            "content": "Dedike CRM kaynağını, müşteri davranışlarını, beklentilerini ve ürün dikeylerinde, pazarlarda ve cihazlarda çapraz satış davranışlarını anlama konusunda proaktif bir yaklaşım benimser."
+          },
+          "text3": {
+            "title": "Müşteri Odaklılık:",
+            "content": "Yaratıcı, sezgisel ve karşılıklı olarak ödüllendirici bir dizi CRM eyleminin geliştirilmesini liderliği yapın. Müşterilerin sevdiği ve güvendiği deneyimler yaratın. Tek bir müşteri görünümü alın ve çok kanallı çabalara destek olun."
+          },
+          "text4": {
+            "title": "Çeviklik:",
+            "content": "Öğrenmeyi hızlandırmak için hızlı ve sık sık teslim edin. İstenen sonuçları minimal geliştirme çıktısı ile elde eden MVP girişimlerini kullanın ve sağlam bir geri bildirim döngüsü oluşturun."
+          },
+          "text5": {
+            "title": "Veriye Dayalı:",
+            "content": "Kararları veriye dayalı olarak vermek için mevcut analizleri kullanın. Kampanyaların ölçülebilir ve DS ile anlaşılan ölçüm çerçevesi kullanılarak raporlanmasını sağlayın. Müşteri Planı hedeflerine ulaşın"
+          },
+          "text6": {
+            "title": "",
+            "content": "Ortalama Çapraz Satış oranı, pazardan bağımsız olarak ~15% ila ~50% arasında değişmektedir."
+          }
+        }
+      }
+    },
+    "design": {
+      "tab0": {
+        "title": "Web Sitesi Tasarımı",
+        "icon": "https://i.postimg.cc/L4L9D4zK/Group-8.png",
+        "text": {
+          "text0": {
+            "title": "Ürün UI/UX Tasarımı",
+            "content": "Dijital dünyanızla şeffaf insan etkileşimleri kurmanıza ve kullanıcı deneyiminizi geliştirmenize yardımcı oluyoruz. Kullanıcıların kolay ve bilgilendirici buldukları düzenleri sunarak, gezinmeyi kolaylaştırıyor ve etkileşimi artırıyoruz."
+          },
+          "text1": {
+            "title": "Mobil",
+            "content": "Günümüzde, mobil bir anahtar. Müşterilerin büyük bir kısmının mobil cihazları aracılığıyla size erişimi olacak. Her zaman duyarlı olmanızı, uygun gezinmeye ve iyi performansa sahip olmanızı sağlıyoruz."
+          },
+          "text2": {
+            "title": "Web",
+            "content": "Dijital dünyanızla şeffaf insan etkileşimleri kurmanıza ve kullanıcı deneyiminizi geliştirmenize yardımcı oluyoruz. Kullanıcıların kolay ve bilgilendirici buldukları düzenleri sunarak, gezinmeyi kolaylaştırıyor ve etkileşimi artırıyoruz."
+          }
+        }
+      },
+      "tab1": {
+        "title": "Grafik Tasarım ",
+        "icon": "https://i.postimg.cc/yNZtKx67/x31-0-1.png",
+        "text": {
+          "text0": {
+            "title": "Tanıtım Sayfaları",
+            "content": "Özel iniş sayfaları ve diğer tanıtım tipi tasarımlar öneriyoruz, sadece hedef kitlenize yönelik. Tekliflerinizi kolayca sunacaklar, bu da etkileşim oranınızı ve dolayısıyla performansınızı kesinlikle artıracaktır."
+          },
+          "text1": {
+            "title": "Tanıtım Bannerları ve Slaytlar",
+            "content": "Kullanıcı odaklı kaydırıcı tasarımlarıyla net mesajınızı göstermenize yardımcı oluruz. İlk bakışta izleyicinizi psikolojik olarak etkileyebilecek unsurları göz önünde bulunduracağız."
+          },
+          "text2": {
+            "title": "E-posta Markalama",
+            "content": "Yaratıcı bannerlar ve bültenlerin yardımıyla e-posta markalaması kolaylaşır. Kullanıcıları sisteme yönlendirmek için gereken farkı yaratan tasarımlar sunacaksınız."
+          },
+          "text3": {
+            "title": "Küçük Resimler",
+            "content": "Web sitenizdeki en küçük ayrıntılı simgeler ve görüntüler hakkında önem veriyoruz, böylece izleyicinizin alması gereken niyeti ve eylemleri daha iyi sembolize edebilirsiniz."
+          }
+        }
+      },
+      "tab2": {
+        "title": "Marka Kitabı",
+        "icon": "https://i.postimg.cc/T1FnTd3X/Group-9.png",
+        "text": {
+          "text0": {
+            "title": "",
+            "content": "Şirketinizin temel vaatlerini görsel olarak temsil edebilirsiniz. Grafikler, renkler, tipografi ve görüntülerle yaratıcı yaklaşımımızla. İyi tasarlanmış bir marka, çeşitli yollarla cazibenizi artırır."
+          }
+        }
+      }
+    },
+    "website": {
+      "tab0": {
+        "title": "Günlük Operasyonlar",
+        "icon": "https://i.postimg.cc/SRCK3CjC/Frame-1.png",
+        "text": {
+          "text0": {
+            "title": "",
+            "content": "Web sitesi yönetiminin büyük bir kısmı günlük güncellemelerden oluşur. Kullanıcıların eskimiş verilerle karışıklık yaşamaması için müşterinin web sitesinde devamlı ve düzenli işletme güncellemeleri yapacağız."
+          }
+        }
+      },
+      "tab1": {
+        "title": "Banner Yönetimi",
+        "icon": "https://i.postimg.cc/R024mhkR/Frame-2.png",
+        "text": {
+          "text0": {
+            "title": "",
+            "content": "Web sitenizin ilk görünen bölümleri bannerlardır. Kullanıcılarınızın bunları kaydırmadan görmelerini isteyebilirsiniz. Bannerlarınızın dikkat çekici ve mükemmel görünmesini sağlıyoruz."
+          }
+        }
+      },
+      "tab2": {
+        "title": "Mobil Arayüz",
+        "icon": "https://i.postimg.cc/fyD4W9Bx/Frame-3.png",
+        "text": {
+          "text0": {
+            "title": "",
+            "content": "Her web sitesi için mobil uyumluluk şarttır, bu nedenle tüm mobil kullanıcılar için web sitenizin özelliklerinin kullanılabilirliğini gözlemleyeceğiz."
+          }
+        }
+      },
+      "tab3": {
+        "title": "Website Testing",
+        "icon": "https://i.postimg.cc/hPCFghxd/Frame-4.png",
+        "text": {
+          "text0": {
+            "title": "",
+            "content": "Profesyonellerimizin yardımıyla, kullanıcılarınıza her zaman erişilebilir olduğunuzdan emin oluyoruz. Ayrıca web sitenizin her bölümünü teknik ve görünüşte gözlemliyoruz."
+          }
+        }
+      },
+      "tab4": {
+        "title": "Sağlayıcı Ataması",
+        "icon": "https://i.postimg.cc/YCj5Skfy/Frame-5.png",
+        "text": {
+          "text0": {
+            "title": "",
+            "content": "Müşterilerinize sunacağınız daha kullanıcı dostu seçenekler ne kadar fazla olursa, sitenizi diğerlerine tercih etmeye daha çok istekli olacaklardır. Bu doğrultuda, kullanıcılarınız için ürünlerde farklı filtreleme seçenekleri sağlıyoruz."
+          }
+        }
+      },
+      "tab5": {
+        "title": "Küçük Resimler Yönetimi",
+        "icon": "https://i.postimg.cc/SNRT6d2n/Frame-6.png",
+        "text": {
+          "text0": {
+            "title": "",
+            "content": "Web sitenizdeki daha küçük boyutlu görüntüleri güncelleyerek, en son haber ve duyurularınızda gözden kaçan hiçbir şeyin olmamasını sağlıyoruz."
+          }
+        }
+      },
+      "tab6": {
+        "title": "Kullanıcı Çalışması",
+        "icon": "https://i.postimg.cc/ZnBNRWn5/Frame-7.png",
+        "text": {
+          "text0": {
+            "title": "",
+            "content": "Kullanıcılarınızın web sitenizde ne yaptığını ve nasıl davrandıklarını anlamak ve bu bilgileri varlığınızı optimize etmek için kullanmak için birçok yol vardır."
+          }
+        }
+      }
+    },
+    "product": {
+      "tab0": {
+        "title": "Ürün Planlama ve Yol Haritası",
+        "icon": "https://i.postimg.cc/tgg4crFZ/Group-10.png",
+        "text": {
+          "text0": {
+            "title": "",
+            "content": "Belirli bir ürünün neden ve nasıl işletmenizin varlığını değiştirebileceğini göstermek için bir eylem planı oluşturacağız ve 'büyük resmi' göstereceğiz."
+          }
+        }
+      },
+      "tab1": {
+        "title": "Pazar Payı Elde Etme ve Artırma",
+        "icon": "https://i.postimg.cc/vT8y1TX1/Frame-8.png",
+        "text": {
+          "text0": {
+            "title": "",
+            "content": "Daha fazla müşterinin işletmenize çekilmesiyle, referanslar ve daha büyük teklifler kullanarak başarıya bir sonraki adıma başlayacağız."
+          }
+        }
+      },
+      "tab2": {
+        "title": "Hata İzleme",
+        "icon": "https://i.postimg.cc/XqqhSCQg/Frame-9.png",
+        "text": {
+          "text0": {
+            "title": "",
+            "content": "Ürünler olduğu sürece, hatalar da olacaktır. Onları göz önünde bulunduruyoruz ve bunları yönetmek için güçlü stratejiler sunuyoruz. Elbette, bir ürünün tüm özellikleri her zaman test edilecektir."
+          }
+        }
+      },
+      "tab3": {
+        "title": "Ürün KPI ve Bütçe Yönetimi",
+        "icon": "https://i.postimg.cc/R0GXS03p/Frame-10.png",
+        "text": {
+          "text0": {
+            "title": "",
+            "content": "Ürünlerinizin karlılığı için nasıl çalıştığını belirlemeniz gerekecek. Yöntemlerimiz, beklentinizin sizi zenginliğe mi götüreceğini yoksa daha iyi alanlara yatırım yapmaya mı başlamalısınız gösterir."
+          }
+        }
+      },
+      "tab4": {
+        "title": "Ürün Rakip Analizi",
+        "icon": "https://i.postimg.cc/x1f6WH8N/Group-11.png",
+        "text": {
+          "text0": {
+            "title": "",
+            "content": "Ürünlerinizin işlevselliğini, güvenilirliğini ve kullanılabilirliğini değerlendirirken, rakiplerinizin kaçırdığı fırsatları ele alıyoruz."
+          }
+        }
+      }
+    },
+    "financial": {
+      "tab0": {
+        "title": "Finansal Raporlama",
+        "icon": "https://i.postimg.cc/MGRx0xqD/Frame-11.png",
+        "text": {
+          "text0": {
+            "title": "Nakit Akışı Yönetimi",
+            "content": "İşletmenizin performansını detaylı ve profesyonel bir şekilde izleyerek HawX'den otomatik raporlar alacaksınız. Sunduğumuz hayati bilgiler, işletmenizin sağlık durumunu gösterecektir."
+          },
+          "text1": {
+            "title": "Gelir Tablosu",
+            "content": "Genellikle bir çeyrek boyunca elde edilen özet gelirler, maliyetler ve giderler hakkında bilgi edinmek için sunduğumuz kar-zarar (P&L) tablosundan faydalanın."
+          },
+          "text2": {
+            "title": "Ürün Dikeyleri Raporları",
+            "content": "Elde ettiğimiz verilere dayanarak, farklı şirketlerin gelir tabloları ve bilançoları karşılaştırılabilir ve farklı ürünlerin göreceli oranları görülebilir."
+          }
+        }
+      },
+      "tab1": {
+        "title": "Tahmin ve Bütçeleme",
+        "icon": "https://i.postimg.cc/kXrH88Dk/Frame-12.png",
+        "text": {
+          "text0": {
+            "title": "Tahmin",
+            "content": "Pazarlama Stratejileri ve Mevsimsellik temel alınarak, bir sonraki adımlarınızı ne olacağını size söyleriz. Kayıtlar toplanacak, tarihsel veya ulaşım tabanlı yöntemler kullanılacak ve özelleştirilmiş beyanlar oluşturulacaktır."
+          },
+          "text1": {
+            "title": "Bütçeleme",
+            "content": "Aylık gelirleriniz, sabit ve değişken giderleriniz ve bir seferlik harcamalarınız göz önüne alınarak, gelecekteki harcamalar için bir plan oluşturuyoruz. Plan, giderleri gelirle dengelemede size yardımcı olacaktır."
+          }
+        }
+      },
+      "tab2": {
+        "title": "Muhasebe",
+        "icon": "https://i.postimg.cc/ZKcLRyNP/Frame-13.png",
+        "text": {
+          "text0": {
+            "title": "Harcama Kayıtları",
+            "content": "Finansal kayıtlarınız, mevcut verilerinizi önceki muhasebe kayıtlarınızla karşılaştırırken giderleri, brüt marjı ve olası borcu takip etmenize yardımcı olur. Gerektiğinde bütçenizi uygun şekilde tahsis edebileceksiniz. "
+          },
+          "text1": {
+            "title": "CAPEX Yönetimi",
+            "content": "Yatırım yapılan tüm fonlar için son derece hassas bir plan oluşturulacaktır. Bu, ürünleri ve diğer varlıkları edinmenize, sürdürmenize ve yükseltmenize yardımcı olur."
+          },
+          "text2": {
+            "title": "Maaş ve Bonus Yönetimi",
+            "content": "Paranın insan kaynakları ve elbette gelecekteki geliriniz için ne kadar önemli olduğunda size doğru rakamları vereceğiz."
+          }
+        }
+      }
+    },
+    "sportsbook": {
+      "tab0": {
+        "title": "",
+        "icon": "https://i.postimg.cc/tCqngGMZ/Frame-14.png",
+        "text": {
+          "text0": {
+            "title": "",
+            "content": "Sürdürülebilir iş büyümesiyle birlikte, bahisçinin riski etkili bir şekilde yönetme yeteneği, bir operatörün karlılığını ve uzun vadeli başarısını belirleyen en önemli faktördür. "
+          },
+          "text1": {
+            "title": "",
+            "content": "Verimli risk yönetimi, size sağladığımız noktalar ve sorumluluklara bağlıdır: "
+          },
+          "text2": {
+            "title": "",
+            "content": "Oran derleme, risk yönetimi, canlı bahis ticareti ve uzlaşma süreçleri için süreçler geliştirme."
+          },
+          "text3": {
+            "title": "",
+            "content": "Arbitraj, SFM, Güçlü Görüş, Geç Bahis gibi tüm oyun tarzlarını kontrol etme ve izleme."
+          },
+          "text4": {
+            "title": "",
+            "content": "En son risk yönetimi çözümleri için fırsatları analiz etme, tanımlama ve sunma."
+          },
+          "text5": {
+            "title": "",
+            "content": "Yönetim yol haritası proje planlaması sağlama."
+          },
+          "text6": {
+            "title": "",
+            "content": "Riskle ilgili ana projelerin uygulanmasına rehberlik etme."
+          },
+          "text7": {
+            "title": "",
+            "content": "Tüm etkinlik ve oyuncu sınırlarının analiz edilip korunmasını sağlama ve bu da ortağınızı gereksiz risklere maruz bırakmadan müşteri için iyi bir deneyim sunar. "
+          },
+          "text8": {
+            "title": "",
+            "content": "Risk yönetimi süreçlerini geliştirme."
+          },
+          "text9": {
+            "title": "",
+            "content": "Bahis davranışlarına dayalı olarak müşterileri önceden profil oluşturma. "
+          },
+          "text10": {
+            "title": "",
+            "content": "Tüm riskle ilgili KPI'ları başarma."
+          },
+          "text11": {
+            "title": "",
+            "content": "Bahis desenleri, sınırlar vb. gibi iyileştirme için net bir eylem planı ile periyodik raporlar sunma."
+          },
+          "text12": {
+            "title": "",
+            "content": "Çoklu Cihaz ve Hesap paylaşımı izleme ve bağlantı kurma"
+          }
+        }
+      }
+    },
+    "fraud": {
+      "tab0": {
+        "title": "",
+        "icon": "https://i.postimg.cc/4yHZ5gs5/Frame-15.png",
+        "text": {
+          "text0": {
+            "title": "",
+            "content": "Bonus avcılarını tespit ederek bonus maliyetini %20'den fazla azaltma. "
+          },
+          "text1": {
+            "title": "",
+            "content": "Yüksek riskli senaryoları önlemek için sahte kullanıcıları araştırma ve sınıflandırma. "
+          },
+          "text2": {
+            "title": "",
+            "content": "Promosyon ve bonus ödülü başına IP yönetimi."
+          },
+          "text3": {
+            "title": "",
+            "content": "Promosyonlarda çifte ödül vermemeyi sağlama."
+          },
+          "text4": {
+            "title": "",
+            "content": "Platform sağlayıcılarıyla iyi ve verimli ilişki sürdürme ve gerektiğinde onları raporlama."
+          },
+          "text5": {
+            "title": "",
+            "content": "Grup Risk Değerlendirmesi'ni geliştirme ve sürdürme, işletmeyi etkileyen riskleri analiz etme ve tanımlama, tanımlama ve tahmin etme. "
+          }
+        }
+      }
+    }
+  }
+}

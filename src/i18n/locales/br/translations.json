@@ -458,107 +458,107 @@
         "text": {
           "text0": {
             "title": "Registros de Despesas",
-            "content": "Seus registros financeiros ajudam você a acompanhar despesas, margem bruta e possíveis dívidas, enquanto compara seus dados atuais com os registros contábeis anteriores. Não é preciso dizer que você será capaz de alocar seu orçamento de maneira apropriada.",
-            "text1": {
-              "title": "Gestão de CAPEX",
-              "content": "Com nossa ajuda, será criado um plano altamente preciso para todos os fundos que estão sendo investidos no seu negócio. Isso ajuda você a adquirir, manter e atualizar os produtos e outros ativos."
-            },
-            "text2": {
-              "title": "Gestão de Salários e Bônus",
-              "content": "Daremos a você os números corretos quando o dinheiro faz a diferença para seus recursos humanos e, claro, sua receita futura."
-            }
+            "content": "Seus registros financeiros ajudam você a acompanhar despesas, margem bruta e possíveis dívidas, enquanto compara seus dados atuais com os registros contábeis anteriores. Não é preciso dizer que você será capaz de alocar seu orçamento de maneira apropriada."
+          },
+          "text1": {
+            "title": "Gestão de CAPEX",
+            "content": "Com nossa ajuda, será criado um plano altamente preciso para todos os fundos que estão sendo investidos no seu negócio. Isso ajuda você a adquirir, manter e atualizar os produtos e outros ativos."
+          },
+          "text2": {
+            "title": "Gestão de Salários e Bônus",
+            "content": "Daremos a você os números corretos quando o dinheiro faz a diferença para seus recursos humanos e, claro, sua receita futura."
           }
         }
-      },
-      "sportsbook": {
-        "tab0": {
-          "title": "",
-          "icon": "https://i.postimg.cc/tCqngGMZ/Frame-14.png",
-          "text": {
-            "text0": {
-              "title": "",
-              "content": "Junto com o crescimento sustentado do negócio, a capacidade do bookmaker de gerenciar efetivamente o risco é o fator mais importante na determinação da rentabilidade e do sucesso a longo prazo de um operador."
-            },
-            "text1": {
-              "title": "",
-              "content": "O gerenciamento de risco eficiente depende dos pontos e responsabilidades que a HawX fornece para você:"
-            },
-            "text2": {
-              "title": "",
-              "content": "Desenvolver processos para compilação de odds, gerenciamento de risco, negociação em jogo e liquidação."
-            },
-            "text3": {
-              "title": "",
-              "content": "Controlar e monitorar todos os estilos de jogo, incluindo Arbitragem, SFM, Opinião Forte, Apostas Tardias, etc."
-            },
-            "text4": {
-              "title": "",
-              "content": "Analisar, definir e apresentar as oportunidades para soluções de gerenciamento de risco de última geração."
-            },
-            "text5": {
-              "title": "",
-              "content": "Fornecer roteiro de gerenciamento, planejamento de projeto."
-            },
-            "text6": {
-              "title": "",
-              "content": "Guiar a implementação de projetos-chave relacionados ao risco."
-            },
-            "text7": {
-              "title": "",
-              "content": "Garantir que todos os limites de evento e jogador sejam analisados e mantidos, garantindo assim uma boa experiência de usuário para o cliente sem expor o Parceiro a riscos desnecessários."
-            },
-            "text8": {
-              "title": "",
-              "content": "Aprimorar processos de gerenciamento de risco."
-            },
-            "text9": {
-              "title": "",
-              "content": "Perfilando proativamente os clientes com base em comportamentos de apostas."
-            },
-            "text10": {
-              "title": "",
-              "content": "Alcançar todos os KPIs relacionados ao risco."
-            },
-            "text11": {
-              "title": "",
-              "content": "Entregar relatórios periódicos com um plano de ação claro para melhorias, como padrões de apostas, limites, etc."
-            },
-            "text12": {
-              "title": "",
-              "content": "Rastreamento e vinculação de uso de múltiplos dispositivos e compartilhamento de contas"
-            }
+      }
+    },
+    "sportsbook": {
+      "tab0": {
+        "title": "",
+        "icon": "https://i.postimg.cc/tCqngGMZ/Frame-14.png",
+        "text": {
+          "text0": {
+            "title": "",
+            "content": "Junto com o crescimento sustentado do negócio, a capacidade do bookmaker de gerenciar efetivamente o risco é o fator mais importante na determinação da rentabilidade e do sucesso a longo prazo de um operador."
+          },
+          "text1": {
+            "title": "",
+            "content": "O gerenciamento de risco eficiente depende dos pontos e responsabilidades que a HawX fornece para você:"
+          },
+          "text2": {
+            "title": "",
+            "content": "Desenvolver processos para compilação de odds, gerenciamento de risco, negociação em jogo e liquidação."
+          },
+          "text3": {
+            "title": "",
+            "content": "Controlar e monitorar todos os estilos de jogo, incluindo Arbitragem, SFM, Opinião Forte, Apostas Tardias, etc."
+          },
+          "text4": {
+            "title": "",
+            "content": "Analisar, definir e apresentar as oportunidades para soluções de gerenciamento de risco de última geração."
+          },
+          "text5": {
+            "title": "",
+            "content": "Fornecer roteiro de gerenciamento, planejamento de projeto."
+          },
+          "text6": {
+            "title": "",
+            "content": "Guiar a implementação de projetos-chave relacionados ao risco."
+          },
+          "text7": {
+            "title": "",
+            "content": "Garantir que todos os limites de evento e jogador sejam analisados e mantidos, garantindo assim uma boa experiência de usuário para o cliente sem expor o Parceiro a riscos desnecessários."
+          },
+          "text8": {
+            "title": "",
+            "content": "Aprimorar processos de gerenciamento de risco."
+          },
+          "text9": {
+            "title": "",
+            "content": "Perfilando proativamente os clientes com base em comportamentos de apostas."
+          },
+          "text10": {
+            "title": "",
+            "content": "Alcançar todos os KPIs relacionados ao risco."
+          },
+          "text11": {
+            "title": "",
+            "content": "Entregar relatórios periódicos com um plano de ação claro para melhorias, como padrões de apostas, limites, etc."
+          },
+          "text12": {
+            "title": "",
+            "content": "Rastreamento e vinculação de uso de múltiplos dispositivos e compartilhamento de contas"
           }
         }
-      },
-      "fraud": {
-        "tab0": {
-          "title": "",
-          "icon": "https://i.postimg.cc/4yHZ5gs5/Frame-15.png",
-          "text": {
-            "text0": {
-              "title": "",
-              "content": "Minimizar custos de bônus em mais de 20% através da detecção de caçadores de bônus."
-            },
-            "text1": {
-              "title": "",
-              "content": "Investigar e classificar usuários fraudulentos para evitar cenários de alto risco."
-            },
-            "text2": {
-              "title": "",
-              "content": "Gestão de IP por promoção e atribuição de bônus."
-            },
-            "text3": {
-              "title": "",
-              "content": "Evitando a atribuição dupla em promoções."
-            },
-            "text4": {
-              "title": "",
-              "content": "Manter uma boa e eficiente relação com provedores de plataforma e reportar a eles em caso de qualquer grande vitória."
-            },
-            "text5": {
-              "title": "",
-              "content": "Desenvolver e manter a Avaliação de Risco do Grupo, analisando riscos, bem como identificando, descrevendo e estimando os riscos que afetam o negócio."
-            }
+      }
+    },
+    "fraud": {
+      "tab0": {
+        "title": "",
+        "icon": "https://i.postimg.cc/4yHZ5gs5/Frame-15.png",
+        "text": {
+          "text0": {
+            "title": "",
+            "content": "Minimizar custos de bônus em mais de 20% através da detecção de caçadores de bônus."
+          },
+          "text1": {
+            "title": "",
+            "content": "Investigar e classificar usuários fraudulentos para evitar cenários de alto risco."
+          },
+          "text2": {
+            "title": "",
+            "content": "Gestão de IP por promoção e atribuição de bônus."
+          },
+          "text3": {
+            "title": "",
+            "content": "Evitando a atribuição dupla em promoções."
+          },
+          "text4": {
+            "title": "",
+            "content": "Manter uma boa e eficiente relação com provedores de plataforma e reportar a eles em caso de qualquer grande vitória."
+          },
+          "text5": {
+            "title": "",
+            "content": "Desenvolver e manter a Avaliação de Risco do Grupo, analisando riscos, bem como identificando, descrevendo e estimando os riscos que afetam o negócio."
           }
         }
       }

@@ -450,10 +450,26 @@
       margin-left: 5px;
       max-width: 24px;
       max-height: 14px;
+      object-fit: cover;
+      width: 100%;
+      border-radius: 2px;
+
+    }
+
+    .P-arrow {
+      position: absolute;
+      right: -5px;
+      top: 0;
     }
 
     .P-selector {
       position: relative;
+
+      .P-title {
+        position: relative;
+        gap: 10px;
+        padding: 0 20px;
+      }
 
       ul {
         width: 100px;
@@ -469,7 +485,7 @@
 
         li {
           display: flex;
-          justify-content: center;
+          justify-content: space-between;
           align-items: center;
           gap: 10px;
 
@@ -499,8 +515,9 @@
 
       ul.active {
         border-width: 1px;
-        max-height: 80px;
-        padding: 10px;
+        max-height: 180px;
+        padding: 10px 20px;
+
       }
     }
   }

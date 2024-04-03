@@ -1,6 +1,6 @@
 import {createContext, ReactElement, useState} from "react";
 
-export type languagesT = "eng" | "rus" | "br"
+export type languagesT = "eng" | "rus" | "br" | "tr" | "sp" | "hi"
 
 interface ILanguageContext {
     language: languagesT,

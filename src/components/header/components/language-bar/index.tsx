@@ -3,6 +3,9 @@ import {useTranslation} from "react-i18next";
 import flagUK from "../../../../assets/img/header/Flag_UK.svg";
 import flagPrt from "../../../../assets/img/header/Portugal.webp";
 import flagRu from "../../../../assets/img/header/Flag_Ru.svg";
+import flagTr from "../../../../assets/img/header/Flag_Tr.webp";
+import flagSp from "../../../../assets/img/header/Flag_Sp.svg";
+import flagHi from "../../../../assets/img/header/Flag_Hi.svg";
 import {MutableRefObject, RefObject, useContext, useEffect, useState} from "react";
 import {LanguageContext} from "../../../../context/language-context";
 import {navList} from "../../../../router";
@@ -20,6 +23,9 @@ const LanguageBar = ({
         {title: "PR", icon: flagPrt, id: "br"},
         {title: "EN", icon: flagUK, id: "eng"},
         {title: "RU", icon: flagRu, id: "rus"},
+        {title: "TR", icon: flagTr, id: "tr"},
+        {title: "SP", icon: flagSp, id: "sp"},
+        {title: "HI", icon: flagHi, id: "hi"},
     ];
     const [onHover, setOnHover] = useState<boolean>(false)
     const [selected, setSelected] = useState<ISelected | undefined>();
@@ -99,9 +105,9 @@ const LanguageBar = ({
                 setOnHover(false);
             }}
         >
-            <p className="G-justify-between G-align-center">
-                {selected?.title} <img src={selected?.icon} alt="flag"/>{" "}
-                {onHover ? <ArrowDropUp/> : <ArrowDropDown/>}
+            <p className="G-justify-between G-align-center P-title">
+                {selected?.title} <img src={selected?.icon} alt="flag" width={"32px"}/>{" "}
+                <span className={`P-arrow`}>{onHover ? <ArrowDropUp/> : <ArrowDropDown/>}</span>
             </p>
             <ul className={onHover ? "active" : ""}>
                 {options.map((item, index) => {
@@ -112,7 +118,7 @@ const LanguageBar = ({
                                 onClick={() => languageChanger(item)}
                             >
                                 {" "}
-                                {item.title} <img src={item.icon} alt="flag"/>
+                                {item.title} <img src={item.icon} alt="flag" width={"32px"}/>
                             </li>
                         );
                     } else {
