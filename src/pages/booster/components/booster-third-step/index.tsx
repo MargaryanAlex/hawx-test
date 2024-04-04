@@ -101,7 +101,6 @@ const BoosterThirdStep: FC<{ data: IData, onChangeStep: MouseEventHandler<HTMLBu
                     if (validationCheck()) {
                         (() => {
                             setIsLoading(true)
-                            console.log(data)
                             EmailAPI.sendEmail({...data, name: values.name, email: values.email}).then(() => {
                                 onChangeStep(e)
                             })
