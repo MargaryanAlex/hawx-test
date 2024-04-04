@@ -115,7 +115,10 @@ const LanguageBar = ({
                         return (
                             <li
                                 key={item.title + index}
-                                onClick={() => languageChanger(item)}
+                                onClick={() => {
+                                    setOnHover(false)
+                                    languageChanger(item)
+                                }}
                             >
                                 {" "}
                                 {item.title} <img src={item.icon} alt="flag" width={"32px"}/>

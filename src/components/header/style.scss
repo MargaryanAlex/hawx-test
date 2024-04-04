@@ -460,6 +460,9 @@
       position: absolute;
       right: -5px;
       top: 0;
+      display: flex;
+      align-items: center;
+      height: 100%;
     }
 
     .P-selector {
@@ -482,6 +485,7 @@
         -moz-transition: all 0.4s ease-in-out;
         -ms-transition: all 0.4s ease-in-out;
         -o-transition: all 0.4s ease-in-out;
+        padding: 0 20px;
 
         li {
           display: flex;
@@ -515,8 +519,13 @@
 
       ul.active {
         border-width: 1px;
-        max-height: 180px;
+        max-height: 250px;
         padding: 10px 20px;
+        z-index: 2;
+
+        @include screen-max-width-991 {
+          bottom: 100%;
+        }
 
       }
     }
