@@ -80,7 +80,7 @@ class RequestService {
     }
 }
 
-let request = new RequestService('https://hawx-back.onrender.com/')
+let request = new RequestService('https://hawx-back-eij5.onrender.com/')
 export default request
 
 
