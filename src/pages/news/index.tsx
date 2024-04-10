@@ -14,31 +14,32 @@ const News = () => {
     const [count, setCount] = useState<number>(4);
     const {data} = useContext(NewsContext)
     const {language} = useContext(LanguageContext)
+
+    const loadOnScroll = (e: any) => {
+        if (
+            e.target.scrollingElement.scrollHeight -
+            e.target.scrollingElement.clientHeight -
+            e.target.scrollingElement.scrollWidth <
+            e.target.scrollingElement.scrollTop
+        ) {
+            setCount(count + 4);
+        }
+    }
+    const setSize = (e: Event) => {
+        setWidth(window.innerWidth);
+    }
     useEffect(() => {
         window.scrollTo({top: 0, left: 0, behavior: "smooth"});
     }, []);
     useEffect(() => {
-        window.addEventListener("resize", (e: Event) => {
-            setWidth(window.innerWidth);
-        });
-        window.addEventListener("scroll", (e: any) => {
-            if (
-                e.target.scrollingElement.scrollHeight -
-                e.target.scrollingElement.clientHeight -
-                e.target.scrollingElement.scrollWidth <
-                e.target.scrollingElement.scrollTop
-            ) {
-                setCount(count + 4);
-            }
-        });
+        window.addEventListener("resize", setSize);
+        window.addEventListener("scroll", loadOnScroll);
         return () => {
-            window.removeEventListener("resize", (e: Event) => {
-            });
-            window.removeEventListener("scroll", (e: Event) => {
-            });
+            window.removeEventListener("resize", setSize);
+            window.removeEventListener("scroll", loadOnScroll);
         };
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, []);
+    }, [count]);
     return (
         <div className="P-news" ref={container}>
             <Animation element={container}>
