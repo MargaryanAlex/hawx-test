@@ -1,6 +1,6 @@
 import {ArrowDropDown, ArrowDropUp} from "@mui/icons-material";
 import {useTranslation} from "react-i18next";
-import flagUK from "../../../../assets/img/header/Flag_UK.svg";
+import flagUK from "../../../../assets/img/header/Flag_UK.png";
 import flagPrt from "../../../../assets/img/header/Portugal.webp";
 import flagRu from "../../../../assets/img/header/Flag_Ru.svg";
 import flagTr from "../../../../assets/img/header/Flag_Tr.webp";

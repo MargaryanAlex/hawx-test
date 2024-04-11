@@ -1,5 +1,5 @@
 import {NavLink} from "react-router-dom";
-import logo_white from "src/assets/img/header/logo_white.png";
+import logo_white from "src/assets/img/logo-loght.svg";
 import close from "src/assets/img/header/close.svg";
 import {navList} from "src/router";
 import LanguageBar from "../language-bar";
@@ -56,7 +56,7 @@ const MobileHeader = () => {
                                             }}
                                         >
                                             <span className={`P-text`}>{t(item.title)}{""}{item.icon &&
-                                                <img src={item.icon} alt="icon"  width={20} height={20}/>}
+                                                <img src={item.icon} alt="icon" width={20} height={20}/>}
                                             </span>
                                         </NavLink>
                                     )}
