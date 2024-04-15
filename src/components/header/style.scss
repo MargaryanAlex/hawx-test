@@ -1,5 +1,10 @@
 @import "src/assets/style/index.scss";
 
+body:has( .P-mobile-menu.active ) {
+  overflow: hidden;
+  height: 100vh;
+}
+
 .P-header {
   position: relative;
   padding: 40px 0 40px;
@@ -234,6 +239,7 @@
       }
     }
   }
+
 
   .P-mobile-menu.active {
     left: 0;
