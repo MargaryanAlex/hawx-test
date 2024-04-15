@@ -11,6 +11,7 @@ import {LanguageContext} from "../../../../context/language-context";
 import {navList} from "../../../../router";
 import {useLocation} from "react-router-dom";
 import {ISelected} from "../../index";
+import ClickOutside from "../../../click-outside";
 
 
 const LanguageBar = ({
@@ -96,40 +97,42 @@ const LanguageBar = ({
 
     };
     return (<div className="P-language-bar">
-        <div
-            className="P-selector"
-            onMouseOver={() => {
-                setOnHover(true);
-            }}
-            onMouseLeave={() => {
-                setOnHover(false);
-            }}
-        >
-            <p className="G-justify-between G-align-center P-title">
-                {selected?.title} <img src={selected?.icon} alt="flag" width={"32px"}/>{" "}
-                <span className={`P-arrow`}>{onHover ? <ArrowDropUp/> : <ArrowDropDown/>}</span>
-            </p>
-            <ul className={onHover ? "active" : ""}>
-                {options.map((item, index) => {
-                    if (item.title !== selected?.title) {
-                        return (
-                            <li
-                                key={item.title + index}
-                                onClick={() => {
-                                    setOnHover(false)
-                                    languageChanger(item)
-                                }}
-                            >
-                                {" "}
-                                {item.title} <img src={item.icon} alt="flag" width={"32px"}/>
-                            </li>
-                        );
-                    } else {
-                        return null;
-                    }
-                })}
-            </ul>
-        </div>
+        <ClickOutside onClickOutside={() => setOnHover(false)}>
+            <div
+                className="P-selector"
+                onMouseOver={() => {
+                    setOnHover(true);
+                }}
+                onMouseLeave={() => {
+                    setOnHover(false);
+                }}
+            >
+                <p className="G-justify-between G-align-center P-title">
+                    {selected?.title} <img src={selected?.icon} alt="flag" width={"32px"}/>{" "}
+                    <span className={`P-arrow`}>{onHover ? <ArrowDropUp/> : <ArrowDropDown/>}</span>
+                </p>
+                <ul className={onHover ? "active" : ""}>
+                    {options.map((item, index) => {
+                        if (item.title !== selected?.title) {
+                            return (
+                                <li
+                                    key={item.title + index}
+                                    onClick={() => {
+                                        setOnHover(false)
+                                        languageChanger(item)
+                                    }}
+                                >
+                                    {" "}
+                                    {item.title} <img src={item.icon} alt="flag" width={"32px"}/>
+                                </li>
+                            );
+                        } else {
+                            return null;
+                        }
+                    })}
+                </ul>
+            </div>
+        </ClickOutside>
     </div>)
 }
 
