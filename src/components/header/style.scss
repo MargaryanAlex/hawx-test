@@ -272,13 +272,11 @@ body:has( .P-mobile-menu.active ) {
     z-index: -1;
   }
 
-  .G-mobile {
-    min-height: 100vh;
-    height: fit-content;
-  }
 
   .P-mobile-menu {
     position: fixed;
+    background-color: $blue;
+
     -webkit-transition: 0.7s ease-in-out;
     transition: all 0.7s ease-in-out;
     -moz-transition: all 0.7s ease-in-out;
@@ -305,7 +303,7 @@ body:has( .P-mobile-menu.active ) {
       position: absolute;
       width: 100%;
       height: 100%;
-      //overflow: hidden;
+      overflow: hidden;
 
       span {
         -webkit-transition: 0.7s ease-in-out;
