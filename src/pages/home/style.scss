@@ -71,7 +71,6 @@
           border-radius: 4px;
           margin-bottom: 38px;
           padding: 20px;
-          @media:(aspect-ratio:1 / 1);
           @include screen-max-width-991 {
             margin-bottom: 15px;
           }

@@ -1,5 +1,5 @@
 import {NavLink} from "react-router-dom";
-import logo_white from "src/assets/img/logo-loght.svg";
+import logo_white from "src/assets/img/header/logo_white.png";
 import close from "src/assets/img/header/close.svg";
 import {navList} from "src/router";
 import LanguageBar from "../language-bar";
@@ -33,7 +33,9 @@ const MobileHeader = () => {
                             setOnHover(false);
                         }}
                     >
-                        <img src={logo_white} alt="logo_white"/>
+                        <img src={logo_white} alt="logo_white" style={{
+                            width: "81px"
+                        }}/>
                     </NavLink>
                     <img
                         src={close}

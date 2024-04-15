@@ -21,17 +21,18 @@ const Home = () => {
     const [width, setWidth] = useState(window.innerWidth);
     const [cardWidth, setCardWidth] = useState<number | undefined>();
 
-
+    const resize = () => {
+        setWidth(window.innerWidth);
+    }
     useEffect(() => {
 
         window.scrollTo({top: 0, left: 0, behavior: "smooth"});
-        window.addEventListener("resize", (e: Event) => {
-            setWidth(window.innerWidth);
-        });
-        setCardWidth(div.current?.clientWidth);
-    }, []);
+        window.addEventListener("resize", resize)
+        return () => {
+            window.removeEventListener("resize", resize)
+        }
+    }, [div.current]);
     useEffect(() => {
-
         setCardWidth(div.current?.clientWidth);
     }, [width]);
 
@@ -80,7 +81,7 @@ const Home = () => {
                                                 style={{
                                                     background: item.color,
                                                     width: "100%",
-                                                    height: "auto",
+                                                    height: cardWidth,
                                                     aspectRatio: 1
                                                 }}
                                             >
