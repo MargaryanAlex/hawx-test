@@ -134,6 +134,7 @@
   "Period-must-be-selected-text": "Debes elegir un periodo",
   "Market-must-be-selected-text": "Debes elegir un mercado",
   "in-text": "in",
+  "Field must be filled": "Field must be filled",
   "solutions": {
     "crm": {
       "tab0": {

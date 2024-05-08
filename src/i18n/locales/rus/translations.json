@@ -39,7 +39,7 @@
   "November-text": "Ноябрь",
   "December-text": "Декабрь",
   "VIEW_MORE-text": "View more clients",
-  "READ_MORE-text": "Read more",
+  "READ_MORE-text": "Читать подробнее",
   "LASTEST-text": "Последние новости и события",
   "SEE_ALL-text": "Смотрите все последние новости и события",
   "Markets-text": "Рынки",
@@ -157,7 +157,7 @@
   "Period-must-be-selected-text": "Необходимо выбрать период",
   "Market-must-be-selected-text": "Необходимо выбрать рынок",
   "in-text": "в",
-
+  "Field must be filled": "Поле должно быть заполнено",
   "solutions": {
     "crm": {
       "tab0": {
@@ -351,7 +351,7 @@
         }
       },
       "tab3": {
-        "title": "Тестирование Сайта",
+        "title": "Тестирование веб-сайта",
         "icon": "https://i.postimg.cc/hPCFghxd/Frame-4.png",
         "text": {
           "text0": {
@@ -582,7 +582,7 @@
           },
           "text5": {
             "title": "",
-            "content": "Developing and maintaining the Group Risk Assessment, analysing risks as well as identifying, describing and estimating the risks affecting the business. "
+            "content": "Разработка и сопровождение Оценки Групповых Рисков, анализ рисков, а также выявление, описание и оценка рисков, влияющих на бизнес."
           }
         }
       }

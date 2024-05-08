@@ -134,6 +134,7 @@
   "Period-must-be-selected-text": "Período deve ser selecionado",
   "Market-must-be-selected-text": "Mercado deve ser selecionado",
   "in-text": "in",
+  "Field must be filled": "Campo deve ser preenchido",
   "solutions": {
     "crm": {
       "tab0": {
@@ -317,7 +318,7 @@
         }
       },
       "tab2": {
-        "title": "Interface Mobile",
+        "title": "Interface Móvel",
         "icon": "https://i.postimg.cc/fyD4W9Bx/Frame-3.png",
         "text": {
           "text0": {
@@ -327,7 +328,7 @@
         }
       },
       "tab3": {
-        "title": "Website Testing",
+        "title": "Teste do site",
         "icon": "https://i.postimg.cc/hPCFghxd/Frame-4.png",
         "text": {
           "text0": {

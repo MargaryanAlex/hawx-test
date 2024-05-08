@@ -133,7 +133,8 @@
   "Select-Period-text": "अवधि चुनें",
   "Period-must-be-selected-text": "अवधि का चयन करना अनिवार्य है",
   "Market-must-be-selected-text": "बाज़ार का चयन करना अनिवार्य है",
-  "in-text": "in",
+  "in-text": "",
+  "Field must be filled": "इसको भरना अनिवार्य है",
   "solutions": {
     "crm": {
       "tab0": {
@@ -327,7 +328,7 @@
         }
       },
       "tab3": {
-        "title": "Website Testing",
+        "title": "वेबसाइट टेस्ट की जा रही है",
         "icon": "https://i.postimg.cc/hPCFghxd/Frame-4.png",
         "text": {
           "text0": {
