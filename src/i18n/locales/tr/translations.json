@@ -138,7 +138,7 @@
   "Period-must-be-selected-text": "Dönem seçilmelidir",
   "Market-must-be-selected-text": "Piyasa seçilmelidir",
   "in-text": "in",
-  "Field must be filled": "Field must be filled",
+  "Field must be filled": "Alan doldurulmalıdır",
   "solutions": {
     "crm": {
       "tab0": {
@@ -332,7 +332,7 @@
         }
       },
       "tab3": {
-        "title": "Website Testing",
+        "title": "Web sitesi test",
         "icon": "https://i.postimg.cc/hPCFghxd/Frame-4.png",
         "text": {
           "text0": {

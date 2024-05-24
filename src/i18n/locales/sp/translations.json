@@ -134,7 +134,7 @@
   "Period-must-be-selected-text": "Debes elegir un periodo",
   "Market-must-be-selected-text": "Debes elegir un mercado",
   "in-text": "in",
-  "Field must be filled": "Field must be filled",
+  "Field must be filled": " El campo debe ser completado",
   "solutions": {
     "crm": {
       "tab0": {
@@ -328,7 +328,7 @@
         }
       },
       "tab3": {
-        "title": "Website Testing",
+        "title": "Prueba de Sitio Web",
         "icon": "https://i.postimg.cc/hPCFghxd/Frame-4.png",
         "text": {
           "text0": {
