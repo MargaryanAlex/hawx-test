@@ -9,36 +9,6 @@
 @import url("https://use.typekit.net/hqo0qio.css");
 @import "~slick-carousel/slick/slick";
 @import "~slick-carousel/slick/slick-theme";
-// $FiraGO-Bold: "FiraGO-Bold";
-// $FiraGO-Book: "FiraGO-Book";
-// $FiraGO-Eight: "FiraGO-Eight";
-// $FiraGO-ExtraBold: "FiraGO-ExtraBold";
-// $FiraGO-ExtraLight: "FiraGO-ExtraLight";
-// $FiraGO-Four: "FiraGO-Four";
-// $FiraGO-Hair: "FiraGO-Hair";
-// $FiraGO-Heavy: "FiraGO-Heavy";
-// $FiraGO-Light: "FiraGO-Light";
-// $FiraGO-Medium: "FiraGO-Medium";
-// $FiraGO-Regular: "FiraGO-Regular";
-// $FiraGO-SemiBold: "FiraGO-SemiBold";
-// $FiraGO-Thin: "FiraGO-Thin";
-// $FiraGO-Two: "FiraGO-Two";
-// $FiraGO-UltraLight: "FiraGO-UltraLight";
-
-// $font-path-FiraGO: "../../assets/fonts/firago/";
-// $list-FiraGO: [$FiraGO-Bold, $FiraGO-Book, $FiraGO-Eight, $FiraGO-ExtraBold,
-//   $FiraGO-ExtraLight, $FiraGO-Four, $FiraGO-Hair, $FiraGO-Heavy, $FiraGO-Light,
-//   $FiraGO-Medium, $FiraGO-Regular, $FiraGO-SemiBold, $FiraGO-Thin, $FiraGO-Two,
-//   $FiraGO-UltraLight, $FiraGO-Regular];
-
-// @each $name in $list-FiraGO {
-//   $src: $font-path-FiraGO + $name;
-
-//   @font-face {
-//     src: url($src + ".otf") format("truetype");
-//     font-family: $name;
-//   }
-// }
 
 html[lang="ru"] * {
   font-family: montserrat, sans-serif;
@@ -51,7 +21,6 @@ html[lang="ru"] * {
 .material-icons {
   font-family: "Material Icons";
   font-weight: normal;
-  font-style: normal;
   font-size: 24px; /* Preferred icon size */
   display: inline-block;
   line-height: 1;
@@ -61,9 +30,8 @@ html[lang="ru"] * {
   white-space: nowrap;
   direction: ltr;
 
-  /* Support for all WebKit browsers. */
+  /* Support for WebKit browsers. */
   -webkit-font-smoothing: antialiased;
-  /* Support for Safari and Chrome. */
   text-rendering: optimizeLegibility;
 
   /* Support for Firefox. */
@@ -82,46 +50,26 @@ html[lang="ru"] * {
 .animation {
   opacity: 0;
   @include screen-max-width-991 {
-    -webkit-transition: none !important;
     transition: none !important;
-    -moz-transition: none !important;
-    -ms-transition: none !important;
-    -o-transition: none !important;
   }
-
 }
 
 .slideInDown.animation {
-  -webkit-transition: 1s cubic-bezier(1, 0, 1, 1);
   transition: all 1s cubic-bezier(1, 0, 1, 1);
-  -moz-transition: all 1s cubic-bezier(1, 0, 1, 1);
-  -ms-transition: all 1s cubic-bezier(1, 0, 1, 1);
-  -o-transition: all 1s cubic-bezier(1, 0, 1, 1);
   opacity: 1;
-  animation: __slideInDown 2s forwards;
-  -webkit-animation: __slideInDown 2s forwards;
+  animation: slideInDown 2s forwards;
   width: 100%;
-
 }
 
 .slideToRight.animation {
-  -webkit-transition: 1s cubic-bezier(1, 0, 1, 1);
   transition: all 1s cubic-bezier(1, 0, 1, 1);
-  -moz-transition: all 1s cubic-bezier(1, 0, 1, 1);
-  -ms-transition: all 1s cubic-bezier(1, 0, 1, 1);
-  -o-transition: all 1s cubic-bezier(1, 0, 1, 1);
   opacity: 1;
-  animation: __slideToRight 2s forwards;
-  -webkit-animation: __slideToRight 2s forwards;
-
+  animation: slideToRight 2s forwards;
   width: 100%;
 }
 
 .slideToRight .loop {
-  animation: __slideFromLeft 24s ease-in-out infinite;
-  -webkit-animation: __slideFromLeft 24s ease-in-out infinite;
-
-  -webkit-animation-delay: 2s;
+  animation: slideFromLeft 24s ease-in-out infinite;
   animation-delay: 2s;
 }
 
@@ -130,91 +78,74 @@ html[lang="ru"] * {
 }
 
 .slideToLeft .loop {
-  animation: __slideFromRight 24s ease-in-out infinite;
-  -webkit-animation: __slideFromRight 24s ease-in-out infinite;
-  -webkit-animation-delay: 2s;
+  animation: slideFromRight 24s ease-in-out infinite;
   animation-delay: 2s;
-
 }
 
 .slideToLeft.animation {
-  -webkit-transition: 1s cubic-bezier(1, 0, 1, 1);
   transition: all 1s cubic-bezier(1, 0, 1, 1);
-  -moz-transition: all 1s cubic-bezier(1, 0, 1, 1);
-  -ms-transition: all 1s cubic-bezier(1, 0, 1, 1);
-  -o-transition: all 1s cubic-bezier(1, 0, 1, 1);
   opacity: 1;
-
-  animation: __slideToLeft 2s forwards;
-  -webkit-animation: __slideToLeft 2s forwards;
+  animation: slideToLeft 2s forwards;
   width: 100%;
 }
 
-@keyframes __slideInDown {
+@keyframes slideInDown {
   0% {
     opacity: 0;
     transform: translateY(-20px);
   }
   40% {
     transform: translateY(10px);
-
-  }
-  90% {
-    opacity: 1;
   }
   100% {
+    opacity: 1;
     transform: translateY(0);
   }
 }
 
-@keyframes __slideFromLeft {
+@keyframes slideFromLeft {
   0% {
-
-    //transform: translateX(0px);
+    transform: translateX(0);
   }
   25% {
     transform: translateX(-20px);
-
   }
   50% {
-    transform: translateX(0px);
+    transform: translateX(0);
   }
   75% {
     transform: translateX(20px);
   }
   100% {
-    //transform: translateX(0);
+    transform: translateX(0);
   }
 }
 
-@keyframes __slideFromRight {
+@keyframes slideFromRight {
   0% {
-
-    //transform: translateX(0px);
+    transform: translateX(0);
   }
   25% {
     transform: translateX(20px);
-
   }
   50% {
-    transform: translateX(0px);
+    transform: translateX(0);
   }
   75% {
     transform: translateX(-20px);
   }
   100% {
-    //transform: translateX(0);
+    transform: translateX(0);
   }
 }
 
-@keyframes __slideToRight {
+@keyframes slideToRight {
   0% {
     opacity: 0;
     transform: translateX(-80px);
   }
   40% {
     transform: translateX(20px);
-
   }
   60% {
     opacity: 1;
@@ -224,16 +155,14 @@ html[lang="ru"] * {
   }
 }
 
-@keyframes __slideToLeft {
+@keyframes slideToLeft {
   0% {
     opacity: 0;
     transform: translateX(80px);
   }
   40% {
     transform: translateX(-20px);
-
   }
-
   60% {
     opacity: 1;
   }

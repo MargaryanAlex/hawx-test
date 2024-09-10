@@ -1,6 +1,5 @@
 @import "src/assets/style";
 
-
 .P-booster {
   position: relative;
   overflow-x: hidden;
@@ -9,10 +8,10 @@
   margin-top: -120.6px;
   padding: 120px 0 20px;
   z-index: 0;
+
   @include screen-max-width-991 {
     margin-top: -85.6px;
   }
-
 
   .P-blur-container {
     position: absolute;
@@ -22,19 +21,12 @@
     height: 100%;
     overflow: hidden;
     z-index: -2;
-
     background: linear-gradient(60.52deg, #0148FF -8.07%, #853BA3 45.63%, #F63054 100%);
-
-
   }
 
   .P-blur {
-    -webkit-transition: 5s ease-in-out;
     transition: all 5s ease-in-out;
-    -moz-transition: all 5s ease-in-out;
-    -ms-transition: all 5s ease-in-out;
-    -o-transition: all 5s ease-in-out;
-    z-index: -1px;
+    z-index: -1;
     position: absolute;
     background: #01E1FF;
     width: 40vw;
@@ -45,33 +37,18 @@
   }
 
   @include screen-max-width-991 {
-    -webkit-transition: none !important;
     transition: none !important;
-    -moz-transition: none !important;
-    -ms-transition: none !important;
-    -o-transition: none !important;
   }
 
-  .animation:has(.P-content) {
-    .P-content {
-      -webkit-transition: 0.2s ease-in-out;
-      transition: all 0.2s ease-in-out;
-      -moz-transition: all 0.2s ease-in-out;
-      -ms-transition: all 0.2s ease-in-out;
-      -o-transition: all 0.2s ease-in-out;
-    }
-
-    @include screen-max-width-991 {
-      -webkit-transition: none !important;
-      transition: none !important;
-      -moz-transition: none !important;
-      -ms-transition: none !important;
-      -o-transition: none !important;
-    }
-
-    animation-delay: 0.2s;
+  .animation:has(.P-content) .P-content {
+    transition: all 0.2s ease-in-out;
   }
 
+  @include screen-max-width-991 {
+    transition: none !important;
+  }
+
+  animation-delay: 0.2s;
 
   .P-title {
     font-weight: 900;
@@ -88,29 +65,27 @@
       object-position: center;
     }
 
-    /*display: flex;
-    align-items: center;
-    justify-content: center;*/
     @include screen-max-width-991 {
       font-size: 50px;
       line-height: 60px;
+
       img {
         margin-bottom: -7px;
         margin-left: 10px;
-        object-position: center;
         width: 56px;
         height: 56px;
       }
     }
+
     @include screen-max-width-607 {
       font-size: 36px;
       line-height: 40px;
       text-align: left;
       width: 100%;
+
       img {
         margin-bottom: -6px;
         margin-left: 5px;
-        object-position: center;
         width: 40px;
         height: 40px;
       }
@@ -122,17 +97,18 @@
     display: flex;
     max-width: 780px;
     flex-wrap: wrap;
+
     @include screen-max-width-607 {
-      margin: 0 0px;
+      margin: 0;
     }
 
     .P-inputs-container {
       padding: 23px 40px 0;
       width: 50%;
+
       @include screen-max-width-607 {
         width: 100%;
         padding: 20px 0 0;
-
       }
     }
 
@@ -166,7 +142,6 @@
           bottom: -4px;
           content: " ";
           background-color: #B1243E;
-
         }
       }
     }
@@ -180,14 +155,13 @@
       background: linear-gradient(to right, #eee 70%, #fff 75%, transparent 80%);
       -webkit-text-fill-color: transparent;
       -webkit-background-clip: text;
+
       @include screen-max-width-607 {
         margin-top: 63px;
       }
+
       @include screen-max-width-440 {
         background: linear-gradient(to right, #eee 80%, #fff 95%, transparent 100%);
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-
         animation: opacityLTRMobile 2s ease-in-out forwards;
       }
     }
@@ -199,8 +173,8 @@
       transform: translate(-50%, -50%);
       max-width: 360px;
       width: 70%;
-      @include screen-max-width-607 {
 
+      @include screen-max-width-607 {
         top: 270px;
       }
 
@@ -209,7 +183,6 @@
         bottom: -64px;
         width: 100%;
         opacity: 0;
-        //transition: all 0.1s ease-in-out;
         font-weight: 600;
         font-size: 32px;
         color: #FFFFFF;
@@ -222,7 +195,6 @@
       }
 
       .P-simulator {
-
         border-radius: 20px;
         width: 100%;
         height: 34px;
@@ -237,17 +209,10 @@
           max-width: 20px;
           height: 20px;
           background-color: #389DDA;
-          -webkit-transition: all 1s ease-in-out;
           transition: all 1s ease-in-out;
-          -moz-transition: all 1s ease-in-out;
-          -ms-transition: all 1s ease-in-out;
-          -o-transition: all 1s ease-in-out;
+
           @include screen-max-width-991 {
-            -webkit-transition: none !important;
             transition: none !important;
-            -moz-transition: none !important;
-            -ms-transition: none !important;
-            -o-transition: none !important;
           }
 
           &.half {
@@ -258,74 +223,8 @@
             max-width: 100%;
           }
         }
-
-
       }
     }
-  }
-
-  .P-sender {
-    .P-title {
-      width: 100%;
-      text-align: center;
-    }
-
-    .P-simulate-btn-container {
-      margin-top: 0px;
-    }
-
-    .P-content {
-      .P-h1 {
-        margin-top: 8px;
-        font-weight: 600;
-        font-size: 30px;
-        line-height: 38px;
-        color: #FFFFFF;
-        text-align: center;
-
-        @include screen-max-width-607 {
-          font-size: 16px;
-        }
-      }
-
-      .P-h2 {
-        text-align: center;
-        margin-top: 10px;
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 36px;
-        color: #FFFFFF;
-      }
-
-      .P-text {
-        max-width: 600px;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 20px;
-        text-align: center;
-        color: #FFFFFF;
-        margin: 8px auto 0;
-      }
-
-      .P-subText {
-        max-width: 380px;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 22px;
-        text-align: center;
-        color: #FFFFFF;
-        margin: 30px auto 11px;
-
-      }
-    }
-
-    .P-actions {
-      margin-top: 25px;
-      @include screen-max-width-607 {
-        margin-top: 0;
-      }
-    }
-
   }
 
   .P-thanks {
@@ -334,6 +233,7 @@
     max-width: 100vw;
     text-align: center;
     transform: translateY(-50%);
+
     @include screen-max-width-607 {
       top: 270px;
     }
@@ -349,7 +249,6 @@
       img {
         margin-bottom: -3px;
         margin-left: 10px;
-        object-position: center;
       }
     }
 
@@ -375,7 +274,6 @@
   99% {
     transform: scale(1);
   }
-
 }
 
 @keyframes opacityLTR {
@@ -388,7 +286,6 @@
   100% {
     background-position: 50px;
   }
-
 }
 
 @keyframes opacityLTRMobile {
@@ -401,5 +298,4 @@
   100% {
     background-position: 15px;
   }
-
 }

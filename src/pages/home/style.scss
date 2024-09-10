@@ -71,6 +71,20 @@
           border-radius: 4px;
           margin-bottom: 38px;
           padding: 20px;
+          //@media: (aspect-ratio: 1/1);
+          @supports not (aspect-ratio: 1 ) {
+            &::before {
+              float: left;
+              padding-top: 100%;
+              content: "";
+            }
+
+            &::after {
+              display: block;
+              content: "";
+              clear: both;
+            }
+          }
           @include screen-max-width-991 {
             margin-bottom: 15px;
           }
@@ -273,44 +287,31 @@
     }
   }
 }
-
 :is(.P-solution, .P-card) .slideInDown.animation {
-  @include screen-max-width-991 {
-    animation-delay: unset !important;
-    -webkit-transition: none !important;
-    transition: none !important;
-    -moz-transition: none !important;
-    -ms-transition: none !important;
-    -o-transition: none !important;
-  }
+  will-change: transform, opacity;
+  transition-duration: 1s; /* Simplified duration */
+  animation-delay: 0.1s; /* Consistent delay */
 }
 
 :is(.P-solution:nth-child(2), .P-card:nth-child(2)) .slideInDown.animation {
-  animation-delay: 0.1s;
-  @include screen-max-width-991 {
-    animation-delay: unset;
-
-  }
-}
-
-:is(.P-solution:nth-child(3), .P-card:nth-child(3)) .slideInDown.animation {
-  -webkit-transition-duration: 1.2s;
-  transition-duration: 1.2s;
-  -moz-transition-duration: 1.2s;
-  -ms-transition-duration: 1.2s;
-  -o-transition-duration: 1.2s;
   animation-delay: 0.2s;
 }
 
-.P-solution:nth-child(4) .slideInDown.animation {
-  -webkit-transition-duration: 1.4s;
-  transition-duration: 1.4s;
-  -moz-transition-duration: 1.4s;
-  -ms-transition-duration: 1.4s;
-  -o-transition-duration: 1.4s;
+:is(.P-solution:nth-child(3), .P-card:nth-child(3)) .slideInDown.animation {
   animation-delay: 0.3s;
 }
 
+.P-solution:nth-child(4) .slideInDown.animation {
+  animation-delay: 0.4s;
+}
+
+@supports (-webkit-touch-callout: none) {
+  /* Safari-specific optimization */
+  :is(.P-solution, .P-card) .slideInDown.animation {
+    transition-duration: 0.8s;
+    animation-delay: 0s;
+  }
+}
 .P-solution:nth-child(5) .slideInDown.animation {
   -webkit-transition-duration: 1.6s;
   transition-duration: 1.6s;
