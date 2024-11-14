@@ -34,7 +34,6 @@ const Booster = () => {
             </div>
             {step === 0 &&
                 <BoosterFirstStep onChangeStep={(newData) => {
-                    console.log(newData)
                     setData({...data, ...newData});
                     setStep(1)
                 }}

@@ -4,6 +4,7 @@ import {FC} from "react";
 export interface ISelectedList {
     name: string;
     value: number;
+    agregator?:number;
 }
 
 interface IBoosterSelect {
