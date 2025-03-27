@@ -18,28 +18,25 @@ const Home = () => {
 
   const { t } = useTranslation();
   const [width, setWidth] = useState(window.innerWidth);
-  const [cardWidth, setCardWidth] = useState<number | undefined>();
 
   const resize = () => {
     setWidth(window.innerWidth);
   };
+
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
     window.addEventListener("resize", resize);
+
     return () => {
       window.removeEventListener("resize", resize);
     };
-  }, [div.current]);
+  }, []);
+
   useEffect(() => {
     if (div.current) {
-      setCardWidth(div.current?.clientWidth);
+      setWidth(div.current.clientWidth);
     }
   }, [width]);
-  useEffect(() => {
-    if (div.current) {
-      setCardWidth(div.current?.clientWidth);
-    }
-  }, [div.current]);
 
   return (
     <div className="P-homepage">
@@ -78,7 +75,7 @@ const Home = () => {
                         style={{
                           background: item.color,
                           width: "100%",
-                          height: cardWidth,
+                          height: div.current?.clientWidth,
                           aspectRatio: 1,
                         }}
                       >
