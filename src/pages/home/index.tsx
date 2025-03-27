@@ -17,26 +17,6 @@ const Home = () => {
   const cards = useRef<HTMLDivElement | null>(null);
 
   const { t } = useTranslation();
-  const [width, setWidth] = useState(window.innerWidth);
-
-  const resize = () => {
-    setWidth(window.innerWidth);
-  };
-
-  useEffect(() => {
-    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-    window.addEventListener("resize", resize);
-
-    return () => {
-      window.removeEventListener("resize", resize);
-    };
-  }, []);
-
-  useEffect(() => {
-    if (div.current) {
-      setWidth(div.current.clientWidth);
-    }
-  }, [width]);
 
   return (
     <div className="P-homepage">
@@ -75,7 +55,6 @@ const Home = () => {
                         style={{
                           background: item.color,
                           width: "100%",
-                          height: div.current?.clientWidth,
                           aspectRatio: 1,
                         }}
                       >
