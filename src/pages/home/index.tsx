@@ -34,7 +34,12 @@ const Home = () => {
     if (div.current) {
       setCardWidth(div.current?.clientWidth);
     }
-  }, [width, div.current]);
+  }, [width]);
+  useEffect(() => {
+    if (div.current) {
+      setCardWidth(div.current?.clientWidth);
+    }
+  }, [div.current]);
 
   return (
     <div className="P-homepage">

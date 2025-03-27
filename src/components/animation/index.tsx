@@ -1,32 +1,36 @@
-import {FC, MutableRefObject, ReactNode, useEffect, useState} from "react";
+import { FC, MutableRefObject, ReactNode, useEffect, useState } from "react";
 
 interface IAnimationProps {
-    children: ReactNode,
-    element: MutableRefObject<HTMLElement | null> | null
+  children: ReactNode;
+  element: MutableRefObject<HTMLElement | null> | null;
 }
 
-const Animation: FC<IAnimationProps> = ({children, element}) => {
-    const [scroll, setScroll] = useState<boolean>(false)
+const Animation: FC<IAnimationProps> = ({ children, element }) => {
+  const [scroll, setScroll] = useState<boolean>(false);
 
-    const checkScroll = () => {
-        if (element?.current ? window.scrollY + window.innerHeight - 50 > element.current?.offsetTop : false) {
-            setScroll(true)
-        }
+  const checkScroll = () => {
+    setScroll(
+      !!element?.current &&
+        window.scrollY + window.innerHeight - 100 > element.current?.offsetTop
+    );
+  };
+  useEffect(() => {
+    checkScroll();
+  }, []);
+  useEffect(() => {
+    checkScroll();
+    if (scroll) {
+      document.removeEventListener("scroll", checkScroll);
+    } else {
+      document.addEventListener("scroll", checkScroll);
     }
+  }, [scroll]);
 
-    useEffect(() => {
+  return (
+    <div className={scroll ? "slideInDown animation" : "animation"}>
+      {children}
+    </div>
+  );
+};
 
-        checkScroll()
-        if (scroll) {
-            document.removeEventListener("scroll", checkScroll)
-        } else {
-            document.addEventListener("scroll", checkScroll)
-        }
-    }, [scroll])
-
-    return (
-        <div className={scroll ? "slideInDown animation" : "animation"}>{children}</div>
-    )
-}
-
-export default Animation
+export default Animation;
